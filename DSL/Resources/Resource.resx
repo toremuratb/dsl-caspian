@@ -1,0 +1,1673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About1SectionText1" xml:space="preserve">
+    <value>high quality, innovative industrial solutions across various sectors such as Nuclear, Power, Oil &amp; Gas, Marine, MOD, Offshore and Petrochemical. The company was formed in 2012 on the initiative of</value>
+  </data>
+  <data name="About1SectionText2" xml:space="preserve">
+    <value>subsidiary of</value>
+  </data>
+  <data name="About1SectionText3" xml:space="preserve">
+    <value>a market leader in providing world-class, multi-disciplinary industrial solutions.Our combination of experience, technical expertise, commercial capabilities and determination to deliver, enable our clients to grow and prosper.</value>
+  </data>
+  <data name="About1SectionText4" xml:space="preserve">
+    <value>We have an exceptional track record in successfully managing complex projects within short time-frames and are keenly focused on performance in all our dealings. Our team of leading experts ensure that deadlines are met and projects are delivered to the highest standard.</value>
+  </data>
+  <data name="About1SectionText5" xml:space="preserve">
+    <value>is a 50% Kazakh Company and employs a 97% Kazakh workforce, with approximately 1,000 employees, working on a range of projects. Our philosophy is to constantly strive to increase and develop our local team through recruitment, employee development, training, technology transfer and investment.</value>
+  </data>
+  <data name="About1SectionTextAnd" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="About1SectionTextSpan" xml:space="preserve">
+    <value>DSL Caspian provides</value>
+  </data>
+  <data name="About1SectionTextSpan1" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="About1SectionTitle" xml:space="preserve">
+    <value>Welcome to DSL Caspian</value>
+  </data>
+  <data name="About2SectionText1" xml:space="preserve">
+    <value>is committed to increasing local team and to promoting nationalisation in all the regions in which we operate. We have consistently demonstrated such a commitment in Kazakhstan, to our people, our clients and our partners.</value>
+  </data>
+  <data name="About2SectionText2" xml:space="preserve">
+    <value>There are three main target areas of our Kazakhstani content program (KCP):</value>
+  </data>
+  <data name="About2SectionText3" xml:space="preserve">
+    <value>Maximization of employment of national personnel</value>
+  </data>
+  <data name="About2SectionText4" xml:space="preserve">
+    <value>Training and development of national personnel</value>
+  </data>
+  <data name="About2SectionText5" xml:space="preserve">
+    <value>Utilization of local suppliers, subcontractors and partners</value>
+  </data>
+  <data name="About2SectionTitle" xml:space="preserve">
+    <value>Kazakhstani Content Programme</value>
+  </data>
+  <data name="About3SectionText1" xml:space="preserve">
+    <value>Our vision is to be a recognized leading supplier of oilfield services in our chosen markets. To achieve this, we will:</value>
+  </data>
+  <data name="About3SectionText2" xml:space="preserve">
+    <value>Strive to attract and retain the best people</value>
+  </data>
+  <data name="About3SectionText3" xml:space="preserve">
+    <value>Use our best endeavours to keep them safe</value>
+  </data>
+  <data name="About3SectionText4" xml:space="preserve">
+    <value>Seek to provide services that are market leading</value>
+  </data>
+  <data name="About3SectionText5" xml:space="preserve">
+    <value>Endeavour to exceed our customers' expectations</value>
+  </data>
+  <data name="About3SectionTitle" xml:space="preserve">
+    <value>Our Vision</value>
+  </data>
+  <data name="AboutBannerText" xml:space="preserve">
+    <value>Innovative and Reliable Industrial Solutions  Delivered Safely by Our Highly Skilled Workforce</value>
+  </data>
+  <data name="AboutBannerTitle" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="AboutCustomerReviewTitle" xml:space="preserve">
+    <value>Customer Reviews</value>
+  </data>
+  <data name="AboutFounder1" xml:space="preserve">
+    <value>Kassym Abzhanov, Founder, Member of the Board of Directors</value>
+  </data>
+  <data name="AboutFounder2" xml:space="preserve">
+    <value>Russel Best, Member of the Board of Directors</value>
+  </data>
+  <data name="AboutReview1Company" xml:space="preserve">
+    <value>ErSai</value>
+  </data>
+  <data name="AboutReview1Text1" xml:space="preserve">
+    <value>DSL Caspian are sub-contractor of ErSai Caspian Contractors for Surface preparation, Painting, Rope Access, Insulation and Passive fire Protection within our Kuryk, Karabatan, an Kashagan projects.</value>
+  </data>
+  <data name="AboutReview1Text2" xml:space="preserve">
+    <value>As a representative of the company procurement, contacts department we would have no hesitation to recommend DSL Caspian for industrial services projects.</value>
+  </data>
+  <data name="AboutReview2Company" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="AboutReview2Text1" xml:space="preserve">
+    <value>We are all well aware of your personal contributions to the Kashagan project.</value>
+  </data>
+  <data name="AboutReview2Text2" xml:space="preserve">
+    <value>This project has it's own complex problems, but with your teams attention to detail and relentless determination to release a quality product on time, it is made our job much easier.</value>
+  </data>
+  <data name="AboutReview2Text3" xml:space="preserve">
+    <value>We proud to have you as part of our team and look forward to your future contribution.</value>
+  </data>
+  <data name="AboutReview3Company" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="AboutReview3Text1" xml:space="preserve">
+    <value>Startup and Operate Offshore Department would like to express it's graditude to DSL Caspian for adopting the correct attitude and performance, with regard to Health Safety and Enviroment (HSE) activities,during the Due Diligence Project.</value>
+  </data>
+  <data name="AboutReview3Text2" xml:space="preserve">
+    <value>DSL Caspian employees have been following HSE rules abd contributing in overall D Island HSE perfomance</value>
+  </data>
+  <data name="AboutReview4Company" xml:space="preserve">
+    <value>PSNK</value>
+  </data>
+  <data name="AboutReview4Text1" xml:space="preserve">
+    <value>I would confirm DSL Caspian is currently a sub-contractor of PSNK for Surface preparation, Painting, Rope Access, Insulation and Passive Fire Protection, for our Karabatan and Kashagan projects.</value>
+  </data>
+  <data name="AboutReview4Text2" xml:space="preserve">
+    <value>Based on DSL's performance to date, I would have no hesitation to consider DSL Caspian for future industrial services projects</value>
+  </data>
+  <data name="AboutReview5Company" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="AboutReview5Text1" xml:space="preserve">
+    <value>DSL Caspian, in regard to the excellent job you and your staff have done over the past several months, in relation to the insulation repair programm, for Maintenance, held Offshore on the Kashagan Project.</value>
+  </data>
+  <data name="AboutReview5Text2" xml:space="preserve">
+    <value>It was quite undertaking but it all went smoothly and efficiently, thanks the whole teams positive attitude, HSE record and on producing a quality and professional job.</value>
+  </data>
+  <data name="AboutReview5Text3" xml:space="preserve">
+    <value>You and your team should take great pride in this achievement.</value>
+  </data>
+  <data name="CareerAdressSubtitle1" xml:space="preserve">
+    <value>Head Office</value>
+  </data>
+  <data name="CareerAdressSubtitle2" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="CareerBannerText" xml:space="preserve">
+    <value>We strive to increase and develop our local team in all regions in which we operate.</value>
+  </data>
+  <data name="CareerBannerTitle" xml:space="preserve">
+    <value>Career</value>
+  </data>
+  <data name="CareerFormButtonSend" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="CareerFormEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="CareerFormName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CareerFormTitle" xml:space="preserve">
+    <value>Send Us Your CV</value>
+  </data>
+  <data name="CareerFormUpload" xml:space="preserve">
+    <value>Upload</value>
+  </data>
+  <data name="CareerMainTitle" xml:space="preserve">
+    <value>We Need Your Skill in Our Team</value>
+  </data>
+  <data name="CareerManagerName" xml:space="preserve">
+    <value>Zharas Akkulov</value>
+  </data>
+  <data name="CareerManagerPosition" xml:space="preserve">
+    <value>, HR/IR Manager</value>
+  </data>
+  <data name="CareerSection1Text1" xml:space="preserve">
+    <value>policy is to focus on hiring local Kazakh engineering, management and craft personnel. Our focus for developing and growing the company is to recruit, train and develop local personnel using the following strategies:</value>
+  </data>
+  <data name="CareerSection1Text1Li1" xml:space="preserve">
+    <value>Increase the number of national citizens employed by DSL Caspian.</value>
+  </data>
+  <data name="CareerSection1Text1Li2" xml:space="preserve">
+    <value>Actively source qualified and skilled national employees</value>
+  </data>
+  <data name="CareerSection1Text1Li3" xml:space="preserve">
+    <value>Develop our own personnel through on-going, training and mentoring, and arranging specialist training courses overseas, where appropriate</value>
+  </data>
+  <data name="CareerSection1Text1Li4" xml:space="preserve">
+    <value>Collaborate with local educational institutions to employ qualified graduates</value>
+  </data>
+  <data name="CareerSection1Text1Li5" xml:space="preserve">
+    <value>Work together with our Clients to organise training for our people working on client’s sites</value>
+  </data>
+  <data name="CareerSection1Text1Li6" xml:space="preserve">
+    <value>Provide funds and resources for education and training of local citizens</value>
+  </data>
+  <data name="CareerSection2Title" xml:space="preserve">
+    <value>Vacancies</value>
+  </data>
+  <data name="CareerVacancySubtitle1" xml:space="preserve">
+    <value>Scaffolding</value>
+  </data>
+  <data name="CareerVacancySubtitle2" xml:space="preserve">
+    <value>Insulation</value>
+  </data>
+  <data name="CareerVacancySubtitle3" xml:space="preserve">
+    <value>Rope Access</value>
+  </data>
+  <data name="CareerVacancyTitle1" xml:space="preserve">
+    <value>Senior Engineer</value>
+  </data>
+  <data name="CareerVacancyTitle2" xml:space="preserve">
+    <value>Insulation Specialist</value>
+  </data>
+  <data name="CareerVacancyTitle3" xml:space="preserve">
+    <value>Rope access Specialist</value>
+  </data>
+  <data name="Clean1SectionText1" xml:space="preserve">
+    <value>provides  onshore  and  offshore  cleaning and  decontamination   services,  supporting blue-chip  clients based principally in the oil and gas, petrochemical, heavy industry, manufacturing and pharmaceutical sectors.  We  use  a  wide  range  of  safe  Industrial Cleaning  techniques  such  as:  high  pressure water  jetting,  high  airflow  vacuum  services and chemical decontamination processes.</value>
+  </data>
+  <data name="Clean1SectionText2" xml:space="preserve">
+    <value>We undertake industrial cleaning works daily on heavy industrial sites across the country. We understand the importance of this discipline in relation to safety, preventative maintenance, equipment life expectancy and the general health and wellbeing of our teams and operatives.</value>
+  </data>
+  <data name="Clean1SectionTextBold" xml:space="preserve">
+    <value>DSL  Caspian</value>
+  </data>
+  <data name="Clean1SectionTextLi1" xml:space="preserve">
+    <value>Cleaning of industrial equipment</value>
+  </data>
+  <data name="Clean1SectionTextLi2" xml:space="preserve">
+    <value>General deposit removal</value>
+  </data>
+  <data name="Clean1SectionTextLi3" xml:space="preserve">
+    <value>Process pipework descaling</value>
+  </data>
+  <data name="Clean1SectionTextLi4" xml:space="preserve">
+    <value>Tank cleaning and de-sludging.</value>
+  </data>
+  <data name="Clean1SectionTextLi5" xml:space="preserve">
+    <value>Stripping coatings and preparing surfaces</value>
+  </data>
+  <data name="Clean1SectionTextLi6" xml:space="preserve">
+    <value>Removing and transferring wet or dry materials</value>
+  </data>
+  <data name="Clean1SectionTextLi7" xml:space="preserve">
+    <value>Removing heavy sludge, silt or other viscous materials from great depth or long distances</value>
+  </data>
+  <data name="Clean1SectionTitle" xml:space="preserve">
+    <value>About Industrial Cleaning</value>
+  </data>
+  <data name="CleanBannerText" xml:space="preserve">
+    <value>We provide a wide range of industrial cleaning and decontamination services.</value>
+  </data>
+  <data name="CleanBannerTitle" xml:space="preserve">
+    <value>Industrial Cleaning</value>
+  </data>
+  <data name="CleanChoose1" xml:space="preserve">
+    <value>Onshore/offshore cleaning</value>
+  </data>
+  <data name="CleanChoose2" xml:space="preserve">
+    <value>Working across the country</value>
+  </data>
+  <data name="CleanChoose3" xml:space="preserve">
+    <value>Preventative maintenance</value>
+  </data>
+  <data name="ContactBannerText1" xml:space="preserve">
+    <value>Have questions, need callback?</value>
+  </data>
+  <data name="ContactBannerText2" xml:space="preserve">
+    <value>Send us a message</value>
+  </data>
+  <data name="ContactBannerTitle" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="ContactCity1" xml:space="preserve">
+    <value>Atyrau</value>
+  </data>
+  <data name="ContactCity2" xml:space="preserve">
+    <value>Aktau</value>
+  </data>
+  <data name="ContactFormButton" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ContactFormCName" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+  <data name="ContactFormEmail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="ContactFormMessage" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="ContactFormName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ContactFormPhone" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="ContactMainTitle" xml:space="preserve">
+    <value>Get in Contact</value>
+  </data>
+  <data name="DownloadOur" xml:space="preserve">
+    <value>Download Our Brochure</value>
+  </data>
+  <data name="FooterAktauAddress1" xml:space="preserve">
+    <value>Business center Nur Plaza, office 53</value>
+  </data>
+  <data name="FooterAktauAddress2" xml:space="preserve">
+    <value>Mcr. 29 «а»</value>
+  </data>
+  <data name="FooterAktauCredentials" xml:space="preserve">
+    <value>130000, Aktau, Kazakhstan</value>
+  </data>
+  <data name="FooterAtyrauAddress1" xml:space="preserve">
+    <value>Bakhyt business centre, 3rd floor</value>
+  </data>
+  <data name="FooterAtyrauAddress2" xml:space="preserve">
+    <value>12A, Abay street</value>
+  </data>
+  <data name="FooterAtyrauCredentials" xml:space="preserve">
+    <value>060002, Atyrau, Kazakhstan</value>
+  </data>
+  <data name="FooterCopyright" xml:space="preserve">
+    <value>Developed By</value>
+  </data>
+  <data name="FooterOfficeTitle1" xml:space="preserve">
+    <value>Atyrau</value>
+  </data>
+  <data name="FooterOfficeTitle2" xml:space="preserve">
+    <value>Aktau</value>
+  </data>
+  <data name="FooterPartners" xml:space="preserve">
+    <value>Our Partners :</value>
+  </data>
+  <data name="FP1SectionText1" xml:space="preserve">
+    <value>hydrocarbon fire protection systems operate on structural steelwork, vessels, tanks and spheres for either new construction or maintenance works for power stations, nuclear power, petrochemical, oil &amp; gas and pharmaceutical sites.</value>
+  </data>
+  <data name="FP1SectionText2" xml:space="preserve">
+    <value>A variety of fire protection services are available including fire seals and general penetration work utilising a variety of industry standard materials and specifications. We are licensed for the Promat Fendolite, International Chartek, PPG Pitt- Char , Leigh’s M90 Systems, and Jota-Char.</value>
+  </data>
+  <data name="FP1SectionTextBold" xml:space="preserve">
+    <value>DSL Caspian's</value>
+  </data>
+  <data name="FP1SectionTitle" xml:space="preserve">
+    <value>About Fire Protection</value>
+  </data>
+  <data name="FPBannerText" xml:space="preserve">
+    <value>Our team has a proven track record in hydrocarbon fire protection on oil &amp; gas sites.</value>
+  </data>
+  <data name="FPBannerTitle" xml:space="preserve">
+    <value>Fire protection</value>
+  </data>
+  <data name="FPChoose1" xml:space="preserve">
+    <value>Hydrocarbon  fire  protection</value>
+  </data>
+  <data name="FPChoose2" xml:space="preserve">
+    <value>Flexible fire protection system</value>
+  </data>
+  <data name="FPChoose3" xml:space="preserve">
+    <value>Enhanced safety</value>
+  </data>
+  <data name="FPParallaxText" xml:space="preserve">
+    <value>Securing you Business</value>
+  </data>
+  <data name="HomeClientsSliderTitle" xml:space="preserve">
+    <value>Our customers</value>
+  </data>
+  <data name="HomeCountersTitle1" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="HomeCountersTitle2" xml:space="preserve">
+    <value>Offshore Hours</value>
+  </data>
+  <data name="HomeCountersTitle3" xml:space="preserve">
+    <value>Completed Projects</value>
+  </data>
+  <data name="HomeCountersTitle4" xml:space="preserve">
+    <value>Ongoing Projects</value>
+  </data>
+  <data name="HomeCountersTitle5" xml:space="preserve">
+    <value>Hours Without Accident</value>
+  </data>
+  <data name="HomeProjectsSectionTitle" xml:space="preserve">
+    <value>Latest Projects</value>
+  </data>
+  <data name="HomeProjectSubtitle1" xml:space="preserve">
+    <value>Aksai</value>
+  </data>
+  <data name="HomeProjectSubtitle10" xml:space="preserve">
+    <value>Karabatan</value>
+  </data>
+  <data name="HomeProjectSubtitle11" xml:space="preserve">
+    <value>Karabatan</value>
+  </data>
+  <data name="HomeProjectSubtitle12" xml:space="preserve">
+    <value>Tengiz</value>
+  </data>
+  <data name="HomeProjectSubtitle13" xml:space="preserve">
+    <value>D&amp;A Islands</value>
+  </data>
+  <data name="HomeProjectSubtitle14" xml:space="preserve">
+    <value>Tengiz</value>
+  </data>
+  <data name="HomeProjectSubtitle15" xml:space="preserve">
+    <value>Island "D"</value>
+  </data>
+  <data name="HomeProjectSubtitle16" xml:space="preserve">
+    <value>EPC 2</value>
+  </data>
+  <data name="HomeProjectSubtitle2" xml:space="preserve">
+    <value>Karabatan</value>
+  </data>
+  <data name="HomeProjectSubtitle3" xml:space="preserve">
+    <value>Offshore Island “D”</value>
+  </data>
+  <data name="HomeProjectSubtitle4" xml:space="preserve">
+    <value>Tengiz</value>
+  </data>
+  <data name="HomeProjectSubtitle5" xml:space="preserve">
+    <value>Tengiz</value>
+  </data>
+  <data name="HomeProjectSubtitle6" xml:space="preserve">
+    <value>Kuryk</value>
+  </data>
+  <data name="HomeProjectSubtitle7" xml:space="preserve">
+    <value>Kuryk</value>
+  </data>
+  <data name="HomeProjectSubtitle8" xml:space="preserve">
+    <value>Karabatan</value>
+  </data>
+  <data name="HomeProjectSubtitle9" xml:space="preserve">
+    <value>Offshore Island "D"</value>
+  </data>
+  <data name="HomeProjectText1" xml:space="preserve">
+    <value>Project Scope: Scaffolding, PFP, Insulation, Surface preparation.</value>
+  </data>
+  <data name="HomeProjectText10" xml:space="preserve">
+    <value>General Maintenance, Plant Upgrades. Project Scope: Insulation, PFP, Scaffolding, Protective cover, Rope Access</value>
+  </data>
+  <data name="HomeProjectText11" xml:space="preserve">
+    <value>General Maintenance, Plant Upgrades. Project Scope: Insulation, PFP, Scaffolding, Protective cover, Rope Access</value>
+  </data>
+  <data name="HomeProjectText12" xml:space="preserve">
+    <value>FBE Coating application at the TCO FGP area and PFP spray application at the SGR/SGE area.</value>
+  </data>
+  <data name="HomeProjectText13" xml:space="preserve">
+    <value>Supply of Painting, Fireproofing services and relevant materials to D&amp;A Islands on the Pig Trap Launcher execution</value>
+  </data>
+  <data name="HomeProjectText14" xml:space="preserve">
+    <value>Provision of manpower, materials and scaffolding services for Tengiz Prorva yard</value>
+  </data>
+  <data name="HomeProjectText15" xml:space="preserve">
+    <value>Provision of manpower, indirect and rope access services for installation of PFP and Thermal removable Jackets at Offshore D-Island facility</value>
+  </data>
+  <data name="HomeProjectText16" xml:space="preserve">
+    <value>Scaffolding, Painting and Insulation works at EPC-2 Hook-Up project</value>
+  </data>
+  <data name="HomeProjectText2" xml:space="preserve">
+    <value>Project Scope: Scaffolding, PFP, Rope Access, Insulation, Surface preparation.</value>
+  </data>
+  <data name="HomeProjectText3" xml:space="preserve">
+    <value>Project Scope: Scaffolding, PFP, Rope Access, Insulation, Surface preparation.</value>
+  </data>
+  <data name="HomeProjectText4" xml:space="preserve">
+    <value>Project Scope: Scaffolding, PFP, Insulation, Surface preparation</value>
+  </data>
+  <data name="HomeProjectText5" xml:space="preserve">
+    <value>General Maintenance works. Project Scope:Insulation, Scaffolding</value>
+  </data>
+  <data name="HomeProjectText6" xml:space="preserve">
+    <value>Construct Jack-Up Drilling Rig. Project Scope: Insulation, PFP, Scaffolding, Protective cover</value>
+  </data>
+  <data name="HomeProjectText7" xml:space="preserve">
+    <value>Construction EPC Offshore Modules. Project Scope: Insulation, PFP, Scaffolding, Protective cover</value>
+  </data>
+  <data name="HomeProjectText8" xml:space="preserve">
+    <value>Project Scope: Insulation, PFP, Scaffolding, Protective cover, Rope Access</value>
+  </data>
+  <data name="HomeProjectText9" xml:space="preserve">
+    <value>General Maintenance Works. Project Scope: Insulation, PFP, Scaffolding, Protective cover</value>
+  </data>
+  <data name="HomeProjectTitle1" xml:space="preserve">
+    <value>Client: KPO</value>
+  </data>
+  <data name="HomeProjectTitle10" xml:space="preserve">
+    <value>Client: PSNK</value>
+  </data>
+  <data name="HomeProjectTitle11" xml:space="preserve">
+    <value>Client: NCOC</value>
+  </data>
+  <data name="HomeProjectTitle12" xml:space="preserve">
+    <value>Client: SICIM</value>
+  </data>
+  <data name="HomeProjectTitle13" xml:space="preserve">
+    <value>Client: KCOI</value>
+  </data>
+  <data name="HomeProjectTitle14" xml:space="preserve">
+    <value>Client: UNEX STROY</value>
+  </data>
+  <data name="HomeProjectTitle15" xml:space="preserve">
+    <value>Client: CONTRAFLEX KZ AIS</value>
+  </data>
+  <data name="HomeProjectTitle16" xml:space="preserve">
+    <value>Client: ISKER</value>
+  </data>
+  <data name="HomeProjectTitle2" xml:space="preserve">
+    <value>Client: NCOC</value>
+  </data>
+  <data name="HomeProjectTitle3" xml:space="preserve">
+    <value>Client: NCOC</value>
+  </data>
+  <data name="HomeProjectTitle4" xml:space="preserve">
+    <value>Client: TCO</value>
+  </data>
+  <data name="HomeProjectTitle5" xml:space="preserve">
+    <value>Client: SICIM</value>
+  </data>
+  <data name="HomeProjectTitle6" xml:space="preserve">
+    <value>Client: ERSAI</value>
+  </data>
+  <data name="HomeProjectTitle7" xml:space="preserve">
+    <value>Client: ERSAI</value>
+  </data>
+  <data name="HomeProjectTitle8" xml:space="preserve">
+    <value>Client: ERSAI</value>
+  </data>
+  <data name="HomeProjectTitle9" xml:space="preserve">
+    <value>Client: ERSAI</value>
+  </data>
+  <data name="HomeServiceLinkMore" xml:space="preserve">
+    <value>View More</value>
+  </data>
+  <data name="HomeServiceTextFP" xml:space="preserve">
+    <value>Our team has a proven track record in hydrocarbon fire protection on oil &amp; gas sites.</value>
+  </data>
+  <data name="HomeServiceTextIC" xml:space="preserve">
+    <value>We provide a wide range of industrial cleaning and decontamination services.</value>
+  </data>
+  <data name="HomeServiceTextInsl" xml:space="preserve">
+    <value>We offer a full range of insulation applications, including mineral fibres, cellular glass,calcium silicate, polyurethane and phenolic foams.</value>
+  </data>
+  <data name="HomeServiceTextPC" xml:space="preserve">
+    <value>We specialize in applying protective coatings for industrial clients, on long-term contracts and large construction sites.</value>
+  </data>
+  <data name="HomeServiceTextProc" xml:space="preserve">
+    <value>We are a leading independent specialized supplier of industrial products to Kazakhstan</value>
+  </data>
+  <data name="HomeServiceTextRP" xml:space="preserve">
+    <value>We have developed unrivalled expertise in rope access and abseiling techniques both on and offshore.</value>
+  </data>
+  <data name="HomeServiceTextScaf" xml:space="preserve">
+    <value>Our fully-trained workforce provides access solutions, using Layher System Scaffold as well as traditional tube and fitting.</value>
+  </data>
+  <data name="HomeServiceTextTrain" xml:space="preserve">
+    <value>Our training department is certified to provide qualification courses and in-house training</value>
+  </data>
+  <data name="HomeServiceTitleFP" xml:space="preserve">
+    <value>Fire Protection</value>
+  </data>
+  <data name="HomeServiceTitleIC" xml:space="preserve">
+    <value>Industrial Cleaning</value>
+  </data>
+  <data name="HomeServiceTitleInsl" xml:space="preserve">
+    <value>Insulation</value>
+  </data>
+  <data name="HomeServiceTitlePC" xml:space="preserve">
+    <value>Protective Coatings</value>
+  </data>
+  <data name="HomeServiceTitleProc" xml:space="preserve">
+    <value>Distribution and Procurement</value>
+  </data>
+  <data name="HomeServiceTitleRP" xml:space="preserve">
+    <value>Rope Access</value>
+  </data>
+  <data name="HomeServiceTitleScaf" xml:space="preserve">
+    <value>Scaffolding</value>
+  </data>
+  <data name="HomeServiceTitleTrain" xml:space="preserve">
+    <value>Training Centre</value>
+  </data>
+  <data name="HomeSliderSlide1H3" xml:space="preserve">
+    <value>Quality</value>
+  </data>
+  <data name="HomeSliderSlide1H3Span1" xml:space="preserve">
+    <value>Industrial Services</value>
+  </data>
+  <data name="HomeSliderSlide1H3Span2" xml:space="preserve">
+    <value>From Your Local Partner</value>
+  </data>
+  <data name="HomeSliderSlide2H3" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="HomeSliderSlide2H3Span" xml:space="preserve">
+    <value>Safety and Environmental Performance</value>
+  </data>
+  <data name="HomeSliderSlide3H3" xml:space="preserve">
+    <value>Independent</value>
+  </data>
+  <data name="HomeSliderSlide3H3Span" xml:space="preserve">
+    <value>Supplier of Industrial Products</value>
+  </data>
+  <data name="HomeSliderSlide4H3" xml:space="preserve">
+    <value>Authorized</value>
+  </data>
+  <data name="HomeSliderSlide4H3Span" xml:space="preserve">
+    <value>Training and Certification Centre</value>
+  </data>
+  <data name="HomeTextCarousel1" xml:space="preserve">
+    <value>Quality Specialists?</value>
+  </data>
+  <data name="HomeTextCarousel2" xml:space="preserve">
+    <value>Fast Service?</value>
+  </data>
+  <data name="HomeTextCarousel3" xml:space="preserve">
+    <value>Best Solutions?</value>
+  </data>
+  <data name="HomeTextCarousel4" xml:space="preserve">
+    <value>Certified Contractor?</value>
+  </data>
+  <data name="HomeTextCarousel5" xml:space="preserve">
+    <value>Authorized Partners?</value>
+  </data>
+  <data name="HomeTextCarouselTitle" xml:space="preserve">
+    <value>Need</value>
+  </data>
+  <data name="HomeTextCarouselTitle2" xml:space="preserve">
+    <value>DSL Caspian is ready to help</value>
+  </data>
+  <data name="HomeWelcomeText" xml:space="preserve">
+    <value>We provide essential fabric maintenance and construction support  to the oil and gas industry in the Caspian region offering high-quality services in access solutions including rope access, insulation, refractory linings, industrial coatings, passive fire protection, blasting, industrial cleaning, training and assessment throughout the lifecycle of large secure industrial assets.</value>
+  </data>
+  <data name="HomeWelcomeTitle" xml:space="preserve">
+    <value>Welcome to DSL Caspian</value>
+  </data>
+  <data name="Insl1SectionText1" xml:space="preserve">
+    <value>As a long-established member of the Thermal Insulation Contractors Association (TICA), we have gained extensive knowledge and expertise providing insulation over many years. While covering the full spectrum of thermal, cryogenic and acoustic insulation and applications, great importance is placed on maintaining and developing strong technical and commercial links with primary manufacturers and suppliers.</value>
+  </data>
+  <data name="Insl1SectionText2" xml:space="preserve">
+    <value>We continually review new products and applications to improve quality, cost-effectiveness, and alternative methods of installation.   Cladding  materials  such as stainless  steel,  aludip,  aluzinc, galvanised  mild   steel   and   alternative  finishes  including  PIB, canvas and glass cloths are also available.</value>
+  </data>
+  <data name="Insl1SectionTitle" xml:space="preserve">
+    <value>About Insulation</value>
+  </data>
+  <data name="InslBannerText" xml:space="preserve">
+    <value>We offer a full range of insulation applications, including mineral fibres, cellular glass, calcium silicate, polyurethane and phenolic foams.</value>
+  </data>
+  <data name="InslBannerTitle" xml:space="preserve">
+    <value>Insulation</value>
+  </data>
+  <data name="InslChoose1" xml:space="preserve">
+    <value>Innovative applications</value>
+  </data>
+  <data name="InslChoose2" xml:space="preserve">
+    <value>TICA membership</value>
+  </data>
+  <data name="InslChoose3" xml:space="preserve">
+    <value>Cost effective</value>
+  </data>
+  <data name="InslParallaxText" xml:space="preserve">
+    <value>Looking for Quality?</value>
+  </data>
+  <data name="LayoutFixedButton1" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="LayoutFixedButton2" xml:space="preserve">
+    <value>Call Us Now</value>
+  </data>
+  <data name="LayoutFooterNav" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="LayoutFooterSubscribeTitle" xml:space="preserve">
+    <value>Get Our News</value>
+  </data>
+  <data name="LayoutMenuAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="LayoutMenuCareer" xml:space="preserve">
+    <value>Career</value>
+  </data>
+  <data name="LayoutMenuContacts" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="LayoutMenuDistributionAndProcurement" xml:space="preserve">
+    <value>Distribution And Procurement</value>
+  </data>
+  <data name="LayoutMenuEnglish" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="LayoutMenuFireProtection" xml:space="preserve">
+    <value>Fire Protection</value>
+  </data>
+  <data name="LayoutMenuHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="LayoutMenuIndustrialCleaning" xml:space="preserve">
+    <value>Industrial Cleaning</value>
+  </data>
+  <data name="LayoutMenuInsulation" xml:space="preserve">
+    <value>Insulation</value>
+  </data>
+  <data name="LayoutMenuKazakh" xml:space="preserve">
+    <value>Kazakh</value>
+  </data>
+  <data name="LayoutMenuLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="LayoutMenuProjects" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="LayoutMenuProtectiveCoating" xml:space="preserve">
+    <value>Protective Coatings</value>
+  </data>
+  <data name="LayoutMenuRopeAccess" xml:space="preserve">
+    <value>Rope Access</value>
+  </data>
+  <data name="LayoutMenuRussian" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="LayoutMenuScaffolding" xml:space="preserve">
+    <value>Scaffolding</value>
+  </data>
+  <data name="LayoutMenuServices" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="LayoutMenuSHEQ" xml:space="preserve">
+    <value>SHEQ</value>
+  </data>
+  <data name="LayoutMenuTrainingCentre" xml:space="preserve">
+    <value>Training Centre</value>
+  </data>
+  <data name="LayoutMoreMenuButton" xml:space="preserve">
+    <value>More</value>
+  </data>
+  <data name="LayoutSearchButton" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="LayoutSubscribeButton" xml:space="preserve">
+    <value>Subscribe</value>
+  </data>
+  <data name="ModalButtonClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ModalMobileText1" xml:space="preserve">
+    <value>It appears your Web browser is not configured to display PDF files. No worries, just</value>
+  </data>
+  <data name="ModalMobileText2" xml:space="preserve">
+    <value>click here to download the PDF file.</value>
+  </data>
+  <data name="OurBrochures" xml:space="preserve">
+    <value>Our Brochures</value>
+  </data>
+  <data name="OurCertificates" xml:space="preserve">
+    <value>Our Certificates</value>
+  </data>
+  <data name="PC1SectionText1" xml:space="preserve">
+    <value>specialises  in  applying  protective  coatings for   industrial   clients,   particularly   on   long-term   maintenance contracts  and  large  construction  sites. Work is also carried out on demanding decorative painting projects where our technical  expertise and ability to get things right first time, provide our customers with the service they need.</value>
+  </data>
+  <data name="PC1SectionText10" xml:space="preserve">
+    <value>Solvent Free Products</value>
+  </data>
+  <data name="PC1SectionText2" xml:space="preserve">
+    <value>Shot Blasting</value>
+  </data>
+  <data name="PC1SectionText3" xml:space="preserve">
+    <value>Specialist Decorative Painting</value>
+  </data>
+  <data name="PC1SectionText4" xml:space="preserve">
+    <value>Industrial Painting</value>
+  </data>
+  <data name="PC1SectionText5" xml:space="preserve">
+    <value>Intumescent Fire Protection</value>
+  </data>
+  <data name="PC1SectionText6" xml:space="preserve">
+    <value>High Temperature Coatings</value>
+  </data>
+  <data name="PC1SectionText7" xml:space="preserve">
+    <value>Metal Spraying</value>
+  </data>
+  <data name="PC1SectionText8" xml:space="preserve">
+    <value>Phenolic Tank Linings</value>
+  </data>
+  <data name="PC1SectionText9" xml:space="preserve">
+    <value>Glass Flake Application</value>
+  </data>
+  <data name="PC1SectionTextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="PC1SectionTitle" xml:space="preserve">
+    <value>About Protective Coatings</value>
+  </data>
+  <data name="PCBannerText" xml:space="preserve">
+    <value>We specialize in applying protective coatings for industrial clients</value>
+  </data>
+  <data name="PCBannerTitle" xml:space="preserve">
+    <value>Protective Coatings</value>
+  </data>
+  <data name="PCChoose1" xml:space="preserve">
+    <value>Technical expertise</value>
+  </data>
+  <data name="PCChoose2" xml:space="preserve">
+    <value>All painting services offering</value>
+  </data>
+  <data name="PCChoose3" xml:space="preserve">
+    <value>High quality</value>
+  </data>
+  <data name="PCParallaxText1" xml:space="preserve">
+    <value>Certified Partner for you</value>
+  </data>
+  <data name="PCParallaxText2" xml:space="preserve">
+    <value>Protective Coating and Painting Service</value>
+  </data>
+  <data name="PDFCanvasText" xml:space="preserve">
+    <value>Read more...</value>
+  </data>
+  <data name="Proc1BoxLi1" xml:space="preserve">
+    <value>Intumescent Paint</value>
+  </data>
+  <data name="Proc1BoxLi2" xml:space="preserve">
+    <value>Cementous Paint</value>
+  </data>
+  <data name="Proc1BoxLi3" xml:space="preserve">
+    <value>PFP Equipment and  Spare Parts</value>
+  </data>
+  <data name="Proc1BoxTitle" xml:space="preserve">
+    <value>Passive Fire Protection</value>
+  </data>
+  <data name="Proc1SectionText1" xml:space="preserve">
+    <value>Distribution and Sales is an independent specialized supplier of industrial products to Kazakhstan Oil and Gas, Petrochemical and Construction Market.</value>
+  </data>
+  <data name="Proc1SectionText2" xml:space="preserve">
+    <value>With extensive product knowledge and expertise we offer innovative and cost-effective solutions to our customers.We aim to create a division which will provide fully integrated technical and procurement service to cover all of DSL Caspian project trade requirements. Through combination of technical solution of projects (estimating, operations, business development) and procurement solution of projects (distribution and sales, business development, estimating)</value>
+  </data>
+  <data name="Proc1SectionText3" xml:space="preserve">
+    <value>DSL Caspian Distribution and Sales will become “the one-stop-shop for the industrial contractor”.</value>
+  </data>
+  <data name="Proc1SectionTextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="Proc2BoxLi1" xml:space="preserve">
+    <value>Scaffolding Materials</value>
+  </data>
+  <data name="Proc2BoxLi2" xml:space="preserve">
+    <value>Scaffold Sheeting</value>
+  </data>
+  <data name="Proc2BoxLi3" xml:space="preserve">
+    <value>Scaffolder Accessories</value>
+  </data>
+  <data name="Proc2BoxTitle" xml:space="preserve">
+    <value>Access Solution</value>
+  </data>
+  <data name="Proc2SectionText" xml:space="preserve">
+    <value>Our product distribution list features world’s leading specialist service providers such as Paroc Group, Sealumet Group, Inspired Noise UK, First Trace Heating Direct, Thermobile Industries and XIOM Energy Services.</value>
+  </data>
+  <data name="Proc2SectionTitle" xml:space="preserve">
+    <value>Distribution list</value>
+  </data>
+  <data name="Proc3BoxLi1" xml:space="preserve">
+    <value>Mineral Wool</value>
+  </data>
+  <data name="Proc3BoxLi2" xml:space="preserve">
+    <value>Cellular Glass</value>
+  </data>
+  <data name="Proc3BoxLi3" xml:space="preserve">
+    <value>Flexible Elastomeric Foam</value>
+  </data>
+  <data name="Proc3BoxLi4" xml:space="preserve">
+    <value>PIR</value>
+  </data>
+  <data name="Proc3BoxLi5" xml:space="preserve">
+    <value>Firemaster</value>
+  </data>
+  <data name="Proc3BoxLi6" xml:space="preserve">
+    <value>Weather Jacketing</value>
+  </data>
+  <data name="Proc3BoxLi7" xml:space="preserve">
+    <value>Aluminium/SS Jacketing</value>
+  </data>
+  <data name="Proc3BoxLi8" xml:space="preserve">
+    <value>Insulation Ancillary Materials</value>
+  </data>
+  <data name="Proc3BoxLi9" xml:space="preserve">
+    <value>Mastics, Sealers and Adhesives</value>
+  </data>
+  <data name="Proc3BoxTitle1" xml:space="preserve">
+    <value>Insulation</value>
+  </data>
+  <data name="Proc3SectionContact" xml:space="preserve">
+    <value>Contact our Procurement Coordinator</value>
+  </data>
+  <data name="Proc3SectionContactName" xml:space="preserve">
+    <value>Aibat Yesset</value>
+  </data>
+  <data name="Proc3SectionSideText1" xml:space="preserve">
+    <value>Understanding our customers demand, offering efficient solutions and commitment to high quality standards make us a reliable partner who looks to expand our supply capabilities.</value>
+  </data>
+  <data name="Proc3SectionSideText11" xml:space="preserve">
+    <value>Contact our Distribution and Sales team to enquire about our products and partnership opportunities.</value>
+  </data>
+  <data name="Proc4BoxLi1" xml:space="preserve">
+    <value>Protective Coatings</value>
+  </data>
+  <data name="Proc4BoxLi2" xml:space="preserve">
+    <value>Polymer  Composite  Systems</value>
+  </data>
+  <data name="Proc4BoxLi3" xml:space="preserve">
+    <value>Powder Coating</value>
+  </data>
+  <data name="Proc4BoxLi4" xml:space="preserve">
+    <value>FBE Equipment</value>
+  </data>
+  <data name="Proc4BoxTitle1" xml:space="preserve">
+    <value>Protective Coatings</value>
+  </data>
+  <data name="Proc5BoxLi1" xml:space="preserve">
+    <value>Abrasive  Materials</value>
+  </data>
+  <data name="Proc5BoxLi2" xml:space="preserve">
+    <value>Blasting Equipment</value>
+  </data>
+  <data name="Proc5BoxTitle" xml:space="preserve">
+    <value>Blasting</value>
+  </data>
+  <data name="Proc6BoxLi1" xml:space="preserve">
+    <value>Heating Equipment</value>
+  </data>
+  <data name="Proc6BoxTitle" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="ProcBannerText" xml:space="preserve">
+    <value>We are a leading independent specialized supplier of industrial products to Kazakhstan</value>
+  </data>
+  <data name="ProcBannerTitle1" xml:space="preserve">
+    <value>Distribution and</value>
+  </data>
+  <data name="ProcBannerTitle2" xml:space="preserve">
+    <value>Procurement</value>
+  </data>
+  <data name="ProcBoxesTextMain" xml:space="preserve">
+    <value>We supply a wide range of products and equipment including insulation, protective coatings, heating equipment, access solutions.</value>
+  </data>
+  <data name="ProcBoxesTitleMain" xml:space="preserve">
+    <value>Area of Sales</value>
+  </data>
+  <data name="ProjectsBannerText" xml:space="preserve">
+    <value>Growing our portfolio of satisfied long-term international customers</value>
+  </data>
+  <data name="ProjectsBannerTitle" xml:space="preserve">
+    <value>Projects</value>
+  </data>
+  <data name="ProjectsMainTitle" xml:space="preserve">
+    <value>Our Projects</value>
+  </data>
+  <data name="ProjectsPortfolioFilters" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="ProjectsPortfolioFilters1" xml:space="preserve">
+    <value>Scaffolding</value>
+  </data>
+  <data name="ProjectsPortfolioFilters2" xml:space="preserve">
+    <value>Rope Access</value>
+  </data>
+  <data name="ProjectsPortfolioFilters3" xml:space="preserve">
+    <value>Insulation</value>
+  </data>
+  <data name="ProjectsPortfolioFilters4" xml:space="preserve">
+    <value>Fire protection</value>
+  </data>
+  <data name="ProjectsPortfolioFilters5" xml:space="preserve">
+    <value>Protective coating</value>
+  </data>
+  <data name="ProjectsPortfolioFLEX" xml:space="preserve">
+    <value>Island "D"</value>
+  </data>
+  <data name="ProjectsPortfolioMaersk1" xml:space="preserve">
+    <value>Client: MAERSK OIL</value>
+  </data>
+  <data name="ProjectsPortfolioMaersk2" xml:space="preserve">
+    <value>Dunga Oil field</value>
+  </data>
+  <data name="ProjectsPortfolioMaersk3" xml:space="preserve">
+    <value>provision of manpower, material and scaffolding services at Dunga Oil field area.</value>
+  </data>
+  <data name="Rope1SectionText" xml:space="preserve">
+    <value>Our highly-skilled teams ensure safety is paramount. DSL Caspian has successfully completed projects both on – and offshore in Karabatan and Kachagan. We have in-house IRATA level “3” supervision, and level “1” operatives. DSL Caspian are planning to introduce an additional NDT service in the near future.</value>
+  </data>
+  <data name="Rope1SectionText1" xml:space="preserve">
+    <value>Fabric Inspection &amp; Maintenance</value>
+  </data>
+  <data name="Rope1SectionText2" xml:space="preserve">
+    <value>Structural Repairs &amp; Cable pulling</value>
+  </data>
+  <data name="Rope1SectionText3" xml:space="preserve">
+    <value>Inspection / Testing of Structures</value>
+  </data>
+  <data name="Rope1SectionText4" xml:space="preserve">
+    <value>Cleaning &amp; Painting</value>
+  </data>
+  <data name="Rope1SectionTitle" xml:space="preserve">
+    <value>About Rope Access</value>
+  </data>
+  <data name="RopeBannerText" xml:space="preserve">
+    <value>We have developed unrivalled expertise in rope access and abseiling techniques both on and offshore.</value>
+  </data>
+  <data name="RopeBannerTitle" xml:space="preserve">
+    <value>Rope Access</value>
+  </data>
+  <data name="RopeChoose1" xml:space="preserve">
+    <value>Full IRATA membership</value>
+  </data>
+  <data name="RopeChoose2" xml:space="preserve">
+    <value>Highly-skilled specialists</value>
+  </data>
+  <data name="RopeChoose3" xml:space="preserve">
+    <value>Minimal Disruption</value>
+  </data>
+  <data name="RopeParallaxText1" xml:space="preserve">
+    <value>We offer</value>
+  </data>
+  <data name="RopeParallaxText2" xml:space="preserve">
+    <value>Best Rope Access Solutions</value>
+  </data>
+  <data name="Scaffolding1SectionText1" xml:space="preserve">
+    <value>We hold an extensive stock of wholly-owned equipment, including Layher System Scaffold, which allows us to undertake projects of any size. This technically advanced system allows for significant productivity gains over tube and fitting scaffolds and other systems scaffolds such as Cuplok. This system has enhanced safety through the use of purpose designed
+                                        components, made to fit around irregular shapes and profiles.
+                                        This system requires no ledger bracing providing the greatest possible access to work faces and allows to make speedy modifications to structures with no loose components.</value>
+  </data>
+  <data name="Scaffolding1SectionText2" xml:space="preserve">
+    <value>can also service projects with traditional tube and fitting, and standard modular scaffolding to suit clients’ needs.</value>
+  </data>
+  <data name="Scaffolding1SectionTextSpan" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="Scaffolding1SectionTitle" xml:space="preserve">
+    <value>About Scaffolding</value>
+  </data>
+  <data name="ScaffoldingBannerText" xml:space="preserve">
+    <value>Our fully-trained workforce provides access solutions, using Layher System Scaffold as well as traditional tube and fitting.</value>
+  </data>
+  <data name="ScaffoldingBannerTitle" xml:space="preserve">
+    <value>Scaffolding</value>
+  </data>
+  <data name="ScaffoldingChoose1" xml:space="preserve">
+    <value>High quality components</value>
+  </data>
+  <data name="ScaffoldingChoose2" xml:space="preserve">
+    <value>Enhanced safety</value>
+  </data>
+  <data name="ScaffoldingChoose3" xml:space="preserve">
+    <value>The Largest Tonnage in Kazakhstan</value>
+  </data>
+  <data name="ScaffoldingChoose4" xml:space="preserve">
+    <value>Rapid Deployment</value>
+  </data>
+  <data name="ServicesBannerText1" xml:space="preserve">
+    <value>With over 40 years of knowledge and experience</value>
+  </data>
+  <data name="ServicesBannerText2" xml:space="preserve">
+    <value>we undertake projects of any size</value>
+  </data>
+  <data name="ServicesBannerTitle" xml:space="preserve">
+    <value>Services</value>
+  </data>
+  <data name="ServicesFacts1Text1" xml:space="preserve">
+    <value>Employees</value>
+  </data>
+  <data name="ServicesFacts1Text2" xml:space="preserve">
+    <value>Staff/Labour</value>
+  </data>
+  <data name="ServicesFacts2Text1" xml:space="preserve">
+    <value>Tonne</value>
+  </data>
+  <data name="ServicesFacts2Text2" xml:space="preserve">
+    <value>Scaffold in Region</value>
+  </data>
+  <data name="ServicesFacts3Text1" xml:space="preserve">
+    <value>Offshore Hours</value>
+  </data>
+  <data name="ServicesFacts4Text1" xml:space="preserve">
+    <value>Local Content</value>
+  </data>
+  <data name="ServicesFacts5Text1" xml:space="preserve">
+    <value>Completed Projects</value>
+  </data>
+  <data name="ServicesFacts6Text1" xml:space="preserve">
+    <value>Hours Without Accident</value>
+  </data>
+  <data name="ServicesFactsTitle" xml:space="preserve">
+    <value>DSL Caspian – Facts &amp; Figures</value>
+  </data>
+  <data name="ServicesPagesContactName" xml:space="preserve">
+    <value>Farkhat Kaliyev</value>
+  </data>
+  <data name="ServicesPagesContactPosition" xml:space="preserve">
+    <value>, Operations Manager</value>
+  </data>
+  <data name="ServicesSection1Text" xml:space="preserve">
+    <value>As your strategic partner, we have the ability to mobilise and ramp up rapidly and effectively, which allows us to undertake projects of any size. Through our highly-experienced management team and highly-skilled workforce we are able to offer innovative cost effective industrial solutions for customers. Through introducing smart technologies to traditional industries, we streamline processes, provide real-time information and make work more efficient.</value>
+  </data>
+  <data name="ServicesSection1Title" xml:space="preserve">
+    <value>Our Services</value>
+  </data>
+  <data name="ServicesServicetab1Text" xml:space="preserve">
+    <value>Our fully-trained workforce provides access solutions, using Layher System Scaffold as well as traditional tube and fitting.</value>
+  </data>
+  <data name="ServicesServicetab1Title" xml:space="preserve">
+    <value>Scaffolding</value>
+  </data>
+  <data name="ServicesServicetab2Text" xml:space="preserve">
+    <value>We have developed unrivalled expertise in rope access and abseiling techniques both on and offshore.</value>
+  </data>
+  <data name="ServicesServicetab2Title" xml:space="preserve">
+    <value>Rope Access</value>
+  </data>
+  <data name="ServicesServicetab3Text" xml:space="preserve">
+    <value>We provide a wide range of industrial cleaning and decontamination services.</value>
+  </data>
+  <data name="ServicesServicetab3Title" xml:space="preserve">
+    <value>Industrial Cleaning</value>
+  </data>
+  <data name="ServicesServicetab4Text" xml:space="preserve">
+    <value>We offer a full range of insulation applications, including mineral fibres, cellular glass,calcium silicate, polyurethane and phenolic foams.</value>
+  </data>
+  <data name="ServicesServicetab4Title" xml:space="preserve">
+    <value>Insulation</value>
+  </data>
+  <data name="ServicesServicetab5Text" xml:space="preserve">
+    <value>Our team has a proven track record in hydrocarbon fire protection on oil &amp; gas sites.</value>
+  </data>
+  <data name="ServicesServicetab5Title" xml:space="preserve">
+    <value>Fire protection</value>
+  </data>
+  <data name="ServicesServicetab6Text" xml:space="preserve">
+    <value>We specialize in applying protective coatings for industrial clients, on long-term contracts and large construction sites.</value>
+  </data>
+  <data name="ServicesServicetab6Title" xml:space="preserve">
+    <value>Protective Coating</value>
+  </data>
+  <data name="ServicesServicetab7Text" xml:space="preserve">
+    <value>We are a leading independent specialized supplier of industrial products to Kazakhstan</value>
+  </data>
+  <data name="ServicesServicetab7Title" xml:space="preserve">
+    <value>Distribution and Procurement</value>
+  </data>
+  <data name="ServicesServicetab8Text" xml:space="preserve">
+    <value>We specialize in applying protective coatings for industrial clients, on long-term contracts and large construction sites.</value>
+  </data>
+  <data name="ServicesServicetab8Title" xml:space="preserve">
+    <value>Training Centre</value>
+  </data>
+  <data name="ServicesServicetabMore" xml:space="preserve">
+    <value>View More</value>
+  </data>
+  <data name="SHEQBannerText" xml:space="preserve">
+    <value>Strongly committed to health and safety and the well-being in the workplace</value>
+  </data>
+  <data name="SHEQBannerTitle" xml:space="preserve">
+    <value>SHEQ</value>
+  </data>
+  <data name="SHEQContactName1" xml:space="preserve">
+    <value>Mukhtar Abuov</value>
+  </data>
+  <data name="SHEQContactName2" xml:space="preserve">
+    <value>, HSE Manager</value>
+  </data>
+  <data name="SHEQMainTitle" xml:space="preserve">
+    <value>Safety, Health, Environment, Quality</value>
+  </data>
+  <data name="SHEQPortfolioFilter" xml:space="preserve">
+    <value>Show all</value>
+  </data>
+  <data name="SHEQPortfolioFilter1" xml:space="preserve">
+    <value>Health and Safety</value>
+  </data>
+  <data name="SHEQPortfolioFilter2" xml:space="preserve">
+    <value>Coatings</value>
+  </data>
+  <data name="SHEQPortfolioFilter3" xml:space="preserve">
+    <value>Fire protection</value>
+  </data>
+  <data name="SHEQPortfolioFilter4" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="SHEQPortfolioFilter5" xml:space="preserve">
+    <value>License</value>
+  </data>
+  <data name="SHEQSection1Subtitle1" xml:space="preserve">
+    <value>Ensure our team’s awareness of the importance of Environmental Protection</value>
+  </data>
+  <data name="SHEQSection1Subtitle2" xml:space="preserve">
+    <value>Responsibly manage  chemical substances and preparations</value>
+  </data>
+  <data name="SHEQSection1Subtitle3" xml:space="preserve">
+    <value>Be a model of environmental responsibility</value>
+  </data>
+  <data name="SHEQSection1Text1" xml:space="preserve">
+    <value>Whether it’s dealing with volatile substances or working in potentially hazardous environments, our highly skilled teams ensure safety is paramount. We continually review our SHEQ strategies and constantly look for new innovative ideas to improve our management system. We constantly review our HSEQ strategies to ensure that we can deliver our services ‘right first time’, ensuring that everybody who works for and with us, goes home safe every day.</value>
+  </data>
+  <data name="SHEQSection1Text2" xml:space="preserve">
+    <value>In accordance with our commitment to a responsible environmental policy and our objectives DSL Caspian will:</value>
+  </data>
+  <data name="SHEQSection1Text3" xml:space="preserve">
+    <value>Our people are trained to understand that protection of the environment is everybody’s responsibility. This on-going training enables them to make the right decisions when it comes to ensuring safety and environmental protection.</value>
+  </data>
+  <data name="SHEQSection1Text4" xml:space="preserve">
+    <value>DSL Caspian strives for optimum safety with respect to the handling and storage of chemicals. This includes the search for newer and safer products to replace existing technologies. With over 50 years’ experience, we aim to get things ‘right first time’, providing the trust, reliability and service our customers need.</value>
+  </data>
+  <data name="SHEQSection1Text5" xml:space="preserve">
+    <value>DSL Caspian takes our commitment to environmental responsibility seriously. We comply with all requirements of the legislation of the Republic of Kazakhstan, as well as ISO 14001, the international standards in the field of environmental protection.</value>
+  </data>
+  <data name="SHEQSection2Text1" xml:space="preserve">
+    <value>As part of its social sustainability program, DSL Caspian participates in various social events and activities in the region.</value>
+  </data>
+  <data name="SHEQSection2Text2" xml:space="preserve">
+    <value> provided sponsorship to the Second Annual Marathon of Atyrau held on the 13 May 2017. DSL Caspian supports Annual Marathon for the second year.</value>
+  </data>
+  <data name="SHEQSection2Text3" xml:space="preserve">
+    <value>For more information about the event please proceed the following link</value>
+  </data>
+  <data name="SHEQSection2Text4" xml:space="preserve">
+    <value>read more...</value>
+  </data>
+  <data name="SHEQSection2TextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="SHEQSection2Title" xml:space="preserve">
+    <value>Our Sustainability</value>
+  </data>
+  <data name="SHEQSection3Title" xml:space="preserve">
+    <value>Our Certificates and Policies</value>
+  </data>
+  <data name="SliderAboutButton" xml:space="preserve">
+    <value>About Us</value>
+  </data>
+  <data name="SliderCareerButton" xml:space="preserve">
+    <value>Send Your CV</value>
+  </data>
+  <data name="SliderContactButton" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="SliderMoreButton" xml:space="preserve">
+    <value>Learn More</value>
+  </data>
+  <data name="SliderServicesButton" xml:space="preserve">
+    <value>Check Our Services</value>
+  </data>
+  <data name="SliderSHEQButton" xml:space="preserve">
+    <value>SHEQ</value>
+  </data>
+  <data name="Train1SectionText1" xml:space="preserve">
+    <value>Certified by the Committee of Industrial Development and Industrial Safety since 28 April, 2017,</value>
+  </data>
+  <data name="Train1SectionText2" xml:space="preserve">
+    <value>provides the following training courses required in Kazakhstan:</value>
+  </data>
+  <data name="Train1SectionTextBold1" xml:space="preserve">
+    <value>DSL Caspian Training Department</value>
+  </data>
+  <data name="Train1SectionTextLi1" xml:space="preserve">
+    <value>Labour Protection</value>
+  </data>
+  <data name="Train1SectionTextLi2" xml:space="preserve">
+    <value>Industrial Safety</value>
+  </data>
+  <data name="Train1SectionTextLi3" xml:space="preserve">
+    <value>Fire Safety</value>
+  </data>
+  <data name="Train1SectionTextLi4" xml:space="preserve">
+    <value>Working at Height</value>
+  </data>
+  <data name="Train1SectionTextLi5" xml:space="preserve">
+    <value>Working at Height (above 5m)</value>
+  </data>
+  <data name="Train1SectionTextLi6" xml:space="preserve">
+    <value>Confined Space Entry</value>
+  </data>
+  <data name="Train1SectionTextLi7" xml:space="preserve">
+    <value>Safe operation of lifting operations</value>
+  </data>
+  <data name="Train1SectionTextLi8" xml:space="preserve">
+    <value>Safe operation of vessels under pressure</value>
+  </data>
+  <data name="Train1SectionTextLi9" xml:space="preserve">
+    <value>Specific courses (qualification)</value>
+  </data>
+  <data name="Train1SectionTitle1" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="Train2SectionSubtitle1" xml:space="preserve">
+    <value>General Purpose:</value>
+  </data>
+  <data name="Train2SectionSubtitle2" xml:space="preserve">
+    <value>Objectives:</value>
+  </data>
+  <data name="Train2SectionSubtitle3" xml:space="preserve">
+    <value>Courses:</value>
+  </data>
+  <data name="Train2SectionText1" xml:space="preserve">
+    <value>Familiarize personnel of the company (client) with Kazakhstan Labour Code and principal legal regulations in the sphere of labour.</value>
+  </data>
+  <data name="Train2SectionText2" xml:space="preserve">
+    <value>Know safety and labour protection regulation requirements in Kazakhstan</value>
+  </data>
+  <data name="Train2SectionTextLi1" xml:space="preserve">
+    <value>Fundamentals of Safety and Labour Protection in the Kazakhstan</value>
+  </data>
+  <data name="Train2SectionTextLi2" xml:space="preserve">
+    <value>Fundamentals of Safety and Labour Protection in the Organization</value>
+  </data>
+  <data name="Train2SectionTextLi3" xml:space="preserve">
+    <value>Special Issues on Assuring Compliance with Safety and Labour Protection Requirements</value>
+  </data>
+  <data name="Train2SectionTextLi4" xml:space="preserve">
+    <value>Social Protection of the Personal Aggrieved through Industrial Accidents</value>
+  </data>
+  <data name="Train2SectionTitle1" xml:space="preserve">
+    <value>Safety and Labour Protection</value>
+  </data>
+  <data name="Train3SectionText1" xml:space="preserve">
+    <value>Familiarize employees with main industrial safety rules on hazardous facilities</value>
+  </data>
+  <data name="Train3SectionText2" xml:space="preserve">
+    <value>Obtain principal theoretical knowledge in the field of industrial safety</value>
+  </data>
+  <data name="Train3SectionText3" xml:space="preserve">
+    <value>To know the rules of safe performance of works on hazardous industrial facilities</value>
+  </data>
+  <data name="Train3SectionTextLi1" xml:space="preserve">
+    <value>General provisions</value>
+  </data>
+  <data name="Train3SectionTextLi10" xml:space="preserve">
+    <value>Emergency response</value>
+  </data>
+  <data name="Train3SectionTextLi11" xml:space="preserve">
+    <value>Training alerts</value>
+  </data>
+  <data name="Train3SectionTextLi12" xml:space="preserve">
+    <value>Investigation and accounting of incidents, accidents on hazardous industrial facilities</value>
+  </data>
+  <data name="Train3SectionTextLi13" xml:space="preserve">
+    <value>Training, retraining of specialists, employees of hazardous industrial facilities</value>
+  </data>
+  <data name="Train3SectionTextLi2" xml:space="preserve">
+    <value>Obligations of organizations in the scope of civil protection</value>
+  </data>
+  <data name="Train3SectionTextLi3" xml:space="preserve">
+    <value>Obligations of individuals in the scope of civil protection</value>
+  </data>
+  <data name="Train3SectionTextLi4" xml:space="preserve">
+    <value>State supervision and production control in the field of industrial safety</value>
+  </data>
+  <data name="Train3SectionTextLi5" xml:space="preserve">
+    <value>Ensuring of industrial safety</value>
+  </data>
+  <data name="Train3SectionTextLi6" xml:space="preserve">
+    <value>Attestation of legal entities for the right of performing the works in the field of industrial safety.</value>
+  </data>
+  <data name="Train3SectionTextLi7" xml:space="preserve">
+    <value>Compulsory declaring of industrial safety</value>
+  </data>
+  <data name="Train3SectionTextLi8" xml:space="preserve">
+    <value>Issuance of permits for hazardous materials</value>
+  </data>
+  <data name="Train3SectionTextLi9" xml:space="preserve">
+    <value>Registration and deregistrtion of hazardous technical equipment</value>
+  </data>
+  <data name="Train3SectionTitle" xml:space="preserve">
+    <value>Industrial Safety on Hazardous Facilities</value>
+  </data>
+  <data name="Train4SectionText1" xml:space="preserve">
+    <value>This course in safe working at height is designed to reduce the risk of personnel injury and to prevent personnel and materials form fall.</value>
+  </data>
+  <data name="Train4SectionText2Li1" xml:space="preserve">
+    <value>Identify potential hazards associated with working at height</value>
+  </data>
+  <data name="Train4SectionText2Li2" xml:space="preserve">
+    <value>Know the purpose and types of the personal fall protection systems (PFPS)</value>
+  </data>
+  <data name="Train4SectionText2Li3" xml:space="preserve">
+    <value>Get practical skills in the application of personal protection system</value>
+  </data>
+  <data name="Train4SectionText2Li4" xml:space="preserve">
+    <value>Know how to work at height in safe manner and to prevent workers falling and injuring</value>
+  </data>
+  <data name="Train4SectionText2Li5" xml:space="preserve">
+    <value>Know the requirements for safe work on scaffolding, staircases and ladders, on elevating work platforms</value>
+  </data>
+  <data name="Train4SectionText2Li6" xml:space="preserve">
+    <value>Know the potential hazards and control the objects fall</value>
+  </data>
+  <data name="Train4SectionText2Li7" xml:space="preserve">
+    <value>Know which authorization documents are required for work at height</value>
+  </data>
+  <data name="Train4SectionText2Li8" xml:space="preserve">
+    <value>Know the roles and responsibilities of persons involved in working at height</value>
+  </data>
+  <data name="Train4SectionText3Li1" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="Train4SectionText3Li2" xml:space="preserve">
+    <value>Personal fall protection system</value>
+  </data>
+  <data name="Train4SectionText3Li3" xml:space="preserve">
+    <value>Scaffolding</value>
+  </data>
+  <data name="Train4SectionText3Li4" xml:space="preserve">
+    <value>Staircases and ladders</value>
+  </data>
+  <data name="Train4SectionText3Li5" xml:space="preserve">
+    <value>Mobile elevating work platforms (MEWP)</value>
+  </data>
+  <data name="Train4SectionText3Li6" xml:space="preserve">
+    <value>Falling objects</value>
+  </data>
+  <data name="Train4SectionText3Li7" xml:space="preserve">
+    <value>Roles and responsibilities</value>
+  </data>
+  <data name="Train4SectionTitle" xml:space="preserve">
+    <value>Working at Height</value>
+  </data>
+  <data name="Train5SectionText" xml:space="preserve">
+    <value>Train personnel on the requirements for safe operations involving confined space entry</value>
+  </data>
+  <data name="Train5SectionText1Li1" xml:space="preserve">
+    <value>Know what operations are covered by confined space entry requirements</value>
+  </data>
+  <data name="Train5SectionText1Li2" xml:space="preserve">
+    <value>Know site preparation requirements to control hazards</value>
+  </data>
+  <data name="Train5SectionText1Li3" xml:space="preserve">
+    <value>Identify general hazards associated with space entry</value>
+  </data>
+  <data name="Train5SectionText1Li4" xml:space="preserve">
+    <value>Know how to perform confined space entry activities in a safe &amp; controlled manner</value>
+  </data>
+  <data name="Train5SectionText1Li5" xml:space="preserve">
+    <value>Know roles and responsibilities of personnel directly involved in confined space entry activities</value>
+  </data>
+  <data name="Train5SectionText2Li1" xml:space="preserve">
+    <value>General information</value>
+  </data>
+  <data name="Train5SectionText2Li2" xml:space="preserve">
+    <value>Confined space</value>
+  </data>
+  <data name="Train5SectionText2Li3" xml:space="preserve">
+    <value>Potential hazards associated with the confined space entry</value>
+  </data>
+  <data name="Train5SectionText2Li4" xml:space="preserve">
+    <value>Requirements to confined space entry</value>
+  </data>
+  <data name="Train5SectionText2Li5" xml:space="preserve">
+    <value>Safe work practices</value>
+  </data>
+  <data name="Train5SectionText2Li6" xml:space="preserve">
+    <value>Roles &amp; responsibilities of personnel authorized for confined space entry</value>
+  </data>
+  <data name="Train5SectionTitle" xml:space="preserve">
+    <value>Confined Space Entry</value>
+  </data>
+  <data name="Train6SectionText" xml:space="preserve">
+    <value>Make supervisors, specialists and company personnel aware of the fire safety fundamentals</value>
+  </data>
+  <data name="Train6SectionText1Li1" xml:space="preserve">
+    <value>Acquire basic theoretical knowledge in fire safety</value>
+  </data>
+  <data name="Train6SectionText1Li2" xml:space="preserve">
+    <value>Obtain skills and knowledge so as act in case of emergency</value>
+  </data>
+  <data name="Train6SectionText2Li1" xml:space="preserve">
+    <value>General information on burning and fire-explosion hazardous properties of substances and materials, fire hazards in buildings</value>
+  </data>
+  <data name="Train6SectionText2Li2" xml:space="preserve">
+    <value>Fire hazard in companies</value>
+  </data>
+  <data name="Train6SectionText2Li3" xml:space="preserve">
+    <value>Fire safety precautions when performing fire hazardous works and storing substances and materials</value>
+  </data>
+  <data name="Train6SectionText2Li4" xml:space="preserve">
+    <value>Characteristics of the fire danger during hot works at fire and explosion dangerous facilities</value>
+  </data>
+  <data name="Train6SectionText2Li5" xml:space="preserve">
+    <value>Fire safety requirements to evacuation routes</value>
+  </data>
+  <data name="Train6SectionText2Li6" xml:space="preserve">
+    <value>Overview of fire extinguishing systems of the organization</value>
+  </data>
+  <data name="Train6SectionText2Li7" xml:space="preserve">
+    <value>Organizational principles of fire safety in the organization</value>
+  </data>
+  <data name="Train6SectionText2Li8" xml:space="preserve">
+    <value>Actions of personnel under fires</value>
+  </data>
+  <data name="Train6SectionTitle" xml:space="preserve">
+    <value>Fire Technical Minimum</value>
+  </data>
+  <data name="TrainBannerText1" xml:space="preserve">
+    <value>Our training department is certified to provide qualification courses and in-house training</value>
+  </data>
+  <data name="TrainBannerTitle1" xml:space="preserve">
+    <value>Training Centre</value>
+  </data>
+  <data name="TrainContactSectionName1" xml:space="preserve">
+    <value>Venera Khaidarova</value>
+  </data>
+  <data name="TrainContactSectionName2" xml:space="preserve">
+    <value>Shynar Zhandarbek</value>
+  </data>
+  <data name="TrainContactSectionTitle" xml:space="preserve">
+    <value>Contact our Training Coordinators</value>
+  </data>
+  <data name="WhyCustomerTitle" xml:space="preserve">
+    <value>Why Customers Choose Us?</value>
+  </data>
+  <data name="FooterAlmatyAddress1" xml:space="preserve">
+    <value>77/7 Alfarabi avenue</value>
+  </data>
+  <data name="FooterAlmatyAddress2" xml:space="preserve">
+    <value>Business Center Esentai Tower</value>
+  </data>
+  <data name="FooterAlmatyCredentials" xml:space="preserve">
+    <value>Almaty. Kazakhstan. 050040</value>
+  </data>
+  <data name="FooterOfficeTitle3" xml:space="preserve">
+    <value>Almaty</value>
+  </data>
+  <data name="HomeSliderSlide0H3" xml:space="preserve">
+    <value>FIRST</value>
+  </data>
+  <data name="HomeSliderSlide0H3Span0" xml:space="preserve">
+    <value>IRATA certified local partner</value>
+  </data>
+  <data name="SHEQnewsIOSH" xml:space="preserve">
+    <value>We are proud to say that we have trained another 25 of our DSL Caspian team (2 courses were conducted) in IOSH Managing Safely in March 2018, the training was done by Neill Moffat, SHEQ Director, Actavo (CMIOSH, FIIRSM), supported by Vladislav Sharafiyev, QC Manager, who interpreted to the team in Russian and Kazakh to ensure all got a deeper understanding of the course and tools in their own language so that they can now manage safely.</value>
+  </data>
+  <data name="SHEQpdfIOSH" xml:space="preserve">
+    <value>#IOSH</value>
+  </data>
+  <data name="SliderStaticlink" xml:space="preserve">
+    <value>more info</value>
+  </data>
+  <data name="SliderStaticTextH2" xml:space="preserve">
+    <value>IOSH Managing Safely 2018</value>
+  </data>
+  <data name="SliderStaticTextH3part1" xml:space="preserve">
+    <value>See</value>
+  </data>
+  <data name="SliderStaticTextH3part2" xml:space="preserve">
+    <value>in SHEQ section…</value>
+  </data>
+  <data name="SHEQnewsIOSH2" xml:space="preserve">
+    <value>In addition, Jon Sheard (Ersai Construction Manager at Kuryk) came into one of the sessions to lend his support, this really meant a lot to everyone and endorsed our clients support in what we are doing to raise awareness and add more safety leaders to our team to make DSL Caspian and the Kuryk site a safer one.</value>
+  </data>
+  <data name="SHEQnewsIOSH3" xml:space="preserve">
+    <value>This is an extremely important part of our strategy to support the joint venture in Kazakhstan by upskilling as many of the team as possible to help DSL Caspian be the safest company in Kazakhstan, Actavo have now trained 39 of our team over the last six months in IOSH Managing Safely.</value>
+  </data>
+  <data name="SHEQnewsIOSH4" xml:space="preserve">
+    <value>The energy and enthusiasm demonstrated by the team and their appetite to learn is amazing Neill said, they will be the forefront and leaders going out and applying what they have been taught.</value>
+  </data>
+  <data name="TeamEventH2" xml:space="preserve">
+    <value>DSL Caspian teambuilding event</value>
+  </data>
+  <data name="TeamEventText" xml:space="preserve">
+    <value>DSL Caspian has held on 12 May teambuilding event between the employees of the Company</value>
+  </data>
+</root>

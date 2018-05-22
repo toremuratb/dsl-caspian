@@ -1,0 +1,312 @@
+C:\Repos\dsl-caspian\DSL\bin\ApplicationInsights.config
+C:\Repos\dsl-caspian\DSL\bin\roslyn\csc.exe
+C:\Repos\dsl-caspian\DSL\bin\roslyn\csc.exe.config
+C:\Repos\dsl-caspian\DSL\bin\roslyn\csc.rsp
+C:\Repos\dsl-caspian\DSL\bin\roslyn\csi.exe
+C:\Repos\dsl-caspian\DSL\bin\roslyn\csi.exe.config
+C:\Repos\dsl-caspian\DSL\bin\roslyn\csi.rsp
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Repos\dsl-caspian\DSL\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.AppContext.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Collections.Immutable.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Console.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Diagnostics.Process.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.IO.Compression.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.IO.FileSystem.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.IO.Pipes.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Security.AccessControl.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Security.Claims.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Threading.Thread.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.ValueTuple.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Xml.XPath.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Repos\dsl-caspian\DSL\bin\roslyn\vbc.exe
+C:\Repos\dsl-caspian\DSL\bin\roslyn\vbc.exe.config
+C:\Repos\dsl-caspian\DSL\bin\roslyn\vbc.rsp
+C:\Repos\dsl-caspian\DSL\bin\roslyn\VBCSCompiler.exe
+C:\Repos\dsl-caspian\DSL\bin\roslyn\VBCSCompiler.exe.config
+C:\Repos\dsl-caspian\DSL\bin\DSL.dll.config
+C:\Repos\dsl-caspian\DSL\bin\DSL.dll
+C:\Repos\dsl-caspian\DSL\bin\DSL.pdb
+C:\Repos\dsl-caspian\DSL\bin\Kk\DSL.resources.dll
+C:\Repos\dsl-caspian\DSL\bin\Ru\DSL.resources.dll
+C:\Repos\dsl-caspian\DSL\bin\Antlr3.Runtime.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.DependencyCollector.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.Web.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.WindowsServer.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.ApplicationInsights.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.Web.Infrastructure.dll
+C:\Repos\dsl-caspian\DSL\bin\Newtonsoft.Json.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Helpers.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Mvc.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Optimization.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Razor.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Web.WebPages.Deployment.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Web.WebPages.dll
+C:\Repos\dsl-caspian\DSL\bin\System.Web.WebPages.Razor.dll
+C:\Repos\dsl-caspian\DSL\bin\WebGrease.dll
+C:\Repos\dsl-caspian\DSL\bin\Antlr3.Runtime.xml
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.DependencyCollector.xml
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.Web.xml
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AI.WindowsServer.xml
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.ApplicationInsights.xml
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Repos\dsl-caspian\DSL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Repos\dsl-caspian\DSL\bin\Newtonsoft.Json.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Helpers.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Mvc.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Optimization.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Web.Razor.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Web.WebPages.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Web.WebPages.Deployment.xml
+C:\Repos\dsl-caspian\DSL\bin\System.Web.WebPages.Razor.xml
+C:\Repos\dsl-caspian\DSL\bin\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.Resources.Resource.resources
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.Resources.Resource.Kk.resources
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.Resources.Resource.Ru.resources
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.csproj.GenerateResource.Cache
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.csproj.CoreCompileInputs.cache
+C:\Repos\dsl-caspian\DSL\obj\Release\Kk\DSL.resources.dll
+C:\Repos\dsl-caspian\DSL\obj\Release\Ru\DSL.resources.dll
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.dll
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.pdb
+C:\Repos\dsl-caspian\DSL\obj\Release\DSL.csprojResolveAssemblyReference.cache
+C:\work repos\dsl-caspian\DSL\bin\ApplicationInsights.config
+C:\work repos\dsl-caspian\DSL\bin\roslyn\csc.exe
+C:\work repos\dsl-caspian\DSL\bin\roslyn\csc.exe.config
+C:\work repos\dsl-caspian\DSL\bin\roslyn\csc.rsp
+C:\work repos\dsl-caspian\DSL\bin\roslyn\csi.exe
+C:\work repos\dsl-caspian\DSL\bin\roslyn\csi.exe.config
+C:\work repos\dsl-caspian\DSL\bin\roslyn\csi.rsp
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\work repos\dsl-caspian\DSL\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.AppContext.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Collections.Immutable.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Console.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Diagnostics.Process.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.IO.Compression.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.IO.FileSystem.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.IO.Pipes.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Reflection.Metadata.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Security.AccessControl.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Security.Claims.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Security.Principal.Windows.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Threading.Thread.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.ValueTuple.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Xml.XmlDocument.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Xml.XPath.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\work repos\dsl-caspian\DSL\bin\roslyn\vbc.exe
+C:\work repos\dsl-caspian\DSL\bin\roslyn\vbc.exe.config
+C:\work repos\dsl-caspian\DSL\bin\roslyn\vbc.rsp
+C:\work repos\dsl-caspian\DSL\bin\roslyn\VBCSCompiler.exe
+C:\work repos\dsl-caspian\DSL\bin\roslyn\VBCSCompiler.exe.config
+C:\work repos\dsl-caspian\DSL\bin\DSL.dll.config
+C:\work repos\dsl-caspian\DSL\bin\DSL.dll
+C:\work repos\dsl-caspian\DSL\bin\DSL.pdb
+C:\work repos\dsl-caspian\DSL\bin\Kk\DSL.resources.dll
+C:\work repos\dsl-caspian\DSL\bin\Ru\DSL.resources.dll
+C:\work repos\dsl-caspian\DSL\bin\Antlr3.Runtime.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.Agent.Intercept.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.DependencyCollector.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.Web.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.WindowsServer.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.ApplicationInsights.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.Web.Infrastructure.dll
+C:\work repos\dsl-caspian\DSL\bin\Newtonsoft.Json.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Diagnostics.DiagnosticSource.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Helpers.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Mvc.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Optimization.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Razor.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Web.WebPages.Deployment.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Web.WebPages.dll
+C:\work repos\dsl-caspian\DSL\bin\System.Web.WebPages.Razor.dll
+C:\work repos\dsl-caspian\DSL\bin\WebGrease.dll
+C:\work repos\dsl-caspian\DSL\bin\Antlr3.Runtime.xml
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.DependencyCollector.xml
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.Web.xml
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AI.WindowsServer.xml
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.ApplicationInsights.xml
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\work repos\dsl-caspian\DSL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\work repos\dsl-caspian\DSL\bin\Newtonsoft.Json.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Diagnostics.DiagnosticSource.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Helpers.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Mvc.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Optimization.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Web.Razor.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Web.WebPages.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Web.WebPages.Deployment.xml
+C:\work repos\dsl-caspian\DSL\bin\System.Web.WebPages.Razor.xml
+C:\work repos\dsl-caspian\DSL\bin\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.csprojResolveAssemblyReference.cache
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.Resources.Resource.resources
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.Resources.Resource.Kk.resources
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.Resources.Resource.Ru.resources
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.csproj.GenerateResource.cache
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.csproj.CoreCompileInputs.cache
+C:\work repos\dsl-caspian\DSL\obj\Release\Kk\DSL.resources.dll
+C:\work repos\dsl-caspian\DSL\obj\Release\Ru\DSL.resources.dll
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.csproj.CopyComplete
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.dll
+C:\work repos\dsl-caspian\DSL\obj\Release\DSL.pdb
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\ApplicationInsights.config
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\csc.exe
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\csc.exe.config
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\csc.rsp
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\csi.exe
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\csi.exe.config
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\csi.rsp
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.AppContext.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Console.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.IO.Compression.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.IO.Pipes.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Security.Claims.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Threading.Thread.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.ValueTuple.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\vbc.exe
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\vbc.exe.config
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\vbc.rsp
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\VBCSCompiler.exe
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\DSL.dll.config
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\DSL.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\DSL.pdb
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Kk\DSL.resources.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Ru\DSL.resources.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Antlr3.Runtime.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.Web.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.ApplicationInsights.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Newtonsoft.Json.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Helpers.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Mvc.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Optimization.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Razor.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.WebPages.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.WebPages.Razor.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\WebGrease.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Antlr3.Runtime.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.Web.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.ApplicationInsights.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\Newtonsoft.Json.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Helpers.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Mvc.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Optimization.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.Razor.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.WebPages.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\System.Web.WebPages.Razor.xml
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\bin\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.csprojResolveAssemblyReference.cache
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.Resources.Resource.resources
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.Resources.Resource.Kk.resources
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.Resources.Resource.Ru.resources
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.csproj.GenerateResource.cache
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.csproj.CoreCompileInputs.cache
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\Kk\DSL.resources.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\Ru\DSL.resources.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.csproj.CopyComplete
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.dll
+C:\Users\tawr9\Desktop\Toremuratb-dsl-caspian-353577b8b309\DSL\obj\Release\DSL.pdb

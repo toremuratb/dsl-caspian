@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CF8AFCA9-CE37-42F4-A750-A820FC95F6FE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DSL</RootNamespace>
+    <AssemblyName>DSL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr3.Runtime.3.5.1\lib\net40-client\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.2.4.0\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.4.1\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.4.1\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.4.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.4.1\lib\net45\Microsoft.AI.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.4.1\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.4.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.4.0\lib\net46\Microsoft.ApplicationInsights.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.TelemetryCorrelation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.TelemetryCorrelation.1.0.0\lib\net45\Microsoft.AspNet.TelemetryCorrelation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.4.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebGrease, Version=1.5.2.14234, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Attributes\LocalizationAttribute.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\LanguageHelper.cs" />
+    <Compile Include="Models\ContactFormModel.cs" />
+    <Compile Include="Models\SubscribeModel.cs" />
+    <Compile Include="Models\CvFormModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resource.Kk.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.Kk.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Resource.Ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.Ru.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\animate.min.css" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\layout-rtl.css" />
+    <Content Include="Content\layout-rtl.min.css" />
+    <Content Include="Content\layout.css" />
+    <Content Include="Content\layout.min.css" />
+    <Content Include="Content\nivo-lightbox.min.css" />
+    <Content Include="Content\simple-line-icons\fonts\Simple-Line-Icons.dev.svg" />
+    <Content Include="Content\simple-line-icons\fonts\Simple-Line-Icons.svg" />
+    <Content Include="Content\simple-line-icons\icons-lte-ie7.js" />
+    <Content Include="Content\simple-line-icons\License.txt" />
+    <Content Include="Content\simple-line-icons\Readme.txt" />
+    <Content Include="Content\simple-line-icons\simple-line-icons.css" />
+    <Content Include="Content\simple-line-icons\simple-line-icons.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\swiper\css\swiper.css" />
+    <Content Include="Content\swiper\css\swiper.min.css" />
+    <Content Include="Content\swiper\js\swiper.jquery.js" />
+    <Content Include="Content\swiper\js\swiper.jquery.min.js" />
+    <Content Include="Content\swiper\js\swiper.js" />
+    <Content Include="Content\swiper\js\swiper.min.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\codropsicons.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\license.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Images\1221.png" />
+    <Content Include="Images\1920x1080\01.jpg" />
+    <Content Include="Images\1920x1080\02.jpg" />
+    <Content Include="Images\1920x1080\03.jpg" />
+    <Content Include="Images\1920x1080\72.jpg" />
+    <Content Include="Images\1920x1080\AR1.jpg" />
+    <Content Include="Images\1920x1080\asbestos_removal1.jpg" />
+    <Content Include="Images\1920x1080\asbestos_removal2.jpg" />
+    <Content Include="Images\1920x1080\career.jpg" />
+    <Content Include="Images\1920x1080\career1.jpg" />
+    <Content Include="Images\1920x1080\contacts.jpg" />
+    <Content Include="Images\1920x1080\fire_protection1.jpg" />
+    <Content Include="Images\1920x1080\fire_protection1jpg.jpg" />
+    <Content Include="Images\1920x1080\fire_protection2.jpg" />
+    <Content Include="Images\1920x1080\FP1.jpg" />
+    <Content Include="Images\1920x1080\HSEQ.jpg" />
+    <Content Include="Images\1920x1080\industrial_cleaning1.jpg" />
+    <Content Include="Images\1920x1080\industrial_cleaning2.jpg" />
+    <Content Include="Images\1920x1080\industrial_cleaning3.jpg" />
+    <Content Include="Images\1920x1080\insulation1.jpg" />
+    <Content Include="Images\1920x1080\insulation2.jpg" />
+    <Content Include="Images\1920x1080\OV.jpg" />
+    <Content Include="Images\1920x1080\parallax-map.jpg" />
+    <Content Include="Images\1920x1080\parallax.jpg" />
+    <Content Include="Images\1920x1080\parallax.png" />
+    <Content Include="Images\1920x1080\parralax2.jpg" />
+    <Content Include="Images\1920x1080\PC.jpg" />
+    <Content Include="Images\1920x1080\PC1.jpg" />
+    <Content Include="Images\1920x1080\PC2.jpg" />
+    <Content Include="Images\1920x1080\Proc.jpg" />
+    <Content Include="Images\1920x1080\projects1.jpg" />
+    <Content Include="Images\1920x1080\projects1.png" />
+    <Content Include="Images\1920x1080\projects2.jpg" />
+    <Content Include="Images\1920x1080\protective_coating1.jpg" />
+    <Content Include="Images\1920x1080\protective_coating2.jpg" />
+    <Content Include="Images\1920x1080\RA.jpg" />
+    <Content Include="Images\1920x1080\RA1.jpg" />
+    <Content Include="Images\1920x1080\rope_access1.jpg" />
+    <Content Include="Images\1920x1080\rope_access2.jpg" />
+    <Content Include="Images\1920x1080\Scaf1.jpg" />
+    <Content Include="Images\1920x1080\Scaffolding1.jpg" />
+    <Content Include="Images\1920x1080\Scaffolding2.jpg" />
+    <Content Include="Images\1920x1080\Slide1.jpg" />
+    <Content Include="Images\1920x1080\Slide2.jpg" />
+    <Content Include="Images\1920x1080\Slide3.jpg" />
+    <Content Include="Images\1920x1080\Slide4.jpg" />
+    <Content Include="Images\1920x1080\Slide5.jpg" />
+    <Content Include="Images\397x300\01.jpg" />
+    <Content Include="Images\397x300\02.jpg" />
+    <Content Include="Images\397x300\03.jpg" />
+    <Content Include="Images\397x300\04.jpg" />
+    <Content Include="Images\397x400\01.jpg" />
+    <Content Include="Images\397x400\02.jpg" />
+    <Content Include="Images\640x380\01.jpg" />
+    <Content Include="Images\640x380\1.jpg" />
+    <Content Include="Images\72.jpg" />
+    <Content Include="Images\770x860\01.jpg" />
+    <Content Include="Images\770x860\02.jpg" />
+    <Content Include="Images\770x860\03.jpg" />
+    <Content Include="Images\800x400\01.jpg" />
+    <Content Include="Images\800x400\02.jpg" />
+    <Content Include="Images\800x400\21.jpg" />
+    <Content Include="Images\970x500\11.jpg" />
+    <Content Include="Images\970x500\11.png" />
+    <Content Include="Images\970x500\12.jpg" />
+    <Content Include="Images\970x500\asb.jpg" />
+    <Content Include="Images\970x500\FP.jpg" />
+    <Content Include="Images\970x500\IC.jpg" />
+    <Content Include="Images\970x500\Insl.jpg" />
+    <Content Include="Images\970x500\parallax.jpg" />
+    <Content Include="Images\970x500\PC.jpg" />
+    <Content Include="Images\970x500\projects1.jpg" />
+    <Content Include="Images\970x500\RP.jpg" />
+    <Content Include="Images\970x500\SCF.jpg" />
+    <Content Include="Images\970x647\01.jpg" />
+    <Content Include="Images\970x647\02.jpg" />
+    <Content Include="Images\970x647\03.jpg" />
+    <Content Include="Images\970x647\1.jpg" />
+    <Content Include="Images\970x647\Dist.jpg" />
+    <Content Include="Images\970x647\Eng.jpg" />
+    <Content Include="Images\970x647\ErSai1.jpg" />
+    <Content Include="Images\970x647\ErSai2.jpg" />
+    <Content Include="Images\970x647\ErSai3.jpg" />
+    <Content Include="Images\970x647\ErSai4.jpg" />
+    <Content Include="Images\970x647\FLEX.jpg" />
+    <Content Include="Images\970x647\FP.jpg" />
+    <Content Include="Images\970x647\IC.jpg" />
+    <Content Include="Images\970x647\Insl.jpg" />
+    <Content Include="Images\970x647\ISKER.jpg" />
+    <Content Include="Images\970x647\KCOI.jpg" />
+    <Content Include="Images\970x647\KCOI2.jpg" />
+    <Content Include="Images\970x647\KCOI3.jpg" />
+    <Content Include="Images\970x647\KPO-1.jpg" />
+    <Content Include="Images\970x647\MAERSK.jpg" />
+    <Content Include="Images\970x647\NCOC.jpg" />
+    <Content Include="Images\970x647\NCPOC.jpg" />
+    <Content Include="Images\970x647\parallax.jpg" />
+    <Content Include="Images\970x647\PC.jpg" />
+    <Content Include="Images\970x647\PSNK.jpg" />
+    <Content Include="Images\970x647\RA.jpg" />
+    <Content Include="Images\970x647\RA1.jpg" />
+    <Content Include="Images\970x647\RA11.jpg" />
+    <Content Include="Images\970x647\RP.jpg" />
+    <Content Include="Images\970x647\Scaf.jpg" />
+    <Content Include="Images\970x647\sicim-demo.jpg" />
+    <Content Include="Images\970x647\Tengiz-TCO.jpg" />
+    <Content Include="Images\970x647\Tr.jpg" />
+    <Content Include="Images\970x647\UNEX.jpg" />
+    <Content Include="Images\970x970\01.jpg" />
+    <Content Include="Images\970x970\11.jpg" />
+    <Content Include="Images\970x970\Height.jpg" />
+    <Content Include="Images\970x970\home-company.jpg" />
+    <Content Include="Images\970x970\home-company.png" />
+    <Content Include="Images\970x970\Space.jpg" />
+    <Content Include="Images\970x970\Trai.jpg" />
+    <Content Include="Images\actavo-logo.jpg" />
+    <Content Include="Images\actavo.png" />
+    <Content Include="Images\aksai-1.jpg" />
+    <Content Include="Images\aksai.jpg" />
+    <Content Include="Images\Brochures\1.jpg" />
+    <Content Include="Images\Brochures\2.jpg" />
+    <Content Include="Images\Brochures\3.jpg" />
+    <Content Include="Images\Brochures\4.jpg" />
+    <Content Include="Images\Brochures\FP.jpg" />
+    <Content Include="Images\Brochures\Ins.jpg" />
+    <Content Include="Images\Brochures\PC.jpg" />
+    <Content Include="Images\Brochures\RA.jpg" />
+    <Content Include="Images\Brochures\WR.jpg" />
+    <Content Include="Images\browser.png" />
+    <Content Include="Images\c1.png" />
+    <Content Include="Images\c2.png" />
+    <Content Include="Images\c3.png" />
+    <Content Include="Images\c4.png" />
+    <Content Include="Images\c5.png" />
+    <Content Include="Images\clients\01.png" />
+    <Content Include="Images\clients\02.png" />
+    <Content Include="Images\clients\04.png" />
+    <Content Include="Images\clients\05.png" />
+    <Content Include="Images\clients\06.png" />
+    <Content Include="Images\clients\07.png" />
+    <Content Include="Images\clients\08.png" />
+    <Content Include="Images\clients\09.png" />
+    <Content Include="Images\clients\10.png" />
+    <Content Include="Images\clients\11.png" />
+    <Content Include="Images\decaux.png" />
+    <Content Include="Images\dir.jpg" />
+    <Content Include="Images\DSLLogo.png" />
+    <Content Include="Images\ersai.png" />
+    <Content Include="Images\Favicon\android-icon-144x144.png" />
+    <Content Include="Images\Favicon\android-icon-192x192.png" />
+    <Content Include="Images\Favicon\android-icon-36x36.png" />
+    <Content Include="Images\Favicon\android-icon-48x48.png" />
+    <Content Include="Images\Favicon\android-icon-72x72.png" />
+    <Content Include="Images\Favicon\android-icon-96x96.png" />
+    <Content Include="Images\Favicon\apple-icon-114x114.png" />
+    <Content Include="Images\Favicon\apple-icon-120x120.png" />
+    <Content Include="Images\Favicon\apple-icon-144x144.png" />
+    <Content Include="Images\Favicon\apple-icon-152x152.png" />
+    <Content Include="Images\Favicon\apple-icon-180x180.png" />
+    <Content Include="Images\Favicon\apple-icon-57x57.png" />
+    <Content Include="Images\Favicon\apple-icon-60x60.png" />
+    <Content Include="Images\Favicon\apple-icon-72x72.png" />
+    <Content Include="Images\Favicon\apple-icon-76x76.png" />
+    <Content Include="Images\Favicon\apple-icon-precomposed.png" />
+    <Content Include="Images\Favicon\apple-icon.png" />
+    <Content Include="Images\Favicon\browserconfig.xml" />
+    <Content Include="Images\Favicon\favicon-16x16.png" />
+    <Content Include="Images\Favicon\favicon-32x32.png" />
+    <Content Include="Images\Favicon\favicon-96x96.png" />
+    <Content Include="Images\Favicon\favicon.ico" />
+    <Content Include="Images\Favicon\manifest.json" />
+    <Content Include="Images\Favicon\ms-icon-144x144.png" />
+    <Content Include="Images\Favicon\ms-icon-150x150.png" />
+    <Content Include="Images\Favicon\ms-icon-310x310.png" />
+    <Content Include="Images\Favicon\ms-icon-70x70.png" />
+    <Content Include="Images\Footer.jpg" />
+    <Content Include="Images\Footer01.jpg" />
+    <Content Include="Images\Footer1.jpg" />
+    <Content Include="Images\Footer1.png" />
+    <Content Include="Images\Footer11.jpg" />
+    <Content Include="Images\Footer2.jpg" />
+    <Content Include="Images\head.jpg" />
+    <Content Include="Images\head2.jpg" />
+    <Content Include="Images\head3.jpg" />
+    <Content Include="Images\HSEQ\Affiliate.jpg" />
+    <Content Include="Images\HSEQ\Award.jpg" />
+    <Content Include="Images\HSEQ\Chart.jpg" />
+    <Content Include="Images\HSEQ\Footer1.png" />
+    <Content Include="Images\HSEQ\HSEQ1.jpg" />
+    <Content Include="Images\HSEQ\HSEQ2.jpg" />
+    <Content Include="Images\HSEQ\HSEQ3.jpg" />
+    <Content Include="Images\HSEQ\IOSH.jpg" />
+    <Content Include="Images\HSEQ\IQNET.jpg" />
+    <Content Include="Images\HSEQ\Jota.jpg" />
+    <Content Include="Images\HSEQ\lic.jpg" />
+    <Content Include="Images\HSEQ\lic2.jpg" />
+    <Content Include="Images\HSEQ\OHS-2600.jpg" />
+    <Content Include="Images\HSEQ\ppg.jpg" />
+    <Content Include="Images\HSEQ\promat.jpg" />
+    <Content Include="Images\HSEQ\rec.jpg" />
+    <Content Include="Images\HSEQ\text.jpg" />
+    <Content Include="Images\HSEQ\wpmp.jpg" />
+    <Content Include="Images\Icons\ajaxloader.gif" />
+    <Content Include="Images\Icons\FP.png" />
+    <Content Include="Images\Icons\FP2.png" />
+    <Content Include="Images\Icons\grabbing.png" />
+    <Content Include="Images\Icons\IC.png" />
+    <Content Include="Images\Icons\IC2.png" />
+    <Content Include="Images\Icons\INS.png" />
+    <Content Include="Images\Icons\INS2.png" />
+    <Content Include="Images\Icons\IRATA.png" />
+    <Content Include="Images\Icons\loader.gif" />
+    <Content Include="Images\Icons\next.png" />
+    <Content Include="Images\Icons\nextr.png" />
+    <Content Include="Images\Icons\PC.png" />
+    <Content Include="Images\Icons\PC2.png" />
+    <Content Include="Images\Icons\prev.png" />
+    <Content Include="Images\Icons\prevr.png" />
+    <Content Include="Images\Icons\Proc.png" />
+    <Content Include="Images\Icons\Proc2.png" />
+    <Content Include="Images\Icons\RA.png" />
+    <Content Include="Images\Icons\RA2.png" />
+    <Content Include="Images\Icons\Scaf.png" />
+    <Content Include="Images\Icons\Scaf2.png" />
+    <Content Include="Images\Icons\Tr.png" />
+    <Content Include="Images\Icons\Tr2.png" />
+    <Content Include="Images\IOSH1.jpg" />
+    <Content Include="Images\IOSH2.jpg" />
+    <Content Include="Images\karabatan-1.jpg" />
+    <Content Include="Images\karabatan.jpg" />
+    <Content Include="Images\kaspian-1.jpg" />
+    <Content Include="Images\kaspian.jpg" />
+    <Content Include="Images\kassym.jpg" />
+    <Content Include="Images\kazinfestbank.png" />
+    <Content Include="Images\kazmunai.png" />
+    <Content Include="Images\lancaster-logo.jpg" />
+    <Content Include="Images\lancaster.png" />
+    <Content Include="Images\lightbox\close%402x.png" />
+    <Content Include="Images\lightbox\close.png" />
+    <Content Include="Images\lightbox\loading%402x.GIF" />
+    <Content Include="Images\lightbox\loading.GIF" />
+    <Content Include="Images\lightbox\next%402x.png" />
+    <Content Include="Images\lightbox\next.png" />
+    <Content Include="Images\lightbox\prev%402x.png" />
+    <Content Include="Images\lightbox\prev.png" />
+    <Content Include="Images\logo - Copy.jpg" />
+    <Content Include="Images\logo-dark.png" />
+    <Content Include="Images\logo-new.png" />
+    <Content Include="Images\logo-new1.png" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\macbook.png" />
+    <Content Include="Images\map.jpg" />
+    <Content Include="Images\map.png" />
+    <Content Include="Images\over.jpg" />
+    <Content Include="Images\Parallax\cores.jpg" />
+    <Content Include="Images\Parallax\FP.jpg" />
+    <Content Include="Images\Parallax\Ins.jpg" />
+    <Content Include="Images\Parallax\PC.jpg" />
+    <Content Include="Images\Parallax\RP.jpg" />
+    <Content Include="Images\Parallax\testim.jpg" />
+    <Content Include="Images\patterns\1.png" />
+    <Content Include="Images\patterns\10.png" />
+    <Content Include="Images\patterns\11.png" />
+    <Content Include="Images\patterns\12.png" />
+    <Content Include="Images\patterns\13.png" />
+    <Content Include="Images\patterns\14.png" />
+    <Content Include="Images\patterns\2.png" />
+    <Content Include="Images\patterns\3.png" />
+    <Content Include="Images\patterns\4.png" />
+    <Content Include="Images\patterns\5.png" />
+    <Content Include="Images\patterns\6.png" />
+    <Content Include="Images\patterns\7.png" />
+    <Content Include="Images\patterns\8.png" />
+    <Content Include="Images\patterns\9.png" />
+    <Content Include="Images\Paul.jpg" />
+    <Content Include="Images\Price.jpg" />
+    <Content Include="Images\Pricel.jpg" />
+    <Content Include="Images\Proc docs\First.jpg" />
+    <Content Include="Images\Proc docs\Inspired.jpg" />
+    <Content Include="Images\Proc docs\Paroc.jpg" />
+    <Content Include="Images\Proc docs\Sealumet.jpg" />
+    <Content Include="Images\Proc docs\Termobile.jpg" />
+    <Content Include="Images\Proc1.png" />
+    <Content Include="Images\Procurement\First.png" />
+    <Content Include="Images\Procurement\Inspired.png" />
+    <Content Include="Images\Procurement\Paroc.png" />
+    <Content Include="Images\Procurement\Sealumet.png" />
+    <Content Include="Images\Procurement\Termobile.png" />
+    <Content Include="Images\Procurement\XIOM.png" />
+    <Content Include="Images\Scaf1.jpg" />
+    <Content Include="Images\Service-Icons\PC-bg.png" />
+    <Content Include="Images\Service-Icons\PC.png" />
+    <Content Include="Images\Service-Icons\SCF-bg.png" />
+    <Content Include="Images\Service-Icons\SCF.png" />
+    <Content Include="Images\Sicim_teng.jpg" />
+    <Content Include="Images\sitek-event-1.jpg" />
+    <Content Include="Images\sitek-event-2.jpg" />
+    <Content Include="Images\sitek-event-3.jpg" />
+    <Content Include="Images\sitek.png" />
+    <Content Include="Images\slide-03-image-01.png" />
+    <Content Include="Images\slider-rope-access-training-1140x430.jpg" />
+    <Content Include="Images\Spons.jpg" />
+    <Content Include="Images\syrymbet.png" />
+    <Content Include="Images\tengiz-1.jpg" />
+    <Content Include="Images\tengiz.jpg" />
+    <Content Include="Images\Test.jpg" />
+    <Content Include="Images\widgets\gmap-pin.png" />
+    <Content Include="Scripts\animateCss\animateCss.js" />
+    <Content Include="Scripts\animateCss\animateCss.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\classie.js" />
+    <Content Include="Scripts\gmap.js" />
+    <Content Include="Scripts\gmap.min.js" />
+    <Content Include="Scripts\imagesloaded.pkgd.min.js" />
+    <Content Include="Scripts\contact.form.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\codropsicons.eot" />
+    <Content Include="fonts\codropsicons.ttf" />
+    <Content Include="fonts\codropsicons.woff" />
+    <Content Include="PDF\Licence_2016.pdf" />
+    <Content Include="PDF\Lic2.pdf" />
+    <Content Include="PDF\HSEQ.pdf" />
+    <Content Include="PDF\Inspired Noise.pdf" />
+    <Content Include="PDF\letter of Authorization.pdf" />
+    <Content Include="PDF\Paroc.pdf" />
+    <Content Include="PDF\Sealumet.pdf" />
+    <Content Include="PDF\Thermobile.pdf" />
+    <Content Include="PDF\SHEQ\Certificate_Affiliate.pdf" />
+    <Content Include="PDF\SHEQ\Certificate_Promat.pdf" />
+    <Content Include="PDF\SHEQ\Certificate№015.pdf" />
+    <Content Include="PDF\SHEQ\Certificate№OHS2600%28KZ%29.pdf" />
+    <Content Include="PDF\SHEQ\Certificate№OHS2600%28ru%29.pdf" />
+    <Content Include="PDF\SHEQ\Certificate№OHS2600.pdf" />
+    <Content Include="PDF\SHEQ\Certificate№_Kazak_DSL_CA_12_15_007.pdf" />
+    <Content Include="PDF\SHEQ\DSL_Environmental Policy EN %28Jan 17%29.pdf" />
+    <Content Include="PDF\SHEQ\Licence_2016.pdf" />
+    <Content Include="PDF\SHEQ\Lisence 2.pdf" />
+    <Content Include="PDF\SHEQ\Scan.pdf" />
+    <Content Include="PDF\SHEQ\HSEQ2.pdf" />
+    <Content Include="PDF\Chartek.pdf" />
+    <Content Include="PDF\Award.pdf" />
+    <Content Include="PDF\FP.pdf" />
+    <Content Include="PDF\1.pdf" />
+    <Content Include="PDF\2.pdf" />
+    <Content Include="PDF\3.pdf" />
+    <Content Include="PDF\4.pdf" />
+    <Content Include="PDF\Rope.pdf" />
+    <Content Include="PDF\Insul.pdf" />
+    <Content Include="PDF\PC.pdf" />
+    <Content Include="PDF\REFR.pdf" />
+    <Content Include="PDF\Wrap.pdf" />
+    <Content Include="PDF\dslnews1.pdf" />
+    <Content Include="PDF\SHEQ\dslnews2.pdf" />
+    <Content Include="PDF\SHEQ\dslnews3.pdf" />
+    <Content Include="PDF\dslnews2.pdf" />
+    <Content Include="PDF\dslnews3.pdf" />
+    <Content Include="PDF\wpmp.pdf" />
+    <Content Include="PDF\lic.pdf" />
+    <None Include="Properties\PublishProfiles\dslcaspiankz - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\dslcaspiankz - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-migrate.min.js" />
+    <Content Include="Scripts\jquery.back-to-top.js" />
+    <Content Include="Scripts\jquery.easing.js" />
+    <Content Include="Scripts\jquery.isotope.min.js" />
+    <Content Include="Scripts\jquery.masonry.pkgd.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.parallax.min.js" />
+    <Content Include="Scripts\jquery.smooth-scroll.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\jquery.wow.min.js" />
+    <Content Include="Scripts\layout.js" />
+    <Content Include="Scripts\layout.min.js" />
+    <Content Include="Scripts\masonry.js" />
+    <Content Include="Scripts\masonry.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\nivo-lightbox.min.js" />
+    <Content Include="Scripts\parallax.js" />
+    <Content Include="Scripts\parallax.min.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\script.js" />
+    <Content Include="Scripts\swiper.jquery.js" />
+    <Content Include="Scripts\swiper.jquery.min.js" />
+    <Content Include="Scripts\swiper.js" />
+    <Content Include="Scripts\swiper.min.js" />
+    <Content Include="Scripts\wow.js" />
+    <Content Include="Scripts\wow.min.js" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Home\Projects.cshtml" />
+    <Content Include="Views\Home\Training.cshtml" />
+    <Content Include="Views\Home\Procurement.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Content\bootstrap-grid.min.css.map" />
+    <Content Include="Content\bootstrap-reboot.css.map" />
+    <Content Include="Content\bootstrap-reboot.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\simple-line-icons\fonts\Simple-Line-Icons.eot" />
+    <Content Include="Content\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="Content\simple-line-icons\fonts\Simple-Line-Icons.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Views\Home\Career.cshtml" />
+    <Content Include="Views\Home\Contacts.cshtml" />
+    <Content Include="Views\Home\Fire_protection.cshtml" />
+    <Content Include="Views\Home\HSEQ.cshtml" />
+    <Content Include="Views\Home\Industrial_cleaning.cshtml" />
+    <Content Include="Views\Home\Insulation.cshtml" />
+    <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Home\Protective_coating.cshtml" />
+    <Content Include="Views\Home\Rope_access.cshtml" />
+    <Content Include="Views\Home\Scaffolding.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Resource.Kk.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Kk.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource.Ru.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Resource.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60926</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60926/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.3.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.5\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

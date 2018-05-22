@@ -1,0 +1,399 @@
+﻿@model DSL.Models.CvFormModel
+@{
+    ViewBag.Title = DSL.Resources.Resource.CareerBannerTitle;
+}
+<div class="js__parallax-window1 main-banner1" style="background: url('../../Images/1920x1080/career.jpg') 50% 0 no-repeat; background-size: cover !important">
+    <div class="parallax-content container" style="padding-top:165px !important;padding-bottom:140px !important;">
+        <div class="col-md-8 col-sm-8 carousel-fx">
+            <h1 class="carousel-title wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms" style="text-shadow: 1px 3px 5px #000;margin-bottom:0;">
+            @DSL.Resources.Resource.CareerBannerTitle</h1>
+            <hr style="border-color:#e74336;" />
+            <p class="color-white wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1500ms" style="text-shadow: 1px 2px 5px #000;padding-left:5px;font-size:18px;color:#fff!important;">
+            @DSL.Resources.Resource.CareerBannerText</p>
+        </div>
+    </div>
+</div>
+<!--========== PARALLAX ==========-->
+<!--========== PAGE LAYOUT ==========-->
+<!-- Promo Section -->
+<div class="promo-section overflow-h">
+    <div class="container">
+        <div class="clearfix" style="margin-top:30px;">
+            <div class="col-md-12 col-md-offset-0 col-sm-12 " >
+                <div class="text-center">
+                    <h3 class="color-red">@DSL.Resources.Resource.CareerMainTitle</h3>
+                    <hr />
+
+                    <p style="text-indent:0;font-size:16px;" class="fweight-400 col-md-10 col-md-offset-1" >
+                     @DSL.Resources.Resource.CareerSection1Text1</p>
+                </div>
+                <div class="col-sm-5 col-sm-offset-1 wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="200ms">
+
+                    <p style="text-indent:0;">
+                        <ul>
+                            <li style="color:red;"><span style="font-size:15px;color: #585858 !important;">@DSL.Resources.Resource.CareerSection1Text1Li1</span></li>
+                            <li style="color:red;"><span style="font-size:15px;color: #585858 !important;">@DSL.Resources.Resource.CareerSection1Text1Li2 </span></li>
+                            <li style="color:red;"><span style="font-size:15px;color: #585858 !important;">@DSL.Resources.Resource.CareerSection1Text1Li3 </span></li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-sm-5 wow fadeInRight animated" data-wow-duration="1000ms" data-wow-delay="200ms">
+
+                    <p style="text-indent:0;">
+                        <ul>
+                            <li style="color:red;"><span style="font-size:15px;color: #585858 !important;">@DSL.Resources.Resource.CareerSection1Text1Li4 </span></li>
+                            <li style="color:red;"><span style="font-size:15px;color: #585858 !important;">@DSL.Resources.Resource.CareerSection1Text1Li5 </span></li>
+                            <li style="color:red;"><span style="font-size:15px;color: #585858 !important;">@DSL.Resources.Resource.CareerSection1Text1Li6 </span></li>
+                          <!-- <li style="color:red;"><span style="font-size:15px;color: #585858 !important;">NACE & BGAS Certified QC Inspectors. NACE CIP Level 3 – 1; NACE CIP Level 2 – 3;  NACE CIP Level 1 – 4; BGAS Level 2 – 1; </span></li>
+                        --> </ul>
+                    </p>
+                </div>  
+
+            </div>
+        </div>
+    </div>
+    <div class="content-lg container">
+        <div class="row margin-b-40">
+            <div class="col-sm-12">
+                <h3 class="color-red text-center">@DSL.Resources.Resource.CareerSection2Title </h3>
+                <hr />
+            </div>
+        </div>
+        <!--// end row -->
+
+        <div class="row">
+            <!-- vacancy 1 -->
+            <div class="col-sm-4 sm-margin-b-50 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="200ms">
+                <div class="margin-b-20">
+
+                    <!-- Latest Products -->
+                    <!-- Trigger the modal with a button -->
+                    <a href="*" data-toggle="modal" data-target="#vac1">
+                        <img src="/Images/970x647/Eng.jpg" class="img-responsive" alt="..." />
+                        <h3 class="color-red" style="margin-top:20px;">@DSL.Resources.Resource.CareerVacancyTitle1<span class="text-uppercase span-fx margin-l-20 color-blue" style="font-size:13px;">@DSL.Resources.Resource.CareerVacancySubtitle1</span></h3>
+                        <hr />
+                        
+                    </a>
+                </div>
+            </div>
+            <!-- End vacancy1 -->
+            <!-- vacancy2 -->
+            <div class="col-sm-4 sm-margin-b-50 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms">
+                <div class="margin-b-20">
+
+                    <!-- Latest Products -->
+                    <!-- Trigger the modal with a button -->
+                    <a href="*" data-toggle="modal" data-target="#vac2">
+                        <img src="~/Images/970x647/1.jpg" class="img-responsive" alt="..." />
+                        <h3 class="color-red" style="margin-top:20px;">@DSL.Resources.Resource.CareerVacancyTitle2<span class="text-uppercase span-fx margin-l-20 color-blue" style="font-size:13px;">@DSL.Resources.Resource.CareerVacancySubtitle2</span></h3>
+                        <hr />
+                        
+                    </a>
+                </div>
+            </div>
+            <!-- End Latest Products -->
+            <!-- End vacancy2 -->
+            <!-- vacancy3 -->
+            <div class="col-sm-4 sm-margin-b-50 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1000ms">
+                <div class="margin-b-20">
+
+                    <!-- Latest Products -->
+                    <!-- Trigger the modal with a button -->
+                    <a href="*" data-toggle="modal" data-target="#vac3">
+                        <img src="~/Images/970x647/RP.jpg" class="img-responsive" alt="..." />
+                        <h3 class="color-red" style="margin-top:20px;">@DSL.Resources.Resource.CareerVacancyTitle3<span class="text-uppercase margin-l-20 span-fx color-blue" style="font-size:13px;">@DSL.Resources.Resource.CareerVacancySubtitle3</span></h3>
+                        <hr />
+                        
+                        <!-- Modal -->
+                    </a>
+                </div>
+                <!-- End Latest Products -->
+                <!-- End vacancy3 -->
+
+            </div><!-- Contact List -->
+            <!--1-->
+            <div class="modal fade" id="vac1" role="dialog">
+                <div class="modal-dialog" style="width:1080px;">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+
+
+                        <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                                <h3 class="modal-title text-center">Senior Engineer</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-0" style="display:none!important">
+                                    <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                                        Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                                        We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                                        We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                                        Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                                    </p>
+                                </div>
+                                <div class="col-sm-10 col-sm-offset-1" style="margin-top:15px;">
+                                    <img src="~/Images/970x647/Eng.jpg" class="img-responsive" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--end 1-->
+            <!--2-->
+            <div class="modal fade" id="vac2" role="dialog">
+                <div class="modal-dialog" style="width:1080px;">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+
+
+                        <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                                <h3 class="modal-title text-center">Insulation Specialist</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-0" style="display:none!important">
+                                    <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                                        Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                                        We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                                        We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                                        Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                                    </p>
+                                </div>
+                                <div class="col-sm-10 col-sm-offset-1" style="margin-top:15px;">
+                                    <img src="~/Images/970x647/1.jpg" class="img-responsive" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--end2-->
+            <!--3-->
+            <div class="modal fade" id="vac3" role="dialog">
+                <div class="modal-dialog" style="width:1080px;">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+
+
+                        <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                                <h3 class="modal-title text-center">Rope Access Specialist</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-0" style="display:none!important">
+                                    <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                                        Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                                        We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                                        We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                                        Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                                    </p>
+                                </div>
+                                <div class="col-sm-10 col-sm-offset-1" style="margin-top:15px;">
+                                    <img src="~/Images/970x647/RP.jpg" class="img-responsive" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!--end3-->
+        </div>
+        <!--// end row -->
+    </div>
+</div>
+<div class="section-seperator">
+    <div class="content-lg container">
+        <div class="row">
+            <!-- Contact List -->
+            <div class="col-lg-3 col-md-3 col-sm-6 sm-margin-b-50 wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="200ms">
+                <h3 class="color-red">@DSL.Resources.Resource.CareerFormTitle</h3>
+                <hr />
+                <div class="col-md-12">
+                    <div class="row">
+                        @using (Html.BeginForm("SendCv", "Home", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                        {
+
+                            @Html.AntiForgeryToken()
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+
+                                        <span class="input input--yoshiko">
+
+                                            @Html.TextBoxFor(m => m.FromName, new { @class = "input__field input__field--yoshiko" })
+                                            <label class="input__label input__label--yoshiko" for="input-10">
+                                                <span class="input__label-content input__label-content--yoshiko" data-content="@DSL.Resources.Resource.CareerFormName">@DSL.Resources.Resource.CareerFormName</span>
+                                            </label>
+                                            @Html.ValidationMessageFor(m => m.FromName)
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+
+                                        <span class="input input--yoshiko">
+
+                                            @Html.TextBoxFor(m => m.FromEmail, new { @class = "input__field input__field--yoshiko" })
+                                            <label class="input__label input__label--yoshiko" for="input-11">
+                                                <span class="input__label-content input__label-content--yoshiko" data-content="@DSL.Resources.Resource.CareerFormEmail">@DSL.Resources.Resource.CareerFormEmail</span>
+                                            </label>
+                                            @Html.ValidationMessageFor(m => m.FromEmail)
+                                        </span>
+                                    </div>
+                                </div>
+                                <!--<div class="col-md-12">
+                                <div class="form-group">
+
+                                    <span class="input input--yoshiko">
+
+                                      
+                                    </span>
+                                </div>
+                            </div>-->
+                                <!--<span class="input input--yoshiko">
+                                    <input class="input__field input__field--yoshiko" type="text" id="input-10">
+                                    <label class="input__label input__label--yoshiko" for="input-10">
+                                        <span class="input__label-content input__label-content--yoshiko" data-content="Bird's Color">Bird's Color</span>
+                                    </label>
+                                </span>
+                                <span class="input input--yoshiko">
+                                    <input class="input__field input__field--yoshiko" type="text" id="input-11">
+                                    <label class="input__label input__label--yoshiko" for="input-11">
+                                        <span class="input__label-content input__label-content--yoshiko" data-content="Wing Span">Wing Span</span>
+                                    </label>
+                                </span>
+                                <span class="input input--yoshiko">
+                                    <input class="input__field input__field--yoshiko" type="text" id="input-12">
+                                    <label class="input__label input__label--yoshiko" for="input-12">
+                                        <span class="input__label-content input__label-content--yoshiko" data-content="Beak Length">Beak Length</span>
+                                    </label>
+
+
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name">menu8<span class="required">*</span></label>
+                                            <span class="name-missing"></span>
+                                            @Html.TextBoxFor(m => m.FromName, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.FromName)
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="e-mail">email1<span class="required">*</span></label>
+                                            @Html.TextBoxFor(m => m.FromEmail, new { @class = "form-control" })
+                                            @Html.ValidationMessageFor(m => m.FromEmail)
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group userMessage">
+                                        <label for="name">SubmitMessage<span class="required">*</span></label>
+                                      
+                                    </div>
+                                </div>-->
+                                <div class="col-md-6" style="margin-left:20px;">
+                                    <div class="form-group">
+                                        <label for="name" style="float:left;font-size:12px;">@DSL.Resources.Resource.CareerFormUpload<span class="required">*</span></label><br />
+                                        <div class="col-md-12" style="padding:0">
+                                            <input type="file" name="upload" value="CareerChoose" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 20px">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-default" value="@DSL.Resources.Resource.CareerFormButtonSend" />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 sm-margin-b-50">
+                <div class="wow fadeInUp animated" data-wow-duration=".3" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <h3 class="color-red" style="color:#737373;font-size:14px;margin-top:13.5px"><span class="text-uppercase margin-l-0 span-fx color-blue" style="font-size:16px!important;font-weight:500!important;">
+                        @DSL.Resources.Resource.CareerManagerName</span>@DSL.Resources.Resource.CareerManagerPosition</h3>
+                    <hr />
+                    <p style="text-indent:0;"></p>
+                    <ul class="list-unstyled contact-list">
+                        <li class="footer-list-item" style="font-size:16px;margin-bottom:4px;"><a href="tel:+77010321050" class="footer-list-link fweight-300" style="font-size:16px;"><i class="fa fa-mobile-phone" style="font-size: 18px;"></i> &nbsp;  +7-701-032-10-50</a></li>
+                        <li class="footer-list-item" style="font-size:16px;margin-bottom:4px;"><a href="mailto:Zharas.Akkulov@dslcaspian.com" class="footer-list-link fweight-300" style="font-size:16px;"><i class="fa fa-envelope" style="font-size: 16px;"></i>&nbsp;  Zharas.Akkulov@dslcaspian.com </a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".3s">
+                    <h3 class="color-red">
+                    @DSL.Resources.Resource.ContactCity1<span class="text-uppercase margin-l-20 span-fx color-blue">@DSL.Resources.Resource.CareerAdressSubtitle1</span></h3>
+                    <hr />
+                    <p style="text-indent:0;"></p>
+                    <ul class="list-unstyled contact-list">
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-building"></i> &nbsp;  @DSL.Resources.Resource.FooterAtyrauAddress1</p></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;padding-left:18px;"> &nbsp;  @DSL.Resources.Resource.FooterAtyrauAddress2</p></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="tel:+77122763747" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-phone"></i> &nbsp;  +7-7122-76-37-47</a></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="mailto:Akmaral.juldybayeva@dslcaspian.com" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-envelope"></i>&nbsp;  akmaral.juldybayeva@dslcaspian.com</a></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-share-square"></i> &nbsp;  @DSL.Resources.Resource.FooterAtyrauCredentials</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 sm-margin-b-50">
+                <div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".3s">
+                    <h3 class="color-red">
+                    @DSL.Resources.Resource.ContactCity2<span class="text-uppercase margin-l-20 span-fx color-blue">@DSL.Resources.Resource.CareerAdressSubtitle2</span></h3>
+                    <hr />
+                    <p style="text-indent:0;"></p>
+                    <ul class="list-unstyled contact-list">
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-building"></i> &nbsp;  @DSL.Resources.Resource.FooterAktauAddress1</p></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;padding-left:18px;"> &nbsp; @DSL.Resources.Resource.FooterAktauAddress2</p></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="tel:+77292201143" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-phone"></i> &nbsp;  +7-7292-20-11-43</a></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="mailto:Nazym.kanabayeva@dslcaspian.com " class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-envelope"></i>&nbsp;  nazym.kanabayeva@dslcaspian.com </a></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-share-square"></i> &nbsp;  @DSL.Resources.Resource.FooterAktauCredentials</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- End Contact List -->
+            <!-- Contact List -->
+            
+            <!--<div class="wow fadeInRight" data-wow-duration=".3" data-wow-delay=".3s">
+                <input type="text" class="form-control footer-input margin-b-20" placeholder="Name" required="" style="width:350px;">
+                <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required="" style="width:350px;">
+                <input type="text" class="form-control footer-input margin-b-20" placeholder="Phone" required="" style="width:350px;">
+                <textarea class="form-control1 footer-input margin-b-30" rows="6" placeholder="Message" required="" style="width:350px;"></textarea>
+                <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase" style="text-indent:0;">Send</button>
+            </div>
+            </div>-->
+            <!-- End Contact List -->
+        </div>
+        <!--// end row -->
+    </div>
+</div>
+<!-- End Contact List -->

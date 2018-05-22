@@ -1,0 +1,695 @@
+﻿@{
+    ViewBag.Title = DSL.Resources.Resource.LayoutMenuHome;
+}
+<div id="mogo-header" >
+    <div id="mogo-header-inner">
+        <div id="mogo-slider" class="carousel slide container" data-ride="carousel">
+            <div class="carousel-inner" role="listbox" style="text-shadow: rgb(0, 0, 0) 1px 3px 5px;">
+                <div class="item active">
+                    <h3 class="mogo-slider-title">
+                        @DSL.Resources.Resource.HomeSliderSlide0H3 <!-- Title of Text slider -->
+                        <span class="mogo-slider-sub">
+                            @DSL.Resources.Resource.HomeSliderSlide0H3Span0<!--Subtitle for Text slider-->
+                        </span>
+                    </h3>
+                    <div style="margin-right:55%;margin-top:30px;" class="slider-btns">
+                        <a href="@Url.Action("contacts", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms" style=" ">@DSL.Resources.Resource.SliderContactButton</div>
+                        </a>
+                        <a href="@Url.Action("services", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-red-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" style=" ">@DSL.Resources.Resource.SliderServicesButton</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="mogo-slider-title">
+                        @DSL.Resources.Resource.HomeSliderSlide1H3 <!-- Title of Text slider -->
+                        <span class="mogo-slider-sub">
+                            @DSL.Resources.Resource.HomeSliderSlide1H3Span1<br />@DSL.Resources.Resource.HomeSliderSlide1H3Span2 <!--Subtitle for Text slider-->
+                        </span>
+                    </h3>
+                    <div style="margin-right:55%;margin-top:30px;" class="slider-btns">
+                        <a href="@Url.Action("contacts", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms" style=" ">@DSL.Resources.Resource.SliderContactButton</div>
+                        </a>
+                        <a href="@Url.Action("services", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-red-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" style=" ">@DSL.Resources.Resource.SliderServicesButton</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="mogo-slider-title">
+                        @DSL.Resources.Resource.HomeSliderSlide2H3 <!-- Title of Text slider -->
+                        <span class="mogo-slider-sub">
+                            @DSL.Resources.Resource.HomeSliderSlide2H3Span <!--Subtitle for Text slider-->
+                        </span>
+                    </h3>
+                    <div style="margin-right:55%;margin-top:30px;" class="slider-btns">
+                        <a href="@Url.Action("About", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms" style=" ">@DSL.Resources.Resource.SliderAboutButton</div>
+                        </a>
+                        <a href="@Url.Action("HSEQ", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-red-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" style=" ">@DSL.Resources.Resource.SliderSHEQButton</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="mogo-slider-title">
+                        @DSL.Resources.Resource.HomeSliderSlide3H3
+                        <span class="mogo-slider-sub">
+                            @DSL.Resources.Resource.HomeSliderSlide3H3Span
+                        </span>
+                    </h3>
+                    <div style="margin-right:55%;margin-top:30px;" class="slider-btns">
+                        <a href="@Url.Action("Procurement", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-red-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms" style=" ">@DSL.Resources.Resource.SliderMoreButton</div>
+                        </a>
+                        <a href="@Url.Action("contacts", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" style=" ">@DSL.Resources.Resource.SliderContactButton</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h3 class="mogo-slider-title">
+                        @DSL.Resources.Resource.HomeSliderSlide4H3 <!-- Title of Text slider -->
+                        <span class="mogo-slider-sub">
+                            @DSL.Resources.Resource.HomeSliderSlide4H3Span <!--Subtitle for Text slider-->
+                        </span>
+                    </h3>
+                    <div style="margin-right:55%;margin-top:30px;" class="slider-btns">
+                        <a href="@Url.Action("Training", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1000ms" style=" ">@DSL.Resources.Resource.SliderMoreButton</div>
+                        </a>
+                        <a href="@Url.Action("Career", "Home")">
+                            <div class="btn-theme btn-theme-sm btn-red-brd text-uppercase wow fadeInDown animated" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" style=" ">@DSL.Resources.Resource.SliderCareerButton</div>
+                        </a>
+                    </div>
+
+                </div>
+                <a href="@Url.Action("HSEQ","home")" class="slider-ll">
+                    <img src="~/Images/Icons/IRATA.png" class="img-responsive" width="240" height="160" style="opacity:0.8;" />
+                </a>
+            </div>
+            <div class="static-text">
+            <h2 style="text-shadow: rgb(0, 0, 0) 1px 3px 5px;">@DSL.Resources.Resource.SliderStaticTextH2</h2>
+            <h4 style="color:white;text-shadow: rgb(0, 0, 0) 1px 3px 5px;">
+                @DSL.Resources.Resource.SliderStaticTextH3part1 <a class="slider-static-link" href="@Url.Action("HSEQ", "Home")"> @DSL.Resources.Resource.SliderStaticlink</a> @DSL.Resources.Resource.SliderStaticTextH3part2
+        </h4>
+        </div>
+            <ul class="carousel-indicators clearfix">
+                <li data-target="#mogo-slider" data-slide-to="0" class="active">
+                    <div class="inner">
+                        <span class="number">01</span>
+                    </div>
+                </li>
+                <li data-target="#mogo-slider" data-slide-to="1">
+                    <div class="inner">
+                        <span class="number">02</span>
+                    </div>
+                </li>
+                <li data-target="#mogo-slider" data-slide-to="2">
+                    <div class="inner">
+                        <span class="number">03</span>
+                    </div>
+                </li>
+                <li data-target="#mogo-slider" data-slide-to="3">
+                    <div class="inner">
+                        <span class="number">04</span>
+                    </div>
+                </li>
+                <li data-target="#mogo-slider" data-slide-to="4">
+                    <div class="inner">
+                        <span class="number">05</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bg-color-sky-light" data-auto-height="true" style="margin-bottom:30px">
+    <div class="content-lg container" style="padding-bottom:0;padding-top:20px;">
+        <div class="row row-space-1 margin-b-2 wow fadeInDown animated" style="visibility:visible; animation-name: fadeInDown;">
+            <h3 class="color-red" style="text-align: center;">@DSL.Resources.Resource.HomeWelcomeTitle</h3>
+            <hr style="margin-top:0;" />
+            <div class="col-sm-10 col-sm-offset-1">
+                <p class="margin-b-40 text-center wow fadeInDown animated fweight-400" style="visibility:visible; animation-name: fadeInDown;text-align:center;font-size:16px;">
+                   @DSL.Resources.Resource.HomeWelcomeText
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="features">
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 800ms; animation-name: fadeInDown;padding:0;">
+                    <div id="portfolio11" class="portfolio-2">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="@Url.Action("Scaffolding", "Home")">
+                                        <img src="~/Images/970x647/Scaf.jpg" class="img-responsive img-s" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="@Url.Action("Scaffolding", "Home")">
+                                    <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitleScaf</h5>
+                                    <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextScaf</p>
+                                </a>
+                                <a href="@Url.Action("Scaffolding", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 800ms; animation-name: fadeInDown;padding:0;">
+                    <div id="portfolio11" class="portfolio-2">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="@Url.Action("Rope_access", "Home")">
+                                        <img src="~/Images/970x647/RA.jpg" class="img-responsive img-s" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="@Url.Action("Rope_access", "Home")">
+                                    <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitleRP</h5>
+                                    <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextRP<br /></p>
+                                </a>
+                                <a href="@Url.Action("Rope_access", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1400ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 800ms; animation-name: fadeInDown;padding:0;">
+                    <div id="portfolio11" class="portfolio-2">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="@Url.Action("Industrial_cleaning", "Home")">
+                                        <img src="~/Images/970x647/IC.jpg" class="img-responsive img-s" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="@Url.Action("Industrial_cleaning", "Home")">
+                                    <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitleIC</h5>
+                                    <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextIC<br /><br /></p>
+                                </a>
+                                <a href="@Url.Action("Industrial_cleaning", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1800ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 900ms; animation-name: fadeInDown;padding:0;">
+                <div id="portfolio11" class="portfolio-2">
+                    <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <a href="@Url.Action("Insulation", "Home")">
+                                    <img src="~/Images/970x647/Insl.jpg" class="img-responsive img-s" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <a href="@Url.Action("Insulation", "Home")">
+                                <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitleInsl</h5>
+                                <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextInsl</p>
+                            </a>
+                            <a href="@Url.Action("Insulation", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="2200ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: fadeInDown;padding:0;">
+                <div id="portfolio11" class="portfolio-2">
+                    <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <a href="@Url.Action("Fire_protection", "Home")">
+                                    <img src="~/Images/970x647/FP.jpg" class="img-responsive img-s" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <a href="@Url.Action("Fire_protection", "Home")">
+                                <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitleFP</h5>
+                                <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextFP<br /></p>
+                            </a>
+                            <a href="@Url.Action("Fire_protection", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="2600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1200ms; animation-name: fadeInDown; margin-bottom:0;padding:0;">
+                <div id="portfolio11" class="portfolio-2">
+                    <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <a href="@Url.Action("Protective_coating", "Home")">
+                                    <img src="~/Images/970x647/PC.jpg" class="img-responsive img-s" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <a href="@Url.Action("Protective_coating", "Home")">
+                                <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitlePC</h5>
+                                <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextPC</p>
+                            </a>
+                            <a href="@Url.Action("Protective_coating", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="3000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1200ms; animation-name: fadeInDown; margin-bottom:0;padding:0;">
+                <div id="portfolio11" class="portfolio-2">
+                    <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <a href="@Url.Action("Procurement", "Home")">
+                                    <img src="~/Images/970x647/Dist.jpg" class="img-responsive img-s" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <a href="@Url.Action("Procurement", "Home")">
+                                <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitleProc</h5>
+                                <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextProc</p>
+                            </a>
+                            <a href="@Url.Action("Procurement", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="3400ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1200ms; animation-name: fadeInDown; margin-bottom:0;padding:0;">
+                <div id="portfolio11" class="portfolio-2">
+                    <div class="portfolio-border">
+                        <div class="portfolio-thumb">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <a href="@Url.Action("Training", "Home")">
+                                    <img src="~/Images/970x647/Tr.jpg" class="img-responsive img-s" alt="..." />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="portfolio-details">
+                            <a href="@Url.Action("Training", "Home")">
+                                <h5 class="color-red fweight-400" style="margin-left:10px;margin-top:15px;">@DSL.Resources.Resource.HomeServiceTitleTrain</h5>
+                                <p style="margin-left:10px;">@DSL.Resources.Resource.HomeServiceTextTrain</p>
+                            </a>
+                            <a href="@Url.Action("Training", "Home")" class="text-center color-blue View-link view-margin">@DSL.Resources.Resource.HomeServiceLinkMore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Parallax -->
+<div class="container-full-width">
+    <div class="js__parallax-window" style="background: url('../../Images/1920x1080/parallax.jpg') 0% 0 no-repeat fixed; background-position: 0%;">
+        <div class="parallax-content container">
+            <div class="bode">
+                <p2 class="color-white text-center" style="text-shadow: 0px 1px 10px #040404;width:100%;">@DSL.Resources.Resource.HomeTextCarouselTitle</p2>
+                <b class="text-center">
+                    <span1>
+                        @DSL.Resources.Resource.HomeTextCarousel1<br />
+                        @DSL.Resources.Resource.HomeTextCarousel2<br />
+                        @DSL.Resources.Resource.HomeTextCarousel3<br />
+                        @DSL.Resources.Resource.HomeTextCarousel4<br />
+                        @DSL.Resources.Resource.HomeTextCarousel5
+                    </span1>
+                </b>
+                <br /><p class="color-white text-center" style="text-shadow:0px 1px 10px #040404;font-size:40px;width:100%">@DSL.Resources.Resource.HomeTextCarouselTitle2</p>
+                <div class="text-center">
+                    <a href="@Url.Action("contacts", "Home")">
+                        <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase wow fadeInDown animated text-center" data-animation="fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" style=" ">@DSL.Resources.Resource.SliderContactButton</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container margin-b-0" style="margin-top:30px;">
+    <div class="counter">
+        <div class="container" style="margin-left:6.5%;">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+                    <a href="@Url.Action("About","Home")">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="counter-count1" style=" animation-delay: 2s;"><i class="fa fa-users"></i></p>
+                        </div>
+                        <div class="col-md-9 col-sm-6" style="padding-top:7px;">
+                            <p class="counter-count" style=" animation-delay: 2s;margin-bottom:0;">1000</p>
+                            <p class="employee-p" style=" ">@DSL.Resources.Resource.HomeCountersTitle1</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1000ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1000ms; animation-name: fadeInDown;">
+                    <a href="@Url.Action("About","Home")">
+                        <div class="col-sm-3">
+                            <p class="counter-count1" style=" animation-duration: 2s; animation-iteration-count:infinite;"><i class="fa fa-wrench"></i></p>
+                        </div>
+                        <div class="col-sm-9" style="padding-top:7px;">
+                            <p class="counter-count" style=" animation-delay: 2s;margin-bottom:0;">3250</p>
+                            <p class="design-p" style=" ">@DSL.Resources.Resource.HomeCountersTitle2</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="800ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 800ms; animation-name: fadeInDown;">
+
+                    <a href="@Url.Action("About","Home")">
+                        <div class="col-sm-3">
+                            <p class="counter-count1"><i class="fa fa-check-square"></i></p>
+                        </div>
+                        <div class="col-sm-9" style="padding-top:7px;">
+
+                            <p class="counter-count" style=" animation-delay: 2s;margin-bottom:0;">60</p>
+                            <p class="customer-p" style=" ">@DSL.Resources.Resource.HomeCountersTitle3</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1200ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1200ms; animation-name: fadeInDown;">
+                    <a href="@Url.Action("About","Home")">
+                        <div class="col-sm-3">
+                            <p class="counter-count1" style=" animation-delay: 2s;"><i class="fa fa-line-chart"></i></p>
+                        </div>
+                        <div class="col-sm-9" style="padding-top:7px;">
+                            <p class="counter-count" style=" animation-delay: 2s;margin-bottom:0;">17</p>
+                            <p class="order-p" style=" ">@DSL.Resources.Resource.HomeCountersTitle4</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="1600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 1200ms; animation-name: fadeInDown;">
+                    <a href="@Url.Action("About","Home")">
+                        <div class="col-sm-3">
+                            <p class="counter-count1" style=" animation-delay: 2s;"><i class="fa fa-thumbs-up"></i></p>
+                        </div>
+                        <div class="col-sm-7" style="padding-top:7px;">
+                            <p class="counter-count" style=" animation-delay: 2s;margin-bottom:0;">505407</p>
+                            <p class="order-p" style=" ">@DSL.Resources.Resource.HomeCountersTitle5</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-color-sky-light overflow-h">
+    <div class="content-lg container" style="padding-bottom:20px;padding-top:20px;">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="color-red text-center">@DSL.Resources.Resource.HomeProjectsSectionTitle</h3>
+                <hr style="margin-top:0;" />
+            </div>
+        </div>
+        <div class="swiper-slider swiper-projects">
+            <div class="swiper-button-prev fa fa-arrow-circle-o-left"></div>
+            <div class="swiper-button-next fa fa-arrow-circle-o-right"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/KPO-1.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">@DSL.Resources.Resource.HomeProjectTitle1 <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">@DSL.Resources.Resource.HomeProjectSubtitle1 </span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style=" ">@DSL.Resources.Resource.HomeProjectText1</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/NCOC.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">@DSL.Resources.Resource.HomeProjectTitle2<span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">@DSL.Resources.Resource.HomeProjectSubtitle2</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style=" ">@DSL.Resources.Resource.HomeProjectText2</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/NCPOC.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">@DSL.Resources.Resource.HomeProjectTitle3<span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">@DSL.Resources.Resource.HomeProjectSubtitle3
+                              </span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style=" ">@DSL.Resources.Resource.HomeProjectText3</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/Tengiz-TCO.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">@DSL.Resources.Resource.HomeProjectTitle4
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                            @DSL.Resources.Resource.HomeProjectSubtitle4
+                        </span>
+                        </h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">@DSL.Resources.Resource.HomeProjectText4
+                        </p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/sicim-demo.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">@DSL.Resources.Resource.HomeProjectTitle5
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                         @DSL.Resources.Resource.HomeProjectSubtitle5</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText5</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/ErSai1.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">
+                        @DSL.Resources.Resource.HomeProjectTitle6
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                         @DSL.Resources.Resource.HomeProjectSubtitle6</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                       @DSL.Resources.Resource.HomeProjectText6</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/ErSai2.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">
+                        @DSL.Resources.Resource.HomeProjectTitle7
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                        @DSL.Resources.Resource.HomeProjectSubtitle7</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText7</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/ErSai3.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">
+                         @DSL.Resources.Resource.HomeProjectTitle8
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                         @DSL.Resources.Resource.HomeProjectSubtitle8</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText8</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/ErSai4.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">
+                        @DSL.Resources.Resource.HomeProjectTitle9
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                        @DSL.Resources.Resource.HomeProjectSubtitle9</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText9</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/PSNK.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">
+                        @DSL.Resources.Resource.HomeProjectTitle10
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                        @DSL.Resources.Resource.HomeProjectSubtitle10</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText10</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/KCOI.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red margin-b-0">
+                        @DSL.Resources.Resource.HomeProjectTitle11 
+                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                        @DSL.Resources.Resource.HomeProjectSubtitle11</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText11</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/Sicim_teng.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red">
+                        @DSL.Resources.Resource.HomeProjectTitle12 
+                        <span class="text-uppercase span-fx margin-l-10 color-blue">
+                            @DSL.Resources.Resource.HomeProjectSubtitle12</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText12</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/KCOI2.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red">
+                            @DSL.Resources.Resource.HomeProjectTitle13
+                        <span class="text-uppercase span-fx margin-l-10 color-blue">
+                        @DSL.Resources.Resource.HomeProjectSubtitle13</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText13</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/UNEX.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red">
+                        @DSL.Resources.Resource.HomeProjectTitle14 <span class="text-uppercase span-fx margin-l-10 color-blue">
+                            @DSL.Resources.Resource.HomeProjectSubtitle14</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText14</p>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/FLEX.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red">
+                        @DSL.Resources.Resource.HomeProjectTitle15 <span class="text-uppercase span-fx margin-l-10 color-blue">
+                            @DSL.Resources.Resource.HomeProjectSubtitle15</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText15</p>
+
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <div class="margin-b-20">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <img src="~/Images/970x647/ISKER.jpg" class="img-responsive" alt="..." />
+                        </a>
+                    </div>
+                    <a href="@Url.Action("Projects", "Home")">
+                        <h4 class="color-red">
+                        @DSL.Resources.Resource.HomeProjectTitle16<span class="text-uppercase span-fx margin-l-10 color-blue">
+                            @DSL.Resources.Resource.HomeProjectSubtitle16</span></h4>
+                        <hr style="margin-top:0;" />
+                        <p style="text-indent:0;">
+                        @DSL.Resources.Resource.HomeProjectText16</p>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-color-sky-light">
+    <div class="content-lg container" style="padding-top:0;">
+        <h3 class="sm-margin-b-30 color-red" style="text-align:center;">@DSL.Resources.Resource.HomeClientsSliderTitle</h3>
+        <hr style="margin-top:0;" />
+        <div class="swiper-slider swiper-clients">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/01.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/02.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/04.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/05.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/06.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/07.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/08.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/09.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/10.png" alt="Clients Logo">
+                </div>
+                <div class="swiper-slide">
+                    <img class="swiper-clients-img" src="~/Images/clients/11.png" alt="Clients Logo">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

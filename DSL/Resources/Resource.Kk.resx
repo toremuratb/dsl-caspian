@@ -1,0 +1,1671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About1SectionText1" xml:space="preserve">
+    <value> ядролық, энергетикалық, мұнай және газ, теңіз және мұнай-химия секілді түрлі салалардағы компаниялар үшін жоғары сапалы, инновациялық, өнеркәсіптік шешімдерді ұсынамыз. Компания 2012 жылы </value>
+  </data>
+  <data name="About1SectionText2" xml:space="preserve">
+    <value>компанияның филиалы</value>
+  </data>
+  <data name="About1SectionText3" xml:space="preserve">
+    <value>әлемдік деңгейдегі көп салалы индустриялық шешімдерді ұсынатын нарық көшбасшысы бастамасымен құрылды. Біздің тәжірибеміз, техникалық біліміміз, коммерциялық мүмкіндіктеріміз және қол жеткізуге деген ұмтылысымыз біздің клиенттеріміздің өсіп-өркендеуіне көмектеседі.</value>
+  </data>
+  <data name="About1SectionText4" xml:space="preserve">
+    <value>Біз қысқа мерзімде күрделі жобаларды сәтті іске асыруда ерекше тәжірибеміз бар. Біз барлық күш-жігерімізде тиімділікке баса назар аударамыз. Біздің жетекші мамандар командасы міндеттерге сәйкес мерзімдерді сақтауды қамтамасыз етеді және жобалар жоғары стандарттар бойынша жүзеге асырылады.</value>
+  </data>
+  <data name="About1SectionText5" xml:space="preserve">
+    <value>50% қазақстандық компания болып табылады және қазақстандық жұмыс күшінің 97% құрайды. Біздің компаниямызда жобалардың кең ауқымы бойынша жұмыс істейтін шамамен 1000 қызметкер бар. Біздің философия - үздік мамандарды жалдау, қызметкерлерді дамыту және оларды оқыту, технологиялар мен инвестициялар туралы білім беру арқылы үнемі біздің команданы жетілдіруге және дамытуға тырысу.</value>
+  </data>
+  <data name="About1SectionTextAnd" xml:space="preserve">
+    <value>және</value>
+  </data>
+  <data name="About1SectionTextSpan" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="About1SectionTextSpan1" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="About1SectionTitle" xml:space="preserve">
+    <value>DSL Caspian-ға қош келдіңіз</value>
+  </data>
+  <data name="About2SectionText1" xml:space="preserve">
+    <value>Біз жергілікті команданы ұлғайтуға және жұмыс істейтін барлық аймақтарда жергілікті мамандардың дамуына ықпал етуге тырысамыз. Біз осы міндеттемені Қазақстанда, біздің халқымызға, клиенттерімізге және серіктестерімізге жүйелі түрде енгіздік.</value>
+  </data>
+  <data name="About2SectionText2" xml:space="preserve">
+    <value>Біздің Қазақстандағы толтыру бағдарламасында үш негізгі бағыт бар</value>
+  </data>
+  <data name="About2SectionText3" xml:space="preserve">
+    <value>Ұлттық кадрларды барынша жұмыспен қамту</value>
+  </data>
+  <data name="About2SectionText4" xml:space="preserve">
+    <value>Жергілікті қызметкерлерді оқыту және дамыту</value>
+  </data>
+  <data name="About2SectionText5" xml:space="preserve">
+    <value>Жергілікті жеткізушілерді, мердігерлерді және әріптестерді барынша тарту</value>
+  </data>
+  <data name="About2SectionTitle" xml:space="preserve">
+    <value>Қазақстандық Қамту Бағдарламасы</value>
+  </data>
+  <data name="About3SectionText1" xml:space="preserve">
+    <value>Біздің көзқарасымыз - біздің өнеркәсібімізде мұнай сервисінің жетекші жеткізушісі ретінде танылу. Ол үшін біз:</value>
+  </data>
+  <data name="About3SectionText2" xml:space="preserve">
+    <value>Үздік қызметкерлерді тартуға және сақтауға тырысамыз</value>
+  </data>
+  <data name="About3SectionText3" xml:space="preserve">
+    <value>Олардың қауіпсіздігінің барлық өлшемдерін орындауға тырысамыз</value>
+  </data>
+  <data name="About3SectionText4" xml:space="preserve">
+    <value>Біз нарықта жетекші қызметті қамтамасыз етуге тырысамыз</value>
+  </data>
+  <data name="About3SectionText5" xml:space="preserve">
+    <value>Клиенттердің күтулерінен асып кетуге тырысамыз</value>
+  </data>
+  <data name="About3SectionTitle" xml:space="preserve">
+    <value>Біздің Көзқарасымыз</value>
+  </data>
+  <data name="AboutBannerText" xml:space="preserve">
+    <value>Инновациялық және Сенімді Өнеркәсіптік Шешімдер</value>
+  </data>
+  <data name="AboutBannerTitle" xml:space="preserve">
+    <value>Біз Туралы</value>
+  </data>
+  <data name="AboutCustomerReviewTitle" xml:space="preserve">
+    <value>Клиенттердің пікірлері</value>
+  </data>
+  <data name="AboutFounder1" xml:space="preserve">
+    <value>Қасым Абжанов, негізін қалаушы, директорлар кеңесінің мүшесі</value>
+  </data>
+  <data name="AboutFounder2" xml:space="preserve">
+    <value>Рассел Бест, Директорлар кеңесінің мүшесі</value>
+  </data>
+  <data name="AboutReview1Company" xml:space="preserve">
+    <value>ErSai</value>
+  </data>
+  <data name="AboutReview1Text1" xml:space="preserve">
+    <value>DSL Caspian - Құрық, Қарабатан және Қашаған жобаларымыз бойынша жер үсті дайындау, бояу, өнеркәсіптік өрмелеу, оқшаулау және өртке қарсы қызметтер үшін ErSai Caspian Contractors компаниясының қосалқы мердігері.</value>
+  </data>
+  <data name="AboutReview1Text2" xml:space="preserve">
+    <value>Компанияның сатып алулар бөлімі мен тұтынушылармен жұмыс жөніндегі бөлімнің өкілі ретінде DSL Caspian компаниясын жобаларыңыздағы өнеркәсіптік қызметтер үшін ұсынамыз.</value>
+  </data>
+  <data name="AboutReview2Company" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="AboutReview2Text1" xml:space="preserve">
+    <value>Біз Қашаған жобасына өзіңіздің жеке құндылықтарыңызды еске аламыз.</value>
+  </data>
+  <data name="AboutReview2Text2" xml:space="preserve">
+    <value>Бұл күрделі жоба болды, бірақ сіздің командаларыңыздың деректемелерге үлкен көңіл бөлетіндігімен, сондай-ақ сапалы өнімді уақтылы шығаруды талап етпейтіндігі арқасында біздің міндеттерімізді орындау әлдеқайда жеңілірек болды.</value>
+  </data>
+  <data name="AboutReview2Text3" xml:space="preserve">
+    <value>Сіз біздің командаңыздың бір бөлігі екеніңізді мақтан тұтамыз және келесі жобаларға болашақ жарналарыңызды күтеміз.</value>
+  </data>
+  <data name="AboutReview3Company" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="AboutReview3Text1" xml:space="preserve">
+    <value>Жобаны бастау және теңіз операциялары департаменті Due Diligence жобасында қауіпсіздікті және қоршаған ортаны қорғау (ЕҚ, ҚТ және ҚОҚ) саласындағы қызметке қатысты өзінің кәсіби қарым-қатынасы мен өнімділігі үшін DSL Caspian компаниясына алғысын білдіреді.</value>
+  </data>
+  <data name="AboutReview3Text2" xml:space="preserve">
+    <value>DSL Каспий қызметкерлері ЕҚ, ҚТ және ҚОҚ ережелерін сақтады және D Island HSE жобасының жалпы жұмысына үлес қосты</value>
+  </data>
+  <data name="AboutReview4Company" xml:space="preserve">
+    <value>PSNK</value>
+  </data>
+  <data name="AboutReview4Text1" xml:space="preserve">
+    <value>DSL Caspian қазіргі уақытта Қарабатандағы және Қашағандағы біздің жобаларымызға беткі дайындық, кескіндеме, тікелей альпинизм, оқшаулау және пассивті өрт қауіпсіздігіне байланысты жұмыстар үшін PSNK-ның қосалқы мердігері болып табылатындығын растаймын.</value>
+  </data>
+  <data name="AboutReview4Text2" xml:space="preserve">
+    <value>DSL жұмысының нәтижелеріне сүйене отырып, DSL Caspian-ті болашақ индустриалдық сервистік жобаларға қарауға қымсынбадым</value>
+  </data>
+  <data name="AboutReview5Company" xml:space="preserve">
+    <value>Shell</value>
+  </data>
+  <data name="AboutReview5Text1" xml:space="preserve">
+    <value>DSL Caspian компаниясы сіз және сіздің қызметкерлеріңіз соңғы бірнеше ай ішінде Қашаған жобасындағы теңізде оқшаулауды жөндеу бағдарламасының аясында жасаған тамаша жұмысына қатысты.</value>
+  </data>
+  <data name="AboutReview5Text2" xml:space="preserve">
+    <value>Бұл өте қиын болды, бірақ барлық команданың оң көзқарасы, ЕҚ, ҚТ және ҚОҚ саласындағы жобалық тәжірибесі арқасында сапалы және кәсіби жұмыс жүргізілді.</value>
+  </data>
+  <data name="AboutReview5Text3" xml:space="preserve">
+    <value>Сіз және сіздің командаңыз осы жетістігімен мақтан тұтады.</value>
+  </data>
+  <data name="CareerAdressSubtitle1" xml:space="preserve">
+    <value>Бас Кеңсе</value>
+  </data>
+  <data name="CareerAdressSubtitle2" xml:space="preserve">
+    <value>Операция</value>
+  </data>
+  <data name="CareerBannerText" xml:space="preserve">
+    <value>Біз өз жұмысымыздың барлық өңірлерінде жергілікті топты жетілдіруге және дамытуға ұмтыламыз.</value>
+  </data>
+  <data name="CareerBannerTitle" xml:space="preserve">
+    <value>Мансап</value>
+  </data>
+  <data name="CareerFormButtonSend" xml:space="preserve">
+    <value>Жіберу</value>
+  </data>
+  <data name="CareerFormEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="CareerFormName" xml:space="preserve">
+    <value>Аты</value>
+  </data>
+  <data name="CareerFormTitle" xml:space="preserve">
+    <value>Өз Түйіндемеңізді Жіберіңіз</value>
+  </data>
+  <data name="CareerFormUpload" xml:space="preserve">
+    <value>Жүктеу</value>
+  </data>
+  <data name="CareerMainTitle" xml:space="preserve">
+    <value>Біздің команда сіздің дағдыларыңыз қажет</value>
+  </data>
+  <data name="CareerManagerName" xml:space="preserve">
+    <value>Жарас Аккулов</value>
+  </data>
+  <data name="CareerManagerPosition" xml:space="preserve">
+    <value>, HR/IR Менеджері</value>
+  </data>
+  <data name="CareerSection1Text1" xml:space="preserve">
+    <value>DSL Caspian-ның саясаты жергілікті қазақстандық машина жасау, менеджмент және жоғары кәсіби қызметкерлерді жалдау мәселелеріне бағытталады. Компанияның дамуы мен өсуіне назар аудару біздің жергілікті персоналды келесі стратегияларды қолдана отырып тарту, оқыту және дамыту болып табылады:</value>
+  </data>
+  <data name="CareerSection1Text1Li1" xml:space="preserve">
+    <value>DSL Caspian Қазақстанның азаматтарын жұмыспен қамтуды арттыру</value>
+  </data>
+  <data name="CareerSection1Text1Li2" xml:space="preserve">
+    <value>Білікті және тәжірибелі тіркеу қызметкерлерін белсенді тарту.</value>
+  </data>
+  <data name="CareerSection1Text1Li3" xml:space="preserve">
+    <value>Біз өз қызметкерлерімізді үздіксіз оқыту және тәлімгерлік арқылы көбейтеміз және қажет болған жағдайда шетелде арнайы курстар ұйымдастырамыз.</value>
+  </data>
+  <data name="CareerSection1Text1Li4" xml:space="preserve">
+    <value>Білікті түлектерді жалдауға жергілікті білім беру мекемелерімен ынтымақтастық.</value>
+  </data>
+  <data name="CareerSection1Text1Li5" xml:space="preserve">
+    <value>Клиенттермен бірлесіп, біздің мамандар даярлауды ұйымдастыру үшін жұмыс істеңіз.</value>
+  </data>
+  <data name="CareerSection1Text1Li6" xml:space="preserve">
+    <value>Жергілікті қызметкерлерді оқыту және оқыту үшін ресурстар мен ресурстарды қамтамасыз ету</value>
+  </data>
+  <data name="CareerSection2Title" xml:space="preserve">
+    <value>Мансаптар</value>
+  </data>
+  <data name="CareerVacancySubtitle1" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="CareerVacancySubtitle2" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="CareerVacancySubtitle3" xml:space="preserve">
+    <value>Өнеркәсіптік Альпинизм</value>
+  </data>
+  <data name="CareerVacancyTitle1" xml:space="preserve">
+    <value>Аға инженер</value>
+  </data>
+  <data name="CareerVacancyTitle2" xml:space="preserve">
+    <value>Оқшаулау жөніндегі маман</value>
+  </data>
+  <data name="CareerVacancyTitle3" xml:space="preserve">
+    <value>Өнеркәсіптік альпинизм бойынша маман</value>
+  </data>
+  <data name="Clean1SectionText1" xml:space="preserve">
+    <value>құрлықта және теңізде тазалау және дезинфекция қызметтерін ұсынады, негізінен мұнай-газ, мұнай-химия, ауыр өнеркәсіп, өндіріс және фармацевтика салаларында көгілдір-чипті тұтынушыларға қолдау көрсетеді. Біз жоғары қысымды су ағыны, жоғары жылдамдықтағы ауа ағыны және химиялық залалсыздандыру сияқты қауіпсіз өнеркәсіптік тазалау технологиясының кең спектрін қолданамыз.</value>
+  </data>
+  <data name="Clean1SectionText2" xml:space="preserve">
+    <value>Біз күн сайын еліміздегі ауыр өндірістік нысандарда өндірістік тазалау жұмыстарын жүргізіп жатырмыз.</value>
+  </data>
+  <data name="Clean1SectionTextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="Clean1SectionTextLi1" xml:space="preserve">
+    <value>Өндірістік Жабдықты Тазалау</value>
+  </data>
+  <data name="Clean1SectionTextLi2" xml:space="preserve">
+    <value>Шөгінділерді кешенді алып тастау.</value>
+  </data>
+  <data name="Clean1SectionTextLi3" xml:space="preserve">
+    <value>Құбырдың шкаласын алып тастау</value>
+  </data>
+  <data name="Clean1SectionTextLi4" xml:space="preserve">
+    <value>Танк тазалау және шөгінділерді жою.</value>
+  </data>
+  <data name="Clean1SectionTextLi5" xml:space="preserve">
+    <value>Қаптамаларды тазалау және беттерді дайындау.</value>
+  </data>
+  <data name="Clean1SectionTextLi6" xml:space="preserve">
+    <value>Ылғал және құрғақ материалдарды алу және ауыстыру</value>
+  </data>
+  <data name="Clean1SectionTextLi7" xml:space="preserve">
+    <value>Ауыр шөгінділерді, қылшықты немесе басқа тұтқыр материалдарды үлкен тереңдіктен алу, сондай-ақ оларды ұзақ қашықтыққа тасымалдау.</value>
+  </data>
+  <data name="Clean1SectionTitle" xml:space="preserve">
+    <value>Өндірістік Тазалау</value>
+  </data>
+  <data name="CleanBannerText" xml:space="preserve">
+    <value>Өндірістік тазалау және дезинфекциялау бойынша қызметтердің кең спектрін ұсынамыз.</value>
+  </data>
+  <data name="CleanBannerTitle" xml:space="preserve">
+    <value>Өндірістік Тазалау</value>
+  </data>
+  <data name="CleanChoose1" xml:space="preserve">
+    <value>Жер немесе Теңізде Тазалау</value>
+  </data>
+  <data name="CleanChoose2" xml:space="preserve">
+    <value>Барлық елде жұмыс істейді</value>
+  </data>
+  <data name="CleanChoose3" xml:space="preserve">
+    <value>Алдын-ала күтім жасау</value>
+  </data>
+  <data name="ContactBannerText1" xml:space="preserve">
+    <value>Сұрақтарығыз бар ма?</value>
+  </data>
+  <data name="ContactBannerText2" xml:space="preserve">
+    <value>Хабарды жіберу</value>
+  </data>
+  <data name="ContactBannerTitle" xml:space="preserve">
+    <value>Бізбен Байланысыңыз</value>
+  </data>
+  <data name="ContactCity1" xml:space="preserve">
+    <value>Атырау</value>
+  </data>
+  <data name="ContactCity2" xml:space="preserve">
+    <value>Ақтау</value>
+  </data>
+  <data name="ContactFormButton" xml:space="preserve">
+    <value>Жіберу</value>
+  </data>
+  <data name="ContactFormCName" xml:space="preserve">
+    <value>Компанияның атауы</value>
+  </data>
+  <data name="ContactFormEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="ContactFormMessage" xml:space="preserve">
+    <value>Хабарлама</value>
+  </data>
+  <data name="ContactFormName" xml:space="preserve">
+    <value>Атауы</value>
+  </data>
+  <data name="ContactFormPhone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="ContactMainTitle" xml:space="preserve">
+    <value>Бізбен Байланысыңыз</value>
+  </data>
+  <data name="DownloadOur" xml:space="preserve">
+    <value>Біздің брошюраны жүктеңіз</value>
+  </data>
+  <data name="FooterAktauAddress1" xml:space="preserve">
+    <value>Нұр Плаза Бизнес Орталығы,</value>
+  </data>
+  <data name="FooterAktauAddress2" xml:space="preserve">
+    <value>53 офис, 29а ықшам ауданы</value>
+  </data>
+  <data name="FooterAktauCredentials" xml:space="preserve">
+    <value>130000, Ақтау, Қазақстан</value>
+  </data>
+  <data name="FooterAtyrauAddress1" xml:space="preserve">
+    <value>Бахыт Бизнес Орталығы, 3 қабат</value>
+  </data>
+  <data name="FooterAtyrauAddress2" xml:space="preserve">
+    <value>12А Абая көшесі</value>
+  </data>
+  <data name="FooterAtyrauCredentials" xml:space="preserve">
+    <value>060002, Атырау, Қазақстан</value>
+  </data>
+  <data name="FooterCopyright" xml:space="preserve">
+    <value>Әзірленген</value>
+  </data>
+  <data name="FooterOfficeTitle1" xml:space="preserve">
+    <value>Атырау</value>
+  </data>
+  <data name="FooterOfficeTitle2" xml:space="preserve">
+    <value>Ақтау</value>
+  </data>
+  <data name="FooterPartners" xml:space="preserve">
+    <value>Біздің серіктестеріміз:</value>
+  </data>
+  <data name="FP1SectionText1" xml:space="preserve">
+    <value>көмірсутектерді өрт сөндіру жүйелері электр станциялары, атом энергетикасы объектілері, мұнай-химия, мұнай-газ және фармацевтикалық кәсіпорындар үшін жаңа құрылыс немесе жөндеу жұмыстарын жүргізу үшін болат конструкцияларын, цистерналарды, цистерналарды және салаларды салу бойынша жұмыс жүргізеді.</value>
+  </data>
+  <data name="FP1SectionText2" xml:space="preserve">
+    <value>Біз өртке қарсы қорғаныс қызметтерін ұсынамыз, соның ішінде өртке қарсы перделер мен өнеркәсіпте әртүрлі материалдар мен техникалық сипаттамалары бар жалпы ендірме жұмыстары. Біз Promat Fendolite, International Chartek, PPG Pitt-Char, Leigh's M90 Systems және Jota-Char лицензиялары бар.</value>
+  </data>
+  <data name="FP1SectionTextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="FP1SectionTitle" xml:space="preserve">
+    <value>Өрт Қауіпсіздігі</value>
+  </data>
+  <data name="FPBannerText" xml:space="preserve">
+    <value>Біздің ком- пания мұнай-газ кешендеріндегі көмірсутектерді өрттен қорғау саласында дәлелденген беделге ие.</value>
+  </data>
+  <data name="FPBannerTitle" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="FPChoose1" xml:space="preserve">
+    <value>Көмірсутекті өрттен қорғау.</value>
+  </data>
+  <data name="FPChoose2" xml:space="preserve">
+    <value>Иілгіш өрт қауіпсіздігі жүйесі</value>
+  </data>
+  <data name="FPChoose3" xml:space="preserve">
+    <value>Жақсартылған қауіпсіздік</value>
+  </data>
+  <data name="FPParallaxText" xml:space="preserve">
+    <value>Бизнесіңізді Қорғаймыз</value>
+  </data>
+  <data name="HomeClientsSliderTitle" xml:space="preserve">
+    <value>Клиенттеріміз</value>
+  </data>
+  <data name="HomeCountersTitle1" xml:space="preserve">
+    <value>Қызметкерлер</value>
+  </data>
+  <data name="HomeCountersTitle2" xml:space="preserve">
+    <value>Теңізде сағаттар</value>
+  </data>
+  <data name="HomeCountersTitle3" xml:space="preserve">
+    <value>Аяқталған жобалар</value>
+  </data>
+  <data name="HomeCountersTitle4" xml:space="preserve">
+    <value>Ағымдағы жобалар</value>
+  </data>
+  <data name="HomeCountersTitle5" xml:space="preserve">
+    <value>Оқысыз сағаттары</value>
+  </data>
+  <data name="HomeProjectsSectionTitle" xml:space="preserve">
+    <value>Соңғы жобалар</value>
+  </data>
+  <data name="HomeProjectSubtitle1" xml:space="preserve">
+    <value>Ақсай</value>
+  </data>
+  <data name="HomeProjectSubtitle10" xml:space="preserve">
+    <value>Қарабатан</value>
+  </data>
+  <data name="HomeProjectSubtitle11" xml:space="preserve">
+    <value>Қарабатан</value>
+  </data>
+  <data name="HomeProjectSubtitle12" xml:space="preserve">
+    <value>Теңіз</value>
+  </data>
+  <data name="HomeProjectSubtitle13" xml:space="preserve">
+    <value>D мен А Аралдары</value>
+  </data>
+  <data name="HomeProjectSubtitle14" xml:space="preserve">
+    <value>Теңіз</value>
+  </data>
+  <data name="HomeProjectSubtitle15" xml:space="preserve">
+    <value>D-Аралы</value>
+  </data>
+  <data name="HomeProjectSubtitle16" xml:space="preserve">
+    <value>EPC 2</value>
+  </data>
+  <data name="HomeProjectSubtitle2" xml:space="preserve">
+    <value>Қарабатан</value>
+  </data>
+  <data name="HomeProjectSubtitle3" xml:space="preserve">
+    <value>Теңіз жобасы Island "D"</value>
+  </data>
+  <data name="HomeProjectSubtitle4" xml:space="preserve">
+    <value>Теңіз</value>
+  </data>
+  <data name="HomeProjectSubtitle5" xml:space="preserve">
+    <value>Теңіз</value>
+  </data>
+  <data name="HomeProjectSubtitle6" xml:space="preserve">
+    <value>Құрық</value>
+  </data>
+  <data name="HomeProjectSubtitle7" xml:space="preserve">
+    <value>Құрық</value>
+  </data>
+  <data name="HomeProjectSubtitle8" xml:space="preserve">
+    <value>Қарабатан</value>
+  </data>
+  <data name="HomeProjectSubtitle9" xml:space="preserve">
+    <value>Теңіз жобасы Island "D"</value>
+  </data>
+  <data name="HomeProjectText1" xml:space="preserve">
+    <value>Жобаның көлемі: Құрылыс салаптары, PFP, оқшаулау, беттік дайындау</value>
+  </data>
+  <data name="HomeProjectText10" xml:space="preserve">
+    <value>Жалпы техникалық қызмет көрсету, зауытты жаңғырту. Қолдану аясы: Оқшаулау, PFP, Құрылыс Салаптары, Қорғасын жабу, Өнеркәсіптік өрмелеу</value>
+  </data>
+  <data name="HomeProjectText11" xml:space="preserve">
+    <value>Жалпы техникалық қызмет көрсету, зауытты жаңғырту. Қолдану аясы: Оқшаулау, PFP, Құрылыс Салаптары, Қорғасын жабу, Өнеркәсіптік өрмелеу</value>
+  </data>
+  <data name="HomeProjectText12" xml:space="preserve">
+    <value>SG / SGE аймағында PFP шашырауымен ТШО-ның ККЖ аймағында FBE жабындысын қолдану.</value>
+  </data>
+  <data name="HomeProjectText13" xml:space="preserve">
+    <value>Қосқышты іске қосу үшін бояу, өрт қауіпсіздігін қамтамасыз ету және D &amp; A аралдарына арналған материалдарды жеткізу.</value>
+  </data>
+  <data name="HomeProjectText14" xml:space="preserve">
+    <value>Теңіз Прорва аулына жұмыс күшін, материалдарды және орман төсеніштерін ұсыну</value>
+  </data>
+  <data name="HomeProjectText15" xml:space="preserve">
+    <value>Off-shore D-Island объектісінде PFP және жылу алынбалы қаптамаларды орнату үшін жұмыспен қамту қызметтерін, өнеркәсіптік альпинизммен қамтамасыз ету</value>
+  </data>
+  <data name="HomeProjectText16" xml:space="preserve">
+    <value>«EPC-2 жобасын растау» жобасында құрылысы салаптарым салу, бояу және оқшаулау бойынша жұмыстар</value>
+  </data>
+  <data name="HomeProjectText2" xml:space="preserve">
+    <value>Жобаның іске асуы: Құрылыс салаптары, PFP, өнеркәсіптік өрмелеу, оқшаулау, беттерді дайындау.</value>
+  </data>
+  <data name="HomeProjectText3" xml:space="preserve">
+    <value>Жобаның іске асуы: Құрылыс салаптары, PFP, өнеркәсіптік өрмелеу, оқшаулау, беттерді дайындау.</value>
+  </data>
+  <data name="HomeProjectText4" xml:space="preserve">
+    <value>Жобаның көлемі: Құрылыс салаптары, PFP, оқшаулау, беттік дайындау</value>
+  </data>
+  <data name="HomeProjectText5" xml:space="preserve">
+    <value>Жалпы күтім. Қолдану аясы: оқшаулау, Құрылыс Салаптары</value>
+  </data>
+  <data name="HomeProjectText6" xml:space="preserve">
+    <value>Jack-Up бұрғылау қондырғысын салу. Қолдану аясы: оқшаулау, PFP, Құрылыс салаптары, қорғаныш жабын.</value>
+  </data>
+  <data name="HomeProjectText7" xml:space="preserve">
+    <value>EPC теңіз модульдерінің дизайны. Қолдану аясы: Оқшаулау, ПФП, Құрылыс Сатылары, Қорғаныш Жабын.</value>
+  </data>
+  <data name="HomeProjectText8" xml:space="preserve">
+    <value>Jack-Up бұрғылау қондырғысын салу. Қолдану аясы: оқшаулау, PFP, Құрылыс салаптары, қорғаныш жабын, өнеркәсіптік альпинизм..</value>
+  </data>
+  <data name="HomeProjectText9" xml:space="preserve">
+    <value>Жалпы техникалық қызмет көрсету. Қолдану аясы: оқшаулау, PFP,  Құрылыс Салаптары, қорғаныш жабын</value>
+  </data>
+  <data name="HomeProjectTitle1" xml:space="preserve">
+    <value>Клиент: KPO</value>
+  </data>
+  <data name="HomeProjectTitle10" xml:space="preserve">
+    <value>Клиент: PSNK</value>
+  </data>
+  <data name="HomeProjectTitle11" xml:space="preserve">
+    <value>Клиент: NCOC</value>
+  </data>
+  <data name="HomeProjectTitle12" xml:space="preserve">
+    <value>Клиент: SICIM</value>
+  </data>
+  <data name="HomeProjectTitle13" xml:space="preserve">
+    <value>Клиент: KCOI</value>
+  </data>
+  <data name="HomeProjectTitle14" xml:space="preserve">
+    <value>Клиент: UNEX STROY</value>
+  </data>
+  <data name="HomeProjectTitle15" xml:space="preserve">
+    <value>Клиент: CONTRAFLEX KZ AIS</value>
+  </data>
+  <data name="HomeProjectTitle16" xml:space="preserve">
+    <value>Клиент: ISKER</value>
+  </data>
+  <data name="HomeProjectTitle2" xml:space="preserve">
+    <value>Клиент: NCOC</value>
+  </data>
+  <data name="HomeProjectTitle3" xml:space="preserve">
+    <value>Клиент: NCOC</value>
+  </data>
+  <data name="HomeProjectTitle4" xml:space="preserve">
+    <value>Клиент: TCO</value>
+  </data>
+  <data name="HomeProjectTitle5" xml:space="preserve">
+    <value>Клиент: SICIM</value>
+  </data>
+  <data name="HomeProjectTitle6" xml:space="preserve">
+    <value>Клиент: ERSAI</value>
+  </data>
+  <data name="HomeProjectTitle7" xml:space="preserve">
+    <value>Клиент: ERSAI</value>
+  </data>
+  <data name="HomeProjectTitle8" xml:space="preserve">
+    <value>Клиент: ERSAI</value>
+  </data>
+  <data name="HomeProjectTitle9" xml:space="preserve">
+    <value>Клиент: ERSAI</value>
+  </data>
+  <data name="HomeServiceLinkMore" xml:space="preserve">
+    <value>Көбірек біліңіз</value>
+  </data>
+  <data name="HomeServiceTextFP" xml:space="preserve">
+    <value>Біздің ком- пания мұнай-газ кешендеріндегі көмірсутектерді өрттен қорғау саласында дәлелденген беделге ие.</value>
+  </data>
+  <data name="HomeServiceTextIC" xml:space="preserve">
+    <value>Өндірістік тазалау және дезинфекциялау бойынша қызметтердің кең спектрін ұсынамыз.</value>
+  </data>
+  <data name="HomeServiceTextInsl" xml:space="preserve">
+    <value>Біз минералды талшықтарды, жасушалық шыны, кальций силикатын, полиуретанды және фенолдық көбікті қоса алғанда, оқшауланған қосымшалардың толық спектрін ұсынамыз.</value>
+  </data>
+  <data name="HomeServiceTextPC" xml:space="preserve">
+    <value>Біз өнеркәсіптік тұтынушыларға ұзақ мерзімді келісімшарттар мен ірі құрылыс жобалары үшін қорғаныш жабындарды пайдалануда мамандандырылған.</value>
+  </data>
+  <data name="HomeServiceTextProc" xml:space="preserve">
+    <value>Біз Қазақстандағы өнеркәсіптік өнімнің жетекші тәуелсіз жеткізушісі болып табыламыз</value>
+  </data>
+  <data name="HomeServiceTextRP" xml:space="preserve">
+    <value>Өнеркәсіптік альпинизм саласында және теңізде де, теңізде де әдістерді қолдануда теңдесі жоқ тәжірибе әзірледік.</value>
+  </data>
+  <data name="HomeServiceTextScaf" xml:space="preserve">
+    <value>Біздің толықтай дайындалған жұмыс күшін көп қабатты орман жүйесімен, сондай-ақ дәстүрлі құбырлар мен фитингтерді пайдалану арқылы қол жеткізуді қамтамасыз етеді.</value>
+  </data>
+  <data name="HomeServiceTextTrain" xml:space="preserve">
+    <value>Біздің оқу бөлімі біліктілігін арттыру курстарын өткізу және үйде оқыту үшін сертификатталған.</value>
+  </data>
+  <data name="HomeServiceTitleFP" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="HomeServiceTitleIC" xml:space="preserve">
+    <value>Өндірістік Тазалау</value>
+  </data>
+  <data name="HomeServiceTitleInsl" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="HomeServiceTitlePC" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="HomeServiceTitleProc" xml:space="preserve">
+    <value>Дистрибуция және Сатып Алу</value>
+  </data>
+  <data name="HomeServiceTitleRP" xml:space="preserve">
+    <value>Өнеркәсіптік Альпинизм</value>
+  </data>
+  <data name="HomeServiceTitleScaf" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="HomeServiceTitleTrain" xml:space="preserve">
+    <value>Оқу Орталығы</value>
+  </data>
+  <data name="HomeSliderSlide1H3" xml:space="preserve">
+    <value>Сапалы</value>
+  </data>
+  <data name="HomeSliderSlide1H3Span1" xml:space="preserve">
+    <value>Өнеркәсіптік Қызметтер</value>
+  </data>
+  <data name="HomeSliderSlide1H3Span2" xml:space="preserve">
+    <value>Жергілікті серіктесіңізден</value>
+  </data>
+  <data name="HomeSliderSlide2H3" xml:space="preserve">
+    <value>Мықты</value>
+  </data>
+  <data name="HomeSliderSlide2H3Span" xml:space="preserve">
+    <value>Қауіпсіздік және Экологиялық Үйлесімділік</value>
+  </data>
+  <data name="HomeSliderSlide3H3" xml:space="preserve">
+    <value>Тәуелсіз</value>
+  </data>
+  <data name="HomeSliderSlide3H3Span" xml:space="preserve">
+    <value>Өндірістік Өнімдерді Жеткізуші</value>
+  </data>
+  <data name="HomeSliderSlide4H3" xml:space="preserve">
+    <value>Уәкілетті</value>
+  </data>
+  <data name="HomeSliderSlide4H3Span" xml:space="preserve">
+    <value>Оқу және Сертификаттау Орталығы</value>
+  </data>
+  <data name="HomeTextCarousel1" xml:space="preserve">
+    <value>Білікті мамандар?</value>
+  </data>
+  <data name="HomeTextCarousel2" xml:space="preserve">
+    <value>Жылдам Қызмет Көрсету?</value>
+  </data>
+  <data name="HomeTextCarousel3" xml:space="preserve">
+    <value>Үздік шешімдер?</value>
+  </data>
+  <data name="HomeTextCarousel4" xml:space="preserve">
+    <value>Сертификатталған мердігер?</value>
+  </data>
+  <data name="HomeTextCarousel5" xml:space="preserve">
+    <value>Авторландырылған серіктестер?</value>
+  </data>
+  <data name="HomeTextCarouselTitle" xml:space="preserve">
+    <value>Қажетті</value>
+  </data>
+  <data name="HomeTextCarouselTitle2" xml:space="preserve">
+    <value>DSL Caspian көмектесуге дайын</value>
+  </data>
+  <data name="HomeWelcomeText" xml:space="preserve">
+    <value>Біз Каспий аймағындағы мұнай-газ өнеркәсібінің құрылысында қажетті техникалық қызмет пен қолдауды қамтамасыз етеміз және өнеркәсіптік альпинизм, оқшаулау, отқа төзімді шырақтар, өнеркәсіп жабындары, пассивті өрт сөндіру, жарылыс, өнеркәсіптік тазалау, оқыту және бағалау үшін жоғары сапалы, сенімді өнеркәсіптік активтердің бүкіл өмірлік циклінде ұсынамыз. .</value>
+  </data>
+  <data name="HomeWelcomeTitle" xml:space="preserve">
+    <value>DSL Caspian-ға қош келдіңіз</value>
+  </data>
+  <data name="Insl1SectionText1" xml:space="preserve">
+    <value>Жылулық оқшаулау мердігерлері қауымдастығының (TICA) ескі мүшесі ретінде көптеген жылдар бойы оқшаулауды қамтамасыз еткен кең ауқымды білім мен тәжірибеге ие болдық. Жылулық, криогенді және акустикалық оқшаулау мен қолданудың толық спектрін ұсына отырып, жаһандық өндірушілермен және жеткізушілермен күшті техникалық және коммерциялық байланыстарды сақтауға және дамытуға үлкен мән береміз.</value>
+  </data>
+  <data name="Insl1SectionText2" xml:space="preserve">
+    <value>Біз үнемі сапалы, тиімді және балама орнату әдістерін жақсарту үшін жаңа өнімдер мен қосымшаларды жетілдіреміз. Біз сондай-ақ баспайтын болат, алюминий, алюминкілер, мырышталған балқытылған болат және балама аяқтары, соның ішінде PIB, кенеп мата және шыны мата сияқты материалдармен қамтамасыз етеміз.</value>
+  </data>
+  <data name="Insl1SectionTitle" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="InslBannerText" xml:space="preserve">
+    <value>Біз минералды талшықтарды, жасушалық шыны, кальций силикатын, полиуретанды және фенолдық көбікті қоса алғанда, оқшауланған қосымшалардың толық спектрін ұсынамыз.</value>
+  </data>
+  <data name="InslBannerTitle" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="InslChoose1" xml:space="preserve">
+    <value>Инновациялық қосымшалар</value>
+  </data>
+  <data name="InslChoose2" xml:space="preserve">
+    <value>TICA-ға мүшелік</value>
+  </data>
+  <data name="InslChoose3" xml:space="preserve">
+    <value>Құны тиімді</value>
+  </data>
+  <data name="InslParallaxText" xml:space="preserve">
+    <value>Сапаны іздейсіз бы?</value>
+  </data>
+  <data name="LayoutFixedButton1" xml:space="preserve">
+    <value>Хабарлама</value>
+  </data>
+  <data name="LayoutFixedButton2" xml:space="preserve">
+    <value>Қоңырау Шалу</value>
+  </data>
+  <data name="LayoutFooterNav" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="LayoutFooterSubscribeTitle" xml:space="preserve">
+    <value>Жаңалықтарға жазылу</value>
+  </data>
+  <data name="LayoutMenuAbout" xml:space="preserve">
+    <value>Біз Туралы</value>
+  </data>
+  <data name="LayoutMenuCareer" xml:space="preserve">
+    <value>Мансап</value>
+  </data>
+  <data name="LayoutMenuContacts" xml:space="preserve">
+    <value>Байланыс</value>
+  </data>
+  <data name="LayoutMenuDistributionAndProcurement" xml:space="preserve">
+    <value>Дистрибуция</value>
+  </data>
+  <data name="LayoutMenuEnglish" xml:space="preserve">
+    <value>Ағылшын</value>
+  </data>
+  <data name="LayoutMenuFireProtection" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="LayoutMenuHome" xml:space="preserve">
+    <value>Басты</value>
+  </data>
+  <data name="LayoutMenuIndustrialCleaning" xml:space="preserve">
+    <value>Тазалау</value>
+  </data>
+  <data name="LayoutMenuInsulation" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="LayoutMenuKazakh" xml:space="preserve">
+    <value>Қазақ</value>
+  </data>
+  <data name="LayoutMenuLanguage" xml:space="preserve">
+    <value>Тіл</value>
+  </data>
+  <data name="LayoutMenuProjects" xml:space="preserve">
+    <value>Жобалар</value>
+  </data>
+  <data name="LayoutMenuProtectiveCoating" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="LayoutMenuRopeAccess" xml:space="preserve">
+    <value>Өнеркәсіптік Альпинизм</value>
+  </data>
+  <data name="LayoutMenuRussian" xml:space="preserve">
+    <value>Орыс</value>
+  </data>
+  <data name="LayoutMenuScaffolding" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="LayoutMenuServices" xml:space="preserve">
+    <value>Қызметтер</value>
+  </data>
+  <data name="LayoutMenuSHEQ" xml:space="preserve">
+    <value>SHEQ</value>
+  </data>
+  <data name="LayoutMenuTrainingCentre" xml:space="preserve">
+    <value>Оқу Орталығы</value>
+  </data>
+  <data name="LayoutMoreMenuButton" xml:space="preserve">
+    <value>Көбірек біліңіз</value>
+  </data>
+  <data name="LayoutSearchButton" xml:space="preserve">
+    <value>Іздеу</value>
+  </data>
+  <data name="LayoutSubscribeButton" xml:space="preserve">
+    <value>Жазылу</value>
+  </data>
+  <data name="ModalButtonClose" xml:space="preserve">
+    <value>Жабу</value>
+  </data>
+  <data name="ModalMobileText1" xml:space="preserve">
+    <value>Веб-шолғыш PDF файлдарын көрсету үшін теңшелмеген. Алаңдатпаңыз, жай ғана</value>
+  </data>
+  <data name="ModalMobileText2" xml:space="preserve">
+    <value>Жүктеу үшін басыңыз</value>
+  </data>
+  <data name="OurBrochures" xml:space="preserve">
+    <value>Біздің брошюралар</value>
+  </data>
+  <data name="OurCertificates" xml:space="preserve">
+    <value>Біздің Сертификаттарымыз</value>
+  </data>
+  <data name="PC1SectionText1" xml:space="preserve">
+    <value>Өнеркәсіптік тұтынушыларға, әсіресе, ұзақ мерзімді техникалық қызмет көрсету шарттарына және ірі құрылыс алаңдарына қорғаныш жабындарды қолдануда маманданған. Жұмыстар, сондай-ақ, біздің техникалық сараптама және барлық мүмкіндікті дұрыс жасау қабілеті бар, сәндік кескіндеме жобаларының талаптарына сәйкес жүзеге асырылады, біздің клиенттерге жоғары деңгейлі қызмет көрсетіледі.</value>
+  </data>
+  <data name="PC1SectionText10" xml:space="preserve">
+    <value>Ерітілген тағамдар.</value>
+  </data>
+  <data name="PC1SectionText2" xml:space="preserve">
+    <value>Жарылыс өңдеу.</value>
+  </data>
+  <data name="PC1SectionText3" xml:space="preserve">
+    <value>Сәндік Бояулардың Маманы</value>
+  </data>
+  <data name="PC1SectionText4" xml:space="preserve">
+    <value>Өндірістік Кескіндеме</value>
+  </data>
+  <data name="PC1SectionText5" xml:space="preserve">
+    <value>Өрттен Қорғау Туралы Хабарлама</value>
+  </data>
+  <data name="PC1SectionText6" xml:space="preserve">
+    <value>Жоғары Температура Жабыны.</value>
+  </data>
+  <data name="PC1SectionText7" xml:space="preserve">
+    <value>Металлды Шашырату</value>
+  </data>
+  <data name="PC1SectionText8" xml:space="preserve">
+    <value>Тіреуіш Жастықшалар</value>
+  </data>
+  <data name="PC1SectionText9" xml:space="preserve">
+    <value>Шыныдан жасалған үлпектерді қолдану</value>
+  </data>
+  <data name="PC1SectionTextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="PC1SectionTitle" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="PCBannerText" xml:space="preserve">
+    <value>Өнеркәсіптік тұтынушылар үшін қорғаныш жабындарын пайдалануда мамандандырылған</value>
+  </data>
+  <data name="PCBannerTitle" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="PCChoose1" xml:space="preserve">
+    <value>Техникалық сараптама.</value>
+  </data>
+  <data name="PCChoose2" xml:space="preserve">
+    <value>Барлық Кескіндеме Қызметтеріміз</value>
+  </data>
+  <data name="PCChoose3" xml:space="preserve">
+    <value>Жоғары сапа</value>
+  </data>
+  <data name="PCParallaxText1" xml:space="preserve">
+    <value>Сізге сертификатталған серіктес</value>
+  </data>
+  <data name="PCParallaxText2" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="PDFCanvasText" xml:space="preserve">
+    <value>Көбірек біліңіз ...</value>
+  </data>
+  <data name="Proc1BoxLi1" xml:space="preserve">
+    <value>Жарық түсі туралы хабарландыру</value>
+  </data>
+  <data name="Proc1BoxLi2" xml:space="preserve">
+    <value>Цемент бояуы.</value>
+  </data>
+  <data name="Proc1BoxLi3" xml:space="preserve">
+    <value>PFP жабдықтары мен керек-жарақтары</value>
+  </data>
+  <data name="Proc1BoxTitle" xml:space="preserve">
+    <value>Пассивті Өртті Қауіпсіздігі</value>
+  </data>
+  <data name="Proc1SectionText1" xml:space="preserve">
+    <value>Distribution and Sales - Қазақстандық мұнай-газ, мұнай-химия және құрылыс нарықтарына өнеркәсіптік өнімдердің тәуелсіз мамандандырылған жеткізушісі.</value>
+  </data>
+  <data name="Proc1SectionText2" xml:space="preserve">
+    <value>Өндірісте кең көлемдегі білім мен тәжірибеге ие бола отырып, біз өз клиенттеріміз үшін инновациялық және экономикалық тиімді шешімдерді ұсынамыз. Біз DSL Caspian сауда-саттыққа қойылатын барлық талаптарды қанағаттандыру үшін толықтай интеграцияланған техникалық және сатып алу қызметтерін ұсынатын бөлімшені құруға тырысамыз. Жобаларды (бағалау, операциялар, бизнесті дамыту) және сатып алу шешімдерінің жобаларын (тарату және сату, бизнесті дамыту, бағалау) біріктірудің арқасында,</value>
+  </data>
+  <data name="Proc1SectionText3" xml:space="preserve">
+    <value>Distribution and Sales - «өнеркәсіптік мердігердің әмбебап дүкені» болады.</value>
+  </data>
+  <data name="Proc1SectionTextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="Proc2BoxLi1" xml:space="preserve">
+    <value>Құрылыс Салаптарыарнлған Материалдар</value>
+  </data>
+  <data name="Proc2BoxLi2" xml:space="preserve">
+    <value> Табақпен Қаптау</value>
+  </data>
+  <data name="Proc2BoxLi3" xml:space="preserve">
+    <value>Құрылыс ағаштарға арнлаған аксессуарлар.</value>
+  </data>
+  <data name="Proc2BoxTitle" xml:space="preserve">
+    <value>Шешімге қол жеткізу</value>
+  </data>
+  <data name="Proc2SectionText" xml:space="preserve">
+    <value>Біз Paroc Group, Sealumet Group, Inspired Noise UK, First Trace Heating Direct, Thermobile Industries және XIOM Energy Services сияқты жаһандық қызмет көрсетушілердің өнімдерін ұсынамыз.</value>
+  </data>
+  <data name="Proc2SectionTitle" xml:space="preserve">
+    <value>Тарату тізімі</value>
+  </data>
+  <data name="Proc3BoxLi1" xml:space="preserve">
+    <value>Минералды Жүн</value>
+  </data>
+  <data name="Proc3BoxLi2" xml:space="preserve">
+    <value>Көбік шыны</value>
+  </data>
+  <data name="Proc3BoxLi3" xml:space="preserve">
+    <value>Икемді эластомерлі көбігі.</value>
+  </data>
+  <data name="Proc3BoxLi4" xml:space="preserve">
+    <value>PIR</value>
+  </data>
+  <data name="Proc3BoxLi5" xml:space="preserve">
+    <value>Өрт Сөндірушісі</value>
+  </data>
+  <data name="Proc3BoxLi6" xml:space="preserve">
+    <value>Ауа райы жабыны.</value>
+  </data>
+  <data name="Proc3BoxLi7" xml:space="preserve">
+    <value>Алюминий / SS-қақпағы</value>
+  </data>
+  <data name="Proc3BoxLi8" xml:space="preserve">
+    <value>Оқшаулауға Арналған Қосалқы Материалдар.</value>
+  </data>
+  <data name="Proc3BoxLi9" xml:space="preserve">
+    <value>Мастика, тығыздағыш және желім.</value>
+  </data>
+  <data name="Proc3BoxTitle1" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="Proc3SectionContact" xml:space="preserve">
+    <value>Сатып Алу Жөніндегі Үйлестірушімен Хабарласыңыз</value>
+  </data>
+  <data name="Proc3SectionContactName" xml:space="preserve">
+    <value>Айбат Ессет</value>
+  </data>
+  <data name="Proc3SectionSideText1" xml:space="preserve">
+    <value>Тұтынушыларымыздың қажеттіліктерін түсіну, тиімді шешімдерді ұсыну және жоғары сапа стандарттарына сүйену бізді жабдықтау мүмкіндіктерін кеңейтуді қалайтын сенімді серіктес.</value>
+  </data>
+  <data name="Proc3SectionSideText11" xml:space="preserve">
+    <value>Біздің өнімдеріміз бен серіктестік мүмкіндіктеріміз туралы білу үшін, сату және сату бөліміне хабарласыңыз.</value>
+  </data>
+  <data name="Proc4BoxLi1" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="Proc4BoxLi2" xml:space="preserve">
+    <value>Полимерлік композиттік жүйелер</value>
+  </data>
+  <data name="Proc4BoxLi3" xml:space="preserve">
+    <value>Ұнтақты Жабу</value>
+  </data>
+  <data name="Proc4BoxLi4" xml:space="preserve">
+    <value>FBE жабдықтары</value>
+  </data>
+  <data name="Proc4BoxTitle1" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="Proc5BoxLi1" xml:space="preserve">
+    <value>Абразивтер</value>
+  </data>
+  <data name="Proc5BoxLi2" xml:space="preserve">
+    <value>Жарылғыш Құрылғылар</value>
+  </data>
+  <data name="Proc5BoxTitle" xml:space="preserve">
+    <value>Жарылғыш Жұмыстар</value>
+  </data>
+  <data name="Proc6BoxLi1" xml:space="preserve">
+    <value>Жылыту Жабдықтары</value>
+  </data>
+  <data name="Proc6BoxTitle" xml:space="preserve">
+    <value>Жабдық</value>
+  </data>
+  <data name="ProcBannerText" xml:space="preserve">
+    <value>Біз Қазақстандағы өнеркәсіптік өнімнің жетекші тәуелсіз жеткізушісі болып табыламыз</value>
+  </data>
+  <data name="ProcBannerTitle1" xml:space="preserve">
+    <value>Дистрибуция және</value>
+  </data>
+  <data name="ProcBannerTitle2" xml:space="preserve">
+    <value>Сатып Алу</value>
+  </data>
+  <data name="ProcBoxesTextMain" xml:space="preserve">
+    <value>Біз оқшаулау, қорғаныш жабындары, жылыту жабдығы, қол жеткізу шешімдерін қоса, кең ауқымды өнімдер мен жабдықтарды жеткіземіз.</value>
+  </data>
+  <data name="ProcBoxesTitleMain" xml:space="preserve">
+    <value>Сату Аумағы</value>
+  </data>
+  <data name="ProjectsBannerText" xml:space="preserve">
+    <value>Ұзақ мерзімді жобалары бар қанағаттандырылған клиенттердің портфелі</value>
+  </data>
+  <data name="ProjectsBannerTitle" xml:space="preserve">
+    <value>Жобалар</value>
+  </data>
+  <data name="ProjectsMainTitle" xml:space="preserve">
+    <value>Біздің Жобаларымыз</value>
+  </data>
+  <data name="ProjectsPortfolioFilters" xml:space="preserve">
+    <value>Барлығын көрсету</value>
+  </data>
+  <data name="ProjectsPortfolioFilters1" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="ProjectsPortfolioFilters2" xml:space="preserve">
+    <value>Өнеркәсіптік Альпинизм</value>
+  </data>
+  <data name="ProjectsPortfolioFilters3" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="ProjectsPortfolioFilters4" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="ProjectsPortfolioFilters5" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="ProjectsPortfolioFLEX" xml:space="preserve">
+    <value>D-Аралы</value>
+  </data>
+  <data name="ProjectsPortfolioMaersk1" xml:space="preserve">
+    <value>Клиент: MAERSK OIL</value>
+  </data>
+  <data name="ProjectsPortfolioMaersk2" xml:space="preserve">
+    <value>Дұнға кен орны</value>
+  </data>
+  <data name="ProjectsPortfolioMaersk3" xml:space="preserve">
+    <value>Дұңға кен орнында еңбек, материалдық және құрылыс ормандарын қамтамасыз ету.</value>
+  </data>
+  <data name="Rope1SectionText" xml:space="preserve">
+    <value>Біздің жоғары білікті командалар қауіпсіздікті қамтамасыз етеді. DSL Caspian компаниясы Қарабатан және Қашаған жерлерінде де, теңізде де жобаларды сәтті аяқтады. Бізде IRATA ішкі басқару деңгейі «3» және «1» деңгейдегі операторлар бар. Таяудағы уақытта DSL Caspian зиянды өтемсіз тестілеудің қосымша қызметін енгізуді жоспарлап отыр.</value>
+  </data>
+  <data name="Rope1SectionText1" xml:space="preserve">
+    <value>Маталарды тексеру және күту</value>
+  </data>
+  <data name="Rope1SectionText2" xml:space="preserve">
+    <value>Құрылымдық Жөндеу және Кабельдеу</value>
+  </data>
+  <data name="Rope1SectionText3" xml:space="preserve">
+    <value>Құрылыстарды Тексеру / Сынау</value>
+  </data>
+  <data name="Rope1SectionText4" xml:space="preserve">
+    <value>Тазалау және Бояу</value>
+  </data>
+  <data name="Rope1SectionTitle" xml:space="preserve">
+    <value>Өндірістік Альпинизм</value>
+  </data>
+  <data name="RopeBannerText" xml:space="preserve">
+    <value>Өнеркәсіптік альпинизм саласында және теңізде де, теңізде де әдістерді қолдануда теңдесі жоқ тәжірибе әзірледік.</value>
+  </data>
+  <data name="RopeBannerTitle" xml:space="preserve">
+    <value>Өнеркәсіптік Альпинизм</value>
+  </data>
+  <data name="RopeChoose1" xml:space="preserve">
+    <value>IRATA толық мүшесі</value>
+  </data>
+  <data name="RopeChoose2" xml:space="preserve">
+    <value>Жоғары білікті мамандар</value>
+  </data>
+  <data name="RopeChoose3" xml:space="preserve">
+    <value>Ең Аз Бұзу</value>
+  </data>
+  <data name="RopeParallaxText1" xml:space="preserve">
+    <value>Біз ұсынамыз</value>
+  </data>
+  <data name="RopeParallaxText2" xml:space="preserve">
+    <value>Өнеркәсіптік Альпинизмнің Ең Жақсы Шешімдері</value>
+  </data>
+  <data name="Scaffolding1SectionText1" xml:space="preserve">
+    <value>«Бізде өз жабдықтарымыздың, оның ішінде Layher System Scaffold-тің ауқымды қоры бар, ол кез келген көлемдегі жобаларды жүзеге асыруға мүмкіндік береді. Бұл техникалық жетілдірілген жүйе құбырлар мен қондырғылармен және басқа да құрылыс салаптарымен салыстырғанда Cuplok сияқты өнімділікті айтарлықтай арттыруға мүмкіндік береді. Жүйе стандартты емес пішіндер мен профильдерге сәйкес жасалған компоненттерді пайдалану арқылы қауіпсіздікті арттырды. Мұндай жүйе фиксингті қажет етпейді және жұмыс беттеріне барынша қол жеткізуге мүмкіндік береді, бұл ретте құрамдас бөліктерсіз конструкцияларда жылдам өзгерістер жасауға мүмкіндік береді.</value>
+  </data>
+  <data name="Scaffolding1SectionText2" xml:space="preserve">
+    <value>Бұдан басқа, біз дәстүрлі құбырлар мен қондырғылармен, сондай-ақ тапсырыс берушілердің қажеттіліктерін қанағаттандыру үшін стандартты модульдік құрылыс ағаштар жұмыс істей аламыз.</value>
+  </data>
+  <data name="Scaffolding1SectionTextSpan" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="Scaffolding1SectionTitle" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="ScaffoldingBannerText" xml:space="preserve">
+    <value>Біздің толықтай дайындалған жұмыс күшін көп қабатты орман жүйесімен, сондай-ақ дәстүрлі құбырлар мен фитингтерді пайдалану арқылы қол жеткізуді қамтамасыз етеді.</value>
+  </data>
+  <data name="ScaffoldingBannerTitle" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="ScaffoldingChoose1" xml:space="preserve">
+    <value>Жоғары сапалы компоненттер</value>
+  </data>
+  <data name="ScaffoldingChoose2" xml:space="preserve">
+    <value>Жақсартылған қауіпсіздік</value>
+  </data>
+  <data name="ScaffoldingChoose3" xml:space="preserve">
+    <value>Қазақстандағы ең үлкен тоннаж</value>
+  </data>
+  <data name="ScaffoldingChoose4" xml:space="preserve">
+    <value>Жылдам Орналастыру.</value>
+  </data>
+  <data name="ServicesBannerText1" xml:space="preserve">
+    <value>40 жылдан астам тәжірибесі бар</value>
+  </data>
+  <data name="ServicesBannerText2" xml:space="preserve">
+    <value>Біз кез келген көлемдегі жобаларды жүзеге асырамыз.</value>
+  </data>
+  <data name="ServicesBannerTitle" xml:space="preserve">
+    <value>Қызметтер</value>
+  </data>
+  <data name="ServicesFacts1Text1" xml:space="preserve">
+    <value>Қызметкерлер</value>
+  </data>
+  <data name="ServicesFacts1Text2" xml:space="preserve">
+    <value>Қызметкерлер / Жұмыс Күші</value>
+  </data>
+  <data name="ServicesFacts2Text1" xml:space="preserve">
+    <value>Тонн</value>
+  </data>
+  <data name="ServicesFacts2Text2" xml:space="preserve">
+    <value>Аймақтағы Құрылыс Сатылары</value>
+  </data>
+  <data name="ServicesFacts3Text1" xml:space="preserve">
+    <value>Теңізде сағаттар</value>
+  </data>
+  <data name="ServicesFacts4Text1" xml:space="preserve">
+    <value>Жергілікті мазмұн</value>
+  </data>
+  <data name="ServicesFacts5Text1" xml:space="preserve">
+    <value>Аяқталған жобалар</value>
+  </data>
+  <data name="ServicesFacts6Text1" xml:space="preserve">
+    <value>Оқысыз сағаттары</value>
+  </data>
+  <data name="ServicesFactsTitle" xml:space="preserve">
+    <value>DSL Caspian - фактілер мен сандар</value>
+  </data>
+  <data name="ServicesPagesContactName" xml:space="preserve">
+    <value>Фархад Калиев</value>
+  </data>
+  <data name="ServicesPagesContactPosition" xml:space="preserve">
+    <value>, Операциялар менеджері</value>
+  </data>
+  <data name="ServicesSection1Text" xml:space="preserve">
+    <value>«Сіздің стратегиялық әріптесіміз ретінде біз жұмысты тез және тиімді жұмылдыруға және көбейтуге мүмкіндігіміз бар, бұл өз кезегінде кез келген көлемдегі жобаларды жүзеге асыруға мүмкіндік береді. Біздің тәжірибелі басқарушы команда мен жоғары білікті кадрлар арқасында клиенттерге инновациялық және экономикалық тиімді шешімдер ұсына аламыз. Дәстүрлі өндірістерде интеллектуалды технологиялардың енгізілуінің арқасында біз процестерді оңтайландырып, нақты уақыт режимінде ақпаратты ұсынып, тиімділікті арттырамыз ».</value>
+  </data>
+  <data name="ServicesSection1Title" xml:space="preserve">
+    <value>Біздің Қызметтеріміз</value>
+  </data>
+  <data name="ServicesServicetab1Text" xml:space="preserve">
+    <value>Біздің толықтай дайындалған жұмыс күшін көп қабатты орман жүйесімен, сондай-ақ дәстүрлі құбырлар мен фитингтерді пайдалану арқылы қол жеткізуді қамтамасыз етеді.</value>
+  </data>
+  <data name="ServicesServicetab1Title" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="ServicesServicetab2Text" xml:space="preserve">
+    <value>Өнеркәсіптік альпинизм саласында және теңізде де, теңізде де әдістерді қолдануда теңдесі жоқ тәжірибе әзірледік.</value>
+  </data>
+  <data name="ServicesServicetab2Title" xml:space="preserve">
+    <value>Өнеркәсіптік Альпинизм</value>
+  </data>
+  <data name="ServicesServicetab3Text" xml:space="preserve">
+    <value>Өндірістік тазалау және дезинфекциялау бойынша қызметтердің кең спектрін ұсынамыз.</value>
+  </data>
+  <data name="ServicesServicetab3Title" xml:space="preserve">
+    <value>Өндірістік Тазалау</value>
+  </data>
+  <data name="ServicesServicetab4Text" xml:space="preserve">
+    <value>Біз минералды талшықтарды, жасушалық шыны, кальций силикатын, полиуретанды және фенолдық көбікті қоса алғанда, оқшауланған қосымшалардың толық спектрін ұсынамыз.</value>
+  </data>
+  <data name="ServicesServicetab4Title" xml:space="preserve">
+    <value>Оқшаулау</value>
+  </data>
+  <data name="ServicesServicetab5Text" xml:space="preserve">
+    <value>Біздің ком- пания мұнай-газ кешендеріндегі көмірсутектерді өрттен қорғау саласында дәлелденген беделге ие.</value>
+  </data>
+  <data name="ServicesServicetab5Title" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="ServicesServicetab6Text" xml:space="preserve">
+    <value>Біз өнеркәсіптік тұтынушыларға ұзақ мерзімді келісімшарттар мен ірі құрылыс жобалары үшін қорғаныш жабындарды пайдалануда мамандандырылған.</value>
+  </data>
+  <data name="ServicesServicetab6Title" xml:space="preserve">
+    <value>Қорғаныш Жабындар</value>
+  </data>
+  <data name="ServicesServicetab7Text" xml:space="preserve">
+    <value>Біз Қазақстандағы өнеркәсіптік өнімнің жетекші тәуелсіз жеткізушісі болып табыламыз</value>
+  </data>
+  <data name="ServicesServicetab7Title" xml:space="preserve">
+    <value>Дистрибуция және Сатып Алу</value>
+  </data>
+  <data name="ServicesServicetab8Text" xml:space="preserve">
+    <value>Біз өнеркәсіптік тұтынушыларға ұзақ мерзімді келісімшарттар мен ірі құрылыс жобалары үшін қорғаныш жабындарды пайдалануда мамандандырылған.</value>
+  </data>
+  <data name="ServicesServicetab8Title" xml:space="preserve">
+    <value>Оқу Орталығы</value>
+  </data>
+  <data name="ServicesServicetabMore" xml:space="preserve">
+    <value>Көбірек біліңіз</value>
+  </data>
+  <data name="SHEQBannerText" xml:space="preserve">
+    <value>Жұмыс орнында денсаулық пен қауіпсіздікті және әл-ауқаттылықты күшейту</value>
+  </data>
+  <data name="SHEQBannerTitle" xml:space="preserve">
+    <value>SHEQ</value>
+  </data>
+  <data name="SHEQContactName1" xml:space="preserve">
+    <value>Мұхтар Абуов</value>
+  </data>
+  <data name="SHEQContactName2" xml:space="preserve">
+    <value>, HSE Менеджері</value>
+  </data>
+  <data name="SHEQMainTitle" xml:space="preserve">
+    <value>Қауіпсіздік, Денсаулық, Қоршаған Орта, Сапа.</value>
+  </data>
+  <data name="SHEQPortfolioFilter" xml:space="preserve">
+    <value>Барлығын көрсету</value>
+  </data>
+  <data name="SHEQPortfolioFilter1" xml:space="preserve">
+    <value>Денсаулық және Қауіпсіздік</value>
+  </data>
+  <data name="SHEQPortfolioFilter2" xml:space="preserve">
+    <value>Қаптамалар</value>
+  </data>
+  <data name="SHEQPortfolioFilter3" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="SHEQPortfolioFilter4" xml:space="preserve">
+    <value>Тренингтер</value>
+  </data>
+  <data name="SHEQPortfolioFilter5" xml:space="preserve">
+    <value>Лицензиялау</value>
+  </data>
+  <data name="SHEQSection1Subtitle1" xml:space="preserve">
+    <value>Біздің команда қоршаған ортаны қорғаудың маңыздылығын білетініне көз жеткізіңіз.</value>
+  </data>
+  <data name="SHEQSection1Subtitle2" xml:space="preserve">
+    <value>Химиялық заттарды және препараттарды жауапкершілікпен басқарады</value>
+  </data>
+  <data name="SHEQSection1Subtitle3" xml:space="preserve">
+    <value>Экологиялық жауапкершіліктің мысалын келтіріңіз</value>
+  </data>
+  <data name="SHEQSection1Text1" xml:space="preserve">
+    <value>Өмірлік заттармен немесе ықтимал қауiптi орталарда жұмыс жасайтынымызға қарамастан, жоғары білікті командалар қауіпсіздікті қамтамасыз етеді. Біз SHEQ стратегияларын үнемі қарап шығып, басқару жүйесін жақсарту үшін инновациялық идеяларды іздейміз. Біз өзіміз үшін жұмыс істейтіндердің бәріне күн сайын үйге оралуын қамтамасыз ете отырып, біз өз қызметтерімізді «бірінші рет» ұсына алатынымыз үшін, HSEQ стратегияларын үнемі қарастырамыз.</value>
+  </data>
+  <data name="SHEQSection1Text2" xml:space="preserve">
+    <value>Біздің жауапты экологиялық саясатымызға сәйкес, DSL Caspian-ның мақсаттары:</value>
+  </data>
+  <data name="SHEQSection1Text3" xml:space="preserve">
+    <value>Біздің адамдар қоршаған ортаны қорғау әрбір адамның жауапкершілігі екенін түсінуге үйретіледі. Бұл тренинг қоршаған ортаны қорғау мен қорғауды қамтамасыз ету жөнінде дұрыс шешімдер қабылдауға мүмкіндік береді.</value>
+  </data>
+  <data name="SHEQSection1Text4" xml:space="preserve">
+    <value>DSL Caspian химиялық заттарды өңдеу мен сақтаудың қауіпсіздігін қамтамасыз етуге ұмтылады. Бұған ескі технологияларды ауыстыру үшін жаңа және қауіпсіз өнімдерді табу кіреді. 50 жылдан астам тәжірибесі бар, біз барлық әрекеттердің алғашқы қадамда орындалуын қамтамасыз етуге тырысамыз », бұл біздің клиенттерімізге қажет сенімділік  және қызмет көрсету.</value>
+  </data>
+  <data name="SHEQSection1Text5" xml:space="preserve">
+    <value>DSL Caspian қоршаған орта үшін жауапты. Біз Қазақстан Республикасының заңнамасының барлық талаптарын, сондай-ақ қоршаған ортаны қорғау саласындағы ISO 14001 және халықаралық стандарттарды сақтаймыз.</value>
+  </data>
+  <data name="SHEQSection2Text1" xml:space="preserve">
+    <value>Әлеуметтік тұрақтылық бағдарламасының аясында DSL Caspian аймақтағы түрлі қоғамдық шараларға және іс-шараларға қатысады.</value>
+  </data>
+  <data name="SHEQSection2Text2" xml:space="preserve">
+    <value> 2017 жылдың 13 мамырында өткен екінші жыл сайынғы Атырау марафонына демеушілік көрсетті. DSL Caspian екінші жыл сайынғы марафонға қолдау көрсетеді</value>
+  </data>
+  <data name="SHEQSection2Text3" xml:space="preserve">
+    <value>Іс-шара туралы қосымша ақпарат алу үшін төмендегі сілтемеге өтіңіз</value>
+  </data>
+  <data name="SHEQSection2Text4" xml:space="preserve">
+    <value>көбірек біліңіз ...</value>
+  </data>
+  <data name="SHEQSection2TextBold" xml:space="preserve">
+    <value>DSL Caspian</value>
+  </data>
+  <data name="SHEQSection2Title" xml:space="preserve">
+    <value>Біздің Тұрақтылық</value>
+  </data>
+  <data name="SHEQSection3Title" xml:space="preserve">
+    <value>Біздің Сертификаттарымыз бен Саясатымыз</value>
+  </data>
+  <data name="SliderAboutButton" xml:space="preserve">
+    <value>Біз Туралы</value>
+  </data>
+  <data name="SliderCareerButton" xml:space="preserve">
+    <value>Резюмеңізді Жіберіңіз</value>
+  </data>
+  <data name="SliderContactButton" xml:space="preserve">
+    <value>Бізбен Байланысыңыз</value>
+  </data>
+  <data name="SliderMoreButton" xml:space="preserve">
+    <value>Көбірек біліңіз</value>
+  </data>
+  <data name="SliderServicesButton" xml:space="preserve">
+    <value>Қызметтеріміз</value>
+  </data>
+  <data name="SliderSHEQButton" xml:space="preserve">
+    <value>SHEQ</value>
+  </data>
+  <data name="Train1SectionText1" xml:space="preserve">
+    <value>2017 жылғы 28 сәуірдегі Өнеркәсіптік даму және өнеркәсіптік қауіпсіздік комитетімен сертификатталған,</value>
+  </data>
+  <data name="Train1SectionText2" xml:space="preserve">
+    <value>Қазақстанда келесідей оқыту курстарын жүргізеді:</value>
+  </data>
+  <data name="Train1SectionTextBold1" xml:space="preserve">
+    <value>DSL Caspian Training департаменті</value>
+  </data>
+  <data name="Train1SectionTextLi1" xml:space="preserve">
+    <value>Еңбекті қорғау</value>
+  </data>
+  <data name="Train1SectionTextLi2" xml:space="preserve">
+    <value>Өнеркәсіптік Қауіпсіздік</value>
+  </data>
+  <data name="Train1SectionTextLi3" xml:space="preserve">
+    <value>Өрт қауіпсіздігі</value>
+  </data>
+  <data name="Train1SectionTextLi4" xml:space="preserve">
+    <value>Биіктікте Жұмыс Істеу</value>
+  </data>
+  <data name="Train1SectionTextLi5" xml:space="preserve">
+    <value>Биіктікте Жұмыс Істеу (5 метрден астам)</value>
+  </data>
+  <data name="Train1SectionTextLi6" xml:space="preserve">
+    <value>Жабық Кеңістікке Кіру.</value>
+  </data>
+  <data name="Train1SectionTextLi7" xml:space="preserve">
+    <value>Қауіпсіз лифтинг операцияларын жүргізу</value>
+  </data>
+  <data name="Train1SectionTextLi8" xml:space="preserve">
+    <value>Қауіпсіз резервуардың жұмыс істеуі</value>
+  </data>
+  <data name="Train1SectionTextLi9" xml:space="preserve">
+    <value>Арнайы курстар (біліктілік)</value>
+  </data>
+  <data name="Train1SectionTitle1" xml:space="preserve">
+    <value>Тренингтер</value>
+  </data>
+  <data name="Train2SectionSubtitle1" xml:space="preserve">
+    <value>Жалпы Мақсаты:</value>
+  </data>
+  <data name="Train2SectionSubtitle2" xml:space="preserve">
+    <value>Міндеттері:</value>
+  </data>
+  <data name="Train2SectionSubtitle3" xml:space="preserve">
+    <value>Курстар:</value>
+  </data>
+  <data name="Train2SectionText1" xml:space="preserve">
+    <value>Компанияның (клиенттің) қызметкерлерін Қазақстанның еңбек кодексімен және жұмыс әлеміндегі негізгі құқықтық нормалармен таныстыру.</value>
+  </data>
+  <data name="Train2SectionText2" xml:space="preserve">
+    <value>Қазақстанда қауіпсіздікті және еңбекті қорғауды реттеу жөніндегі талаптарды білу.</value>
+  </data>
+  <data name="Train2SectionTextLi1" xml:space="preserve">
+    <value>Қазақстандағы Қауіпсіздік және Еңбек Қорғаудың Негіздері</value>
+  </data>
+  <data name="Train2SectionTextLi2" xml:space="preserve">
+    <value>Ұйымдағы Қауіпсіздік және Еңбек Қорғаудың Негіздері</value>
+  </data>
+  <data name="Train2SectionTextLi3" xml:space="preserve">
+    <value>Қауіпсіздік пен денсаулық сақтау талаптарына сәйкестікті қамтамасыз етудің ерекше мәселелері</value>
+  </data>
+  <data name="Train2SectionTextLi4" xml:space="preserve">
+    <value>Өндірістегі жазатайым оқиғалардан зардап шеккен адамды әлеуметтік қорғау.</value>
+  </data>
+  <data name="Train2SectionTitle1" xml:space="preserve">
+    <value>Қауіпсіздік және Еңбекті Қорғау</value>
+  </data>
+  <data name="Train3SectionText1" xml:space="preserve">
+    <value>Қызметкерлерді қауіпті объектілерде өнеркәсіптік қауіпсіздіктің негізгі ережелерімен таныстыру</value>
+  </data>
+  <data name="Train3SectionText2" xml:space="preserve">
+    <value>Өнеркәсіптік қауіпсіздік саласындағы теориялық білімді алыңыз</value>
+  </data>
+  <data name="Train3SectionText3" xml:space="preserve">
+    <value>Қауіпті өндірістік объектілерде қауіпсіз жұмыс істеу ережесін білу</value>
+  </data>
+  <data name="Train3SectionTextLi1" xml:space="preserve">
+    <value>Негізгі ережелер</value>
+  </data>
+  <data name="Train3SectionTextLi10" xml:space="preserve">
+    <value>Апатқа реакция</value>
+  </data>
+  <data name="Train3SectionTextLi11" xml:space="preserve">
+    <value>Оқу туралы ескертулер.</value>
+  </data>
+  <data name="Train3SectionTextLi12" xml:space="preserve">
+    <value>Зиянды өндірістегі оқиғаларды, жазатайым оқиғаларды тергеу және есепке алу.</value>
+  </data>
+  <data name="Train3SectionTextLi13" xml:space="preserve">
+    <value>Мамандарды, қауіпті өндірістік объектілердің қызметкерлерін оқыту, қайта даярлау</value>
+  </data>
+  <data name="Train3SectionTextLi2" xml:space="preserve">
+    <value>Азаматтық қорғау саласындағы ұйымдардың міндеттері</value>
+  </data>
+  <data name="Train3SectionTextLi3" xml:space="preserve">
+    <value>Азаматтық қорғау саласындағы азаматтардың міндеттері</value>
+  </data>
+  <data name="Train3SectionTextLi4" xml:space="preserve">
+    <value>Өндірістік қауіпсіздік саласындағы өндірісті мемлекеттік қадағалау және бақылау.</value>
+  </data>
+  <data name="Train3SectionTextLi5" xml:space="preserve">
+    <value>Өнеркәсіп қауіпсіздігін қамтамасыз ету.</value>
+  </data>
+  <data name="Train3SectionTextLi6" xml:space="preserve">
+    <value>Өнеркәсіптік қауіпсіздік саласында жұмыс жүргізу құқығына арналған заңды тұлғаларды аттестаттау.</value>
+  </data>
+  <data name="Train3SectionTextLi7" xml:space="preserve">
+    <value>Өнеркәсіптік қауіпсіздікті мiндеттi түрде декларациялау</value>
+  </data>
+  <data name="Train3SectionTextLi8" xml:space="preserve">
+    <value>Қауіпті материалдарға рұқсат беру.</value>
+  </data>
+  <data name="Train3SectionTextLi9" xml:space="preserve">
+    <value>Қауіпті техникалық жабдықтарды тіркеу және күшін жою</value>
+  </data>
+  <data name="Train3SectionTitle" xml:space="preserve">
+    <value>Қауіпті Объектілердегі Өнеркәсіптік Қауіпсіздік</value>
+  </data>
+  <data name="Train4SectionText1" xml:space="preserve">
+    <value>Биіктіктегі қауіпсіз жұмысдың бұл түрі персоналдың жарақат алу қаупін төмендетуге және қызметкерлердің немесе материалдардың құлдырауын болдырмауға арналған.</value>
+  </data>
+  <data name="Train4SectionText2Li1" xml:space="preserve">
+    <value>Биіктікте жұмыс істеуге байланысты ықтимал қауіптерді анықтаңыз</value>
+  </data>
+  <data name="Train4SectionText2Li2" xml:space="preserve">
+    <value>Жеке құлдыраудан қорғау жүйесінің (ПФС) мақсаты мен түрлерін білу</value>
+  </data>
+  <data name="Train4SectionText2Li3" xml:space="preserve">
+    <value>Жеке қорғаныс жүйесін қолдануда практикалық дағдыларды алыңыз</value>
+  </data>
+  <data name="Train4SectionText2Li4" xml:space="preserve">
+    <value>Биіктікте қауіпсіз жұмыс істеуді және адамдардың биіктіктен немесе жарақаттанудан сақтауын біліңіз.</value>
+  </data>
+  <data name="Train4SectionText2Li5" xml:space="preserve">
+    <value>Құрылыс алаңдарын, баспалдақтарды, жұмыс алаңдарын көтеру бойынша қауіпсіз жұмыс істеу талаптарын біліңіз.</value>
+  </data>
+  <data name="Train4SectionText2Li6" xml:space="preserve">
+    <value>Ықтимал қауіптерді біліп, құлдырайтын объектілерді басқарыңыз</value>
+  </data>
+  <data name="Train4SectionText2Li7" xml:space="preserve">
+    <value>Биіктікте жұмыс істеу үшін рұқсат құжаттарын білу керек</value>
+  </data>
+  <data name="Train4SectionText2Li8" xml:space="preserve">
+    <value>Биіктіктегі жұмысқа тартылған адамдардың рөлі мен жауапкершілігін біліңіз.</value>
+  </data>
+  <data name="Train4SectionText3Li1" xml:space="preserve">
+    <value>Жалпы ақпарат</value>
+  </data>
+  <data name="Train4SectionText3Li2" xml:space="preserve">
+    <value>Жеке күзгі қорғау жүйесі</value>
+  </data>
+  <data name="Train4SectionText3Li3" xml:space="preserve">
+    <value>Құрылыс Салаптары</value>
+  </data>
+  <data name="Train4SectionText3Li4" xml:space="preserve">
+    <value>Баспалдақтар</value>
+  </data>
+  <data name="Train4SectionText3Li5" xml:space="preserve">
+    <value>Мобильді көтеру жұмыс алаңдары (MEWP).</value>
+  </data>
+  <data name="Train4SectionText3Li6" xml:space="preserve">
+    <value>Объектілердің құлауы</value>
+  </data>
+  <data name="Train4SectionText3Li7" xml:space="preserve">
+    <value>Рөлдер мен міндеттер</value>
+  </data>
+  <data name="Train4SectionTitle" xml:space="preserve">
+    <value>Биіктікте Жұмыс Істеу</value>
+  </data>
+  <data name="Train5SectionText" xml:space="preserve">
+    <value>Кадрларды шектеулі кеңістіктегі қауіпсіз операцияларға қойылатын талаптарды үйрету.</value>
+  </data>
+  <data name="Train5SectionText1Li1" xml:space="preserve">
+    <value>Қандай операцияларды шектеулі кеңістіктің талаптары бойынша білетінін біліңіз</value>
+  </data>
+  <data name="Train5SectionText1Li2" xml:space="preserve">
+    <value>Тәуекелдерді басқару үшін периметрлік дайындыққа қойылатын талаптарды біліңіз</value>
+  </data>
+  <data name="Train5SectionText1Li3" xml:space="preserve">
+    <value>Шығаруға байланысты үй-жайларға қатысты қауіптер жиынтығын анықтаңыз</value>
+  </data>
+  <data name="Train5SectionText1Li4" xml:space="preserve">
+    <value>Қауіпсіз кеңістіктегі түрлі операцияларды қалай қауіпсіз басқаруға болатындығын біліңіз</value>
+  </data>
+  <data name="Train5SectionText1Li5" xml:space="preserve">
+    <value>Қызметкерлердің шектеулі кеңістікте жұмыс істейтін рөлі мен жауапкершілігін білу.</value>
+  </data>
+  <data name="Train5SectionText2Li1" xml:space="preserve">
+    <value>Жалпы ақпарат</value>
+  </data>
+  <data name="Train5SectionText2Li2" xml:space="preserve">
+    <value>Жабық кеңістік</value>
+  </data>
+  <data name="Train5SectionText2Li3" xml:space="preserve">
+    <value>Қауіпсіз қауіптер, шектеулі кеңістіктерге қол жеткізу.</value>
+  </data>
+  <data name="Train5SectionText2Li4" xml:space="preserve">
+    <value>Шектеулі кеңістіктерге қойылатын талаптар</value>
+  </data>
+  <data name="Train5SectionText2Li5" xml:space="preserve">
+    <value>Қауіпсіз жұмыс әдістері</value>
+  </data>
+  <data name="Train5SectionText2Li6" xml:space="preserve">
+    <value>Шектеулі кеңістікке кіруге өкілетті персоналдың рөлі мен міндеттері</value>
+  </data>
+  <data name="Train5SectionTitle" xml:space="preserve">
+    <value>Жабық Кеңістікке Кіру.</value>
+  </data>
+  <data name="Train6SectionText" xml:space="preserve">
+    <value>Неге клиенттер бізді таңдайды?</value>
+  </data>
+  <data name="Train6SectionText1Li1" xml:space="preserve">
+    <value>Өрт қауіпсіздігі саласындағы негізгі теориялық білімдерді алу.</value>
+  </data>
+  <data name="Train6SectionText1Li2" xml:space="preserve">
+    <value>Төтенше жағдайлармен күресу бойынша дағдылар мен білімдерді алыңыз.</value>
+  </data>
+  <data name="Train6SectionText2Li1" xml:space="preserve">
+    <value>Заттар мен материалдардың өрт қауіпті қасиеттері, ғимараттардағы тұтанғыштық туралы жалпы ақпарат</value>
+  </data>
+  <data name="Train6SectionText2Li2" xml:space="preserve">
+    <value>Компанияларда өрт қаупі бар</value>
+  </data>
+  <data name="Train6SectionText2Li3" xml:space="preserve">
+    <value>Өрт қауіпсіздігі немесе тұтанғыш заттар мен материалдарды сақтау кезінде сақтық шаралары.</value>
+  </data>
+  <data name="Train6SectionText2Li4" xml:space="preserve">
+    <value>Жарылыс аймағында ыстық жұмыс кезінде өрт қаупінің сипаттамасы.</value>
+  </data>
+  <data name="Train6SectionText2Li5" xml:space="preserve">
+    <value>Эвакуациялық маршруттарға өрт қауіпсіздігі талаптары</value>
+  </data>
+  <data name="Train6SectionText2Li6" xml:space="preserve">
+    <value>Өртке қарсы жүйелерді шолу</value>
+  </data>
+  <data name="Train6SectionText2Li7" xml:space="preserve">
+    <value>Ұйымдағы өрт қауіпсіздігін ұйымдастыру принциптері</value>
+  </data>
+  <data name="Train6SectionText2Li8" xml:space="preserve">
+    <value>Өрт кезінде қызметкерлердің әрекеттері.</value>
+  </data>
+  <data name="Train6SectionTitle" xml:space="preserve">
+    <value>Техникалық Өрт Сөндіргіш Минимумы</value>
+  </data>
+  <data name="TrainBannerText1" xml:space="preserve">
+    <value>Біздің оқу бөлімі біліктілігін арттыру курстарын өткізу және үйде оқыту үшін сертификатталған.</value>
+  </data>
+  <data name="TrainBannerTitle1" xml:space="preserve">
+    <value>Оқу Орталығы</value>
+  </data>
+  <data name="TrainContactSectionName1" xml:space="preserve">
+    <value>Венера Хайдаровна</value>
+  </data>
+  <data name="TrainContactSectionName2" xml:space="preserve">
+    <value>Шынар Жандарбек</value>
+  </data>
+  <data name="TrainContactSectionTitle" xml:space="preserve">
+    <value>Біздің Оқыту Координаторларымен Байланысыңыз</value>
+  </data>
+  <data name="WhyCustomerTitle" xml:space="preserve">
+    <value>Неге клиенттер бізді таңдайды?</value>
+  </data>
+  <data name="FooterAlmatyAddress1" xml:space="preserve">
+    <value>Әл-Фараби даңғылы 77/7</value>
+  </data>
+  <data name="FooterAlmatyAddress2" xml:space="preserve">
+    <value>Есентай Тауэрс Бизнес Орталығы</value>
+  </data>
+  <data name="FooterAlmatyCredentials" xml:space="preserve">
+    <value>Алматы. Қазақстан. 050040</value>
+  </data>
+  <data name="FooterOfficeTitle3" xml:space="preserve">
+    <value>Алматы</value>
+  </data>
+  <data name="HomeSliderSlide0H3" xml:space="preserve">
+    <value>АЛҒАШҚЫ</value>
+  </data>
+  <data name="HomeSliderSlide0H3Span0" xml:space="preserve">
+    <value>IRATA cертификатталған жергілікті серіктес</value>
+  </data>
+  <data name="SHEQnewsIOSH" xml:space="preserve">
+    <value>Біз 2018 жылдың Наурыз айында, 2 “IOSH Managing Safely” курсы бойынша тағы 25 DSL Caspian қызметкерлерін дайындағанымызды мақтанышпен хабарлаймыз. Оқуы Actavo компаниясының (CMIOSH, FIIRSM) SHEQ директоры Нэйлл Моффат және QC менеджері Владислав Шарафиев қолдауымен өткізілді. Владислав материалдарды орыс және қазақ тілдеріне аударып, әрбір тыңдаушы, қауіпсіздік процестерін одан әрі басқару үшін, өз ана тілінде құралдарды пайдаланудың тереңдетілген түсініктерін және кәсіби дағдыларын алды.</value>
+  </data>
+  <data name="SHEQpdfIOSH" xml:space="preserve">
+    <value>#IOSH3</value>
+  </data>
+  <data name="SliderStaticlink" xml:space="preserve">
+    <value>Қосымша ақпарат</value>
+  </data>
+  <data name="SliderStaticTextH2" xml:space="preserve">
+    <value>IOSH Managing Safely 2018</value>
+  </data>
+  <data name="SliderStaticTextH3part1" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="SliderStaticTextH3part2" xml:space="preserve">
+    <value>алу үшін SHEQ бөлімін қараңыз</value>
+  </data>
+  <data name="SHEQnewsIOSH2" xml:space="preserve">
+    <value>Сонымен қатар, Джон Шейард өз тәжірибесімен бөлісіп, клиенттерімізге көрсететін қолдау туралы айтып берді. Осының бәрі біздің командаға жоғары білікті мамандарды қосып, DSL Caspian компаниясы және Құрық кен орнының қауіпсіздігін қамтамасыз етті.</value>
+  </data>
+  <data name="SHEQnewsIOSH3" xml:space="preserve">
+    <value>Бұл барлық іс-шаралар, біздің командамыздағы адамдардың көпшілігінің құзыреттілігін арттыру арқылы Қазақстандағы бірлескен кәсіпорындарды қолдау стратегиямыздың маңызды бөлігі болып табылады және DSL Caspian компаниясының Қазақстанда ең қауіпсіз индустриалды компаниясы болып табылады. Соңғы алты ай ішінде Actavo компаниясы IOSH қауіпсіз менеджментінде 39 қызметкерді дайындады.</value>
+  </data>
+  <data name="SHEQnewsIOSH4" xml:space="preserve">
+    <value>Тренинг аяқталғаннан кейін Нэйлл Моффат: «Командалар тренинг кезінде керемет қуат пен ынта көрсетті, ал олардың оқуға деген тәбеті нәтижеге бағытталған. Бұл адамдар осы саланы дамытудың алдыңғы қатарында болады. Ал шынайы басшылар ретінде олар үйреткен нәрселерін батылдықпен қолданады”</value>
+  </data>
+  <data name="TeamEventH2" xml:space="preserve">
+    <value>DSL Caspian тимбилдинг іс-шара</value>
+  </data>
+  <data name="TeamEventText" xml:space="preserve">
+    <value>12 мамырда DSL Caspian компаниясы компания қызметкерлері арасында команда құру іс-шарасын ұйымдастырды</value>
+  </data>
+</root>

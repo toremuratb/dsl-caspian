@@ -1,0 +1,488 @@
+﻿@using DSL.Helpers
+@model DSL.Models.SubcscribeModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="google-site-verification" content="hxxuOuUWWES7xVnJer3jtsDHfN5y8fwT0q8YkfPF02M" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="_AlAq4e4E_0X5hSKPbJqP3y4PVX4VNpCaNhCwloztSY" />
+
+    <title>DSL | @ViewBag.Title</title>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700">
+    <style>
+        body {
+            font-family: 'Hind', serif;
+        }
+    </style>
+    <link href="~/Content/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="~/Content/layout.css" rel="stylesheet" />
+    <link href="~/Content/swiper/css/swiper.min.css" rel="stylesheet" />
+    <link href="~/Content/nivo-lightbox.min.css" rel="stylesheet" />
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" sizes="57x57" href="~/Images/Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="~/Images/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/Images/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="~/Images/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/Images/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="~/Images/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="~/Images/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="~/Images/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Images/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="~/Images/Favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Images/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="~/Images/Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Images/Favicon/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="~/Images/Favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+
+    <div class="navbar-more-overlay"></div>
+    <nav class="navbar navbar-inverse navbar-fixed-top animate" style="border:0;">
+        <div class="container navbar-more visible-xs">
+            <form class="navbar-form navbar-left hidden-md hidden-sm hidden-xs" role="search">
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">Submit</button>
+                        </span>
+                    </div>
+                </div>
+            </form>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="@Url.Action("Index", "Home")" style="color:#737373">
+                        <span class="menu-icon fa fa-home"></span>
+                        @DSL.Resources.Resource.LayoutMenuHome
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("About", "Home")" style="color:#737373">
+                        <span class="menu-icon fa fa-info-circle"></span>
+                        @DSL.Resources.Resource.LayoutMenuAbout
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="collapse" data-target="#demo" style="color:#737373">
+                        <span class="menu-icon fa fa-wrench"></span>
+                        @DSL.Resources.Resource.LayoutMenuServices<i class="caret"></i>
+                    </a>
+                    <ul id="demo" class="collapse list-unstyled" style="padding-left:30px;border-bottom:3px solid #737373;background:rgb(234, 233, 233);">
+                            <li class="margin-b-0" style="padding-top:30px;padding-bottom:15px;padding-left:17%">
+                                <a href="@Url.Action("Scaffolding", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin-bottom:10px;">
+                                    <span class="menu-icon fa fa-arrow-r hidden"></span>
+                                    @DSL.Resources.Resource.LayoutMenuScaffolding
+                                </a>
+                            </li>
+                            <li class="margin-b-0" style="padding-top:15px;padding-bottom:15px;padding-left:17%">
+                                <a href="@Url.Action("Rope_access", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin-bottom:10px;">
+                                    <span class="menu-icon fa fa-picture-o hidden"></span>
+                                    @DSL.Resources.Resource.LayoutMenuRopeAccess
+                                </a>
+                            </li>
+                            <li class="margin-b-0" style="padding-top:15px;padding-bottom:15px;padding-left:17%">
+                                <a href="@Url.Action("Industrial_cleaning", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin-bottom:10px;">
+                                    <span class="menu-icon fa fa-picture-o hidden"></span>
+                                    @DSL.Resources.Resource.LayoutMenuIndustrialCleaning
+                                </a>
+                            </li>
+                            <li class="margin-b-0" style="padding-top:15px;padding-bottom:15px;padding-left:17%">
+                                <a href="@Url.Action("Insulation", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin-bottom:10px;">
+                                    <span class="menu-icon fa fa-picture-o hidden"></span>
+                                    @DSL.Resources.Resource.LayoutMenuInsulation
+                                </a>
+                            </li>
+                                <li class="margin-b-0" style="padding-top:15px;padding-bottom:15px;padding-left:17%">
+                                    <a href="@Url.Action("Fire_protection", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin-bottom:10px;">
+                                        <span class="menu-icon fa fa-picture-o hidden"></span>
+                                        @DSL.Resources.Resource.LayoutMenuFireProtection
+                                    </a>
+                                </li>
+                            <li  style="padding-top:15px;padding-bottom:15px;padding-left:17%">
+                                <a href="@Url.Action("Protective_coating", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin:10px 0;">
+                                    <span class="menu-icon fa fa-picture-o hidden"></span>
+                                    @DSL.Resources.Resource.LayoutMenuProtectiveCoating
+                                </a>
+                            </li>
+                            <li style="padding-top:15px;padding-bottom:15px;padding-left:17%">
+                                <a href="@Url.Action("Procurement", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin:10px 0;">
+                                    <span class="menu-icon fa fa-picture-o hidden"></span>
+                                    @DSL.Resources.Resource.LayoutMenuDistributionAndProcurement
+                                </a>
+                            </li>
+                            <li style="padding-top:15px;padding-bottom:30px;padding-left:17%">
+                                <a href="@Url.Action("Training", "Home")" data-toggle="collapse" data-target="#demo" style="color:#737373;margin:10px 0;">
+                                    <span class="menu-icon fa fa-picture-o hidden"></span>
+                                    @DSL.Resources.Resource.LayoutMenuTrainingCentre
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                <li>
+                    <a href="@Url.Action("Projects", "Home")" style="color:#737373">
+                        <span class="menu-icon fa fa-image"></span>
+                        @DSL.Resources.Resource.LayoutMenuProjects
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("HSEQ", "Home")" style="color:#737373">
+                        <span class="menu-icon fa fa-heart"></span>
+                        @DSL.Resources.Resource.LayoutMenuSHEQ
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Career", "Home")" style="color:#737373">
+                        <span class="menu-icon fa fa-line-chart"></span>
+                        @DSL.Resources.Resource.LayoutMenuCareer
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Contacts", "Home")" style="color:#737373">
+                        <span class="menu-icon fa fa-share"></span>
+                        @DSL.Resources.Resource.LayoutMenuContacts
+                    </a>
+                </li>
+                <li>
+                    <a href="#" data-toggle="collapse" data-target="#lng" style="color:#737373">
+                        <span class="menu-icon fa fa-globe"></span>
+                        @DSL.Resources.Resource.LayoutMenuLanguage
+                    </a>
+                    <ul id="lng" class="collapse list-unstyled" style="padding-left:30px;border-bottom:3px solid #737373;list-style: none; background:rgb(234, 233, 233);">
+                        <li class="margin-b-10 list-unstyled">
+                            @Url.LangSwitcher(@DSL.Resources.Resource.LayoutMenuEnglish, ViewContext.RouteData, "En")
+                        </li>
+                        <li class="margin-b-10 list-unstyled">
+                            @Url.LangSwitcher(@DSL.Resources.Resource.LayoutMenuKazakh, ViewContext.RouteData, "Kk")
+                        </li>
+                        <li class="margin-b-10 list-unstyled">
+                           @Url.LangSwitcher(@DSL.Resources.Resource.LayoutMenuRussian, ViewContext.RouteData, "Ru")
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="container">
+            <div class="navbar-header hidden-xs">
+                <a class="navbar-brand" href="@Url.Action("Index", "Home")" style="padding:0;"></a>
+            </div>
+            <div class="row">
+                    <form class="navbar-form navbar-right search-tab hidden-xs" role="search">
+                        <div class="form-group">
+                            <input type="text" class="input__field input__field--yoshiko" style="height:30px;" placeholder="@DSL.Resources.Resource.LayoutSearchButton">
+                        </div>
+                        <button type="submit" class="btn btn-default">@DSL.Resources.Resource.LayoutSearchButton</button>
+                        <a class="footer-list-link1 fweight-300 margin-b-0 navbar-right" style="vertical-align: bottom;padding-left: 10px;font-size: 15px;" href="#"><i class="fa fa-linkedin-square linkedin-link" style="font-size:30px;vertical-align: bottom;padding-bottom:0;"></i></a>
+                        <a class="footer-list-link1 fweight-300 margin-b-0 navbar-right" style="vertical-align: bottom;padding-left: 20px;font-size: 15px;" href="#"><i class="fa fa-facebook-official facebook-link" style="font-size:30px;vertical-align: bottom;padding-bottom:0;"></i></a>
+                    </form>
+
+                    
+                <ul class="nav navbar-nav navbar-right mobile-bar">
+                    <li class="hidden-xs">
+                        <a href="@Url.Action("Index", "Home")" class="nav-item-child nav-item-hover">
+                           @DSL.Resources.Resource.LayoutMenuHome
+                        </a>
+                    </li>
+                    <li class="hidden-xs">
+                        <a href="@Url.Action("About", "Home")">
+                           @DSL.Resources.Resource.LayoutMenuAbout
+                        </a>
+                    </li>
+                    <li class="hidden-xs dropdown mega-dropdown nav-item" style="min-height:51px;">
+                        <a href="@Url.Action("Services", "Home")" class="nav-item-child nav-item-hover">@DSL.Resources.Resource.LayoutMenuServices <span class="caret"></span></a>
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <div class="container-fluid">
+                                <div class="tab-content">
+                                    <div class="tab-pane active" id="men">
+                                        <ul class="nav-list list-inline">
+                                            <li><a href="@Url.Action("Scaffolding", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/Scaf.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuScaffolding</a></li>
+                                            <li><a href="@Url.Action("Rope_access", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/RA.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuRopeAccess</a></li>
+                                            <li><a href="@Url.Action("Industrial_cleaning", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/IC.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuIndustrialCleaning</a></li>
+                                            <li><a href="@Url.Action("Insulation", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/INS.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuInsulation</a></li>
+                                            <li><a href="@Url.Action("Fire_protection", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/FP.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuFireProtection</a></li>
+                                            <li><a href="@Url.Action("Protective_coating", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/PC.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuProtectiveCoating</a></li>
+                                            <li><a href="@Url.Action("Procurement", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/Proc.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuDistributionAndProcurement</a></li>
+                                            <li><a href="@Url.Action("Training", "Home")" class="nav-item-child1 nav-item"><img src="~/Images/Icons/Tr.png" width="80" style="margin: 10px 10px;"><br />@DSL.Resources.Resource.LayoutMenuTrainingCentre</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hidden-xs">
+                        <a href="@Url.Action("Projects", "Home")">
+                            <span class="menu-icon fa fa-ship"></span>
+                            @DSL.Resources.Resource.LayoutMenuProjects
+                        </a>
+                    </li>
+                    <li class="hidden-xs">
+                        <a href="@Url.Action("HSEQ", "Home")">
+                            <span class="menu-icon fa fa-bell"></span>
+                            @DSL.Resources.Resource.LayoutMenuSHEQ
+                        </a>
+                    </li>
+                    <li class="hidden-xs">
+                        <a href=" @Url.Action("Career", "Home")">
+                            <span class="menu-icon fa fa-phone"></span>
+                            @DSL.Resources.Resource.LayoutMenuCareer
+                        </a>
+                    </li>
+                    <li class="hidden-xs">
+                        <a href="@Url.Action("Contacts", "Home")">
+                            <span class="menu-icon fa fa-phone"></span>
+                            @DSL.Resources.Resource.LayoutMenuContacts
+                        </a>
+                    </li>
+                    <li class="drop hidden-xs lang-1">
+                        <a href="#" class="nav-item-child nav-item-hover"><i class="fa fa-globe" style="font-size:16px;"></i><span class="caret" style="margin-left:10px;"></span></a>
+                        <ul class="lang-dropdown" style="list-style: none;">
+                            <li class="nav-item list-unstyled" style="padding-right:10px;width:100%;">@Url.LangSwitcher(@DSL.Resources.Resource.LayoutMenuEnglish, ViewContext.RouteData, "En")</li>
+                            <li class="nav-item list-unstyled" style="padding-right:10px;width:100%;">@Url.LangSwitcher(@DSL.Resources.Resource.LayoutMenuKazakh, ViewContext.RouteData, "Kk")</li>
+                            <li class="nav-item list-unstyled" style="padding-right:10px;width:100%;">@Url.LangSwitcher(@DSL.Resources.Resource.LayoutMenuRussian, ViewContext.RouteData, "Ru")</li>
+                        </ul>
+                    </li>
+                    <li class="visible-xs">
+                        <a class="navbar-brand" href="@Url.Action("Index", "Home")" style="padding:0;margin-left:20px!important"></a>
+                        <a href="#navbar-more-show" class="iol" style="padding: 10px 34% 15px 0!important;">
+                            <span class="menu-icon fa fa-bars iol"></span>
+                            @DSL.Resources.Resource.LayoutMoreMenuButton
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $(".dropdown").hover(
+                    function () {
+                        $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                        $(this).toggleClass('open');
+                    },
+                    function () {
+                        $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                        $(this).toggleClass('open');
+                    }
+                );
+            });
+        </script>
+        <!--Navbar -->
+
+        @RenderBody()
+        <footer class="footer">
+            <!-- Links -->
+            <div class="footer-seperator">
+                <div class="content-lg container" style="padding-bottom:0;padding-top:20px;">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-9 sm-margin-b-10 footer-addresses">
+                            <div class="col-sm-6 col-md-4">
+                                <h4 class="color-white" style="padding-bottom:0;border-bottom:2px solid #cbd3e1;font-weight:300;margin-bottom:0;">@DSL.Resources.Resource.FooterOfficeTitle1</h4>
+                                <ul class="list-unstyled footer-list fweight-300" style="margin-top:8px;">
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;">
+                                    <p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;">
+                                        <i class="fa fa-building"></i> &nbsp; @DSL.Resources.Resource.FooterAtyrauAddress1</p></li> 
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;">
+                                    <p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;padding-left:18px;">
+                                        &nbsp; @DSL.Resources.Resource.FooterAtyrauAddress2 </p></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="tel:+77122763747" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-phone"></i> &nbsp;  +7-7122-76-37-47</a></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="mailto:Akmaral.juldybayeva@dslcaspian.com" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-envelope"></i>&nbsp;  akmaral.juldybayeva@dslcaspian.com</a></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;"><i class="fa fa-share-square"></i> &nbsp;@DSL.Resources.Resource.FooterAtyrauCredentials </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <h4 class="color-white" style="padding-bottom:0;border-bottom:2px solid #cbd3e1;font-weight:300;margin-bottom:0;">@DSL.Resources.Resource.FooterOfficeTitle2</h4>
+                                <ul class="list-unstyled footer-list fweight-300" style="margin-top:8px;">
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;"><i class="fa fa-building"></i> &nbsp;@DSL.Resources.Resource.FooterAktauAddress1</p></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;padding-left:18px;"> &nbsp; @DSL.Resources.Resource.FooterAktauAddress2</p></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="tel:+77292201143" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-phone"></i> &nbsp;  +7-7292-20-11-43</a></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="mailto:Nazym.kanabayeva@dslcaspian.com " class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-envelope"></i>&nbsp;  nazym.kanabayeva@dslcaspian.com </a></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;"><i class="fa fa-share-square"></i> &nbsp;@DSL.Resources.Resource.FooterAktauCredentials</li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <h4 class="color-white" style="padding-bottom:0;border-bottom:2px solid #cbd3e1;font-weight:300;margin-bottom:0;">@DSL.Resources.Resource.FooterOfficeTitle3</h4>
+                                <ul class="list-unstyled footer-list fweight-300" style="margin-top:8px;">
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;"><i class="fa fa-building"></i> &nbsp;@DSL.Resources.Resource.FooterAlmatyAddress1</p></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;padding-left:18px;"> &nbsp; @DSL.Resources.Resource.FooterAlmatyAddress2</p></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="tel:+77273307008" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-phone"></i> &nbsp; +7-727-3307008</a></li>
+                                   
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="mailto:Zharas.akkulov@dslcaspian.com" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-envelope"></i>&nbsp; Zharas.akkulov@dslcaspian.com </a></li>
+                                    <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><p style="font-weight:300;font-size:14px;color: #ffffff!important;margin-bottom:4px!important;"><i class="fa fa-share-square"></i> &nbsp;@DSL.Resources.Resource.FooterAlmatyCredentials</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-md-3 sm-margin-b-30">
+                            <h4 class="color-white margin-t-20" style="padding-bottom:0;border-bottom:2px solid #cbd3e1;font-weight:300;margin-bottom:10px;">@DSL.Resources.Resource.LayoutFooterSubscribeTitle</h4>
+                            <div class="row" style="margin:15px;margin-top:8px;">
+                                @using (Html.BeginForm("Subscribe", "Home", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+                                {
+                                    @Html.AntiForgeryToken()
+
+                                    @Html.TextBoxFor(m => m.FromEmail, new { @class = "input__field input__field--yoshiko1" })
+                                    @Html.ValidationMessageFor(m => m.FromEmail)
+                                    <div class="footer-list-item">
+                                <input type="submit" style="margin-top: 10px;margin-left:0;" class="btn btn-default" value="@DSL.Resources.Resource.LayoutSubscribeButton" />
+                                <a class="footer-list-link fweight-300 margin-l-20 margin-b-0" style="vertical-align: bottom;padding-bottom: 5px;font-size: 15px;" href="#">
+                                        <i class="fa fa-linkedin-square" style="font-size:20px;vertical-align: bottom;padding-bottom: 3px;">
+                                            </i></a>
+
+                                    </div>
+                                }
+                                <!-- End List -->
+
+                            </div>
+                           
+
+                        </div>
+                        <!--// end row -->
+                    </div>
+                </div>
+                <!-- End Links -->
+                <!-- Copyright -->
+                <div class="container" style="background:#2c2c2c;">
+                    <div class="row">
+                        <div class="col-xs-6 col-md-6 col-lg-6 text-left" style="padding-top:20px;padding-bottom:20px;">
+                            <p class="margin-b-0" style="vertical-align:bottom;">
+                                <a class="color-white fweight-300 copyright" href="https://Qaimaq.com" target="_blank">
+                                    © @DSL.Resources.Resource.FooterCopyright Qaimaq 2017
+                                </a>
+                            </p>
+                        </div>
+                        <div class="col-xs-6 col-md-6 col-lg-6 text-right" style="padding-top:20px;padding-bottom:20px;">
+                            <p class="margin-b-0 color-white" style="vertical-align:bottom;">
+                                @DSL.Resources.Resource.FooterPartners
+                                <a class="color-white fweight-300 copyright" href="http://actavo.com" target="_blank"> 
+                                    Actavo
+                                </a> | 
+                                <a class="color-white fweight-300 copyright" href="http://lancasterholding.com" target="_blank">
+                                     Lancaster
+                                </a>
+                            </p>
+                        </div>
+                        </div>
+                    <!--// end row -->
+                </div>
+                <!-- End Copyright -->
+            </div>
+                </footer>
+   
+    <div id="mySidenav" class="sidenav hidden-sm hidden-xs">
+        <a href="mailto:Zharas.akkulov@dslcaspian.com" id="Contact"><i class=" fa fa-envelope-open"  style="font-size:25px;font-weight:500;margin-right:20px;"></i>@DSL.Resources.Resource.LayoutFixedButton1</a>
+        <a href="tel:+77122763747" id="Call"><i class="fa fa-phone-square" style="font-size:30px;font-weight:500;margin-right:20px;"></i>@DSL.Resources.Resource.LayoutFixedButton2</a>
+    </div>
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top back-to-top-is-visible back-to-top-fade-out" style="background:#007bbc;z-index:99;"><i class="fa fa-arrow-up" style="padding-top: 5px;font-size: 20px;"></i></a>
+        
+        <a href="tel:+77122763747" class="js-back-to-top2 back-to-top2 back-to-top-is-visible2 back-to-top-fade-out2 hidden-lg visible-xs-block visible-sm-block" style="background:transparent;color:#007bbc; z-index:99;">
+            <div class="feature-wrap">
+                <i class="fa fa-phone service-icon2" style="font-size:30px;"></i>
+            </div>
+        </a>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+    <script type="text/javascript">
+
+        /*----------------------------------------------------*/
+        /*	Youtube mute video
+        /*----------------------------------------------------*/
+
+        var tag = document.createElement('script');
+
+        tag.src = "//www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('ytplayer', {
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        function onPlayerReady() {
+            player.playVideo();
+            // Mute!
+            player.mute();
+        }
+
+
+
+    </script>
+    <script type="text/javascript">
+                    $('.counter-count').each(function () {
+                        $(this).prop('Counter', 0).animate({
+                            Counter: $(this).text()
+                        }, {
+                                duration: 28000,
+                                delay: 5000,
+                                easing: 'swing',
+                                step: function (now) {
+                                    $(this).text(Math.ceil(now));
+                                }
+                            });
+                    
+            });
+        </script>
+    <script type="text/javascript">
+                    $(document).ready(function () {
+                        $('a[href="#navbar-more-show"], .navbar-more-overlay').on('click', function (event) {
+                            event.preventDefault();
+                            $('body').toggleClass('navbar-more-show');
+                            if ($('body').hasClass('navbar-more-show')) {
+                                $('a[href="#navbar-more-show"]').closest('li').addClass('active');
+                            } else {
+                                $('a[href="#navbar-more-show"]').closest('li').removeClass('active');
+                            }
+                            return false;
+                        });
+                    });
+    </script>
+    <script type="text/javascript" src="/Scripts/classie.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.back-to-top.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.min.map">~/Scripts/jquery.min.map</script>
+    <script type="text/javascript" src="/Scripts/jquery.easing.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.smooth-scroll.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.validate-vsdoc.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.unobtrusive.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.smooth-scroll.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.wow.min.js"></script>
+    <script type="text/javascript" src="/Scripts/swiper.jquery.min.js"></script>
+    <script type="text/javascript" src="/Scripts/jquery.masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="/Scripts/imagesloaded.pkgd.min.js"></script>
+    <script type="text/javascript" src="/Scripts/layout.min.js"></script>
+    <script src="/Scripts/animateCss/animateCss.min.js"></script>
+    <script type="text/javascript" src="/Scripts/wow.min.js"></script>
+    <script type="text/javascript" src="/Scripts/swiper.min.js"></script>
+    <script type="text/javascript" src="/Scripts/masonry.min.js"></script>
+    <script type="text/javascript" src="/Scripts/parallax.min.js"></script>
+    <script type="text/javascript" src="/Scripts/gmap.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="/Content/swiper/js/swiper.jquery.js"></script>
+    <script type="text/javascript" src="/Content/swiper/js/swiper.js"></script>
+    <script type="text/javascript" src="/Scripts/swiper.js"></script>
+    <script type="text/javascript" src="/Scripts/swiper.jquery.js"></script>
+    <script src="/Scripts/nivo-lightbox.min.js"></script>
+    <script src="/Scripts/jquery.isotope.min.js"></script>
+    <script src="/Scripts/script.js"></script>
+
+
+</body>
+</html>

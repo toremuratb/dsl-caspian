@@ -1,0 +1,188 @@
+﻿@model DSL.Models.ContactFormModel
+@{
+    ViewBag.Title = DSL.Resources.Resource.LayoutMenuContacts;
+}
+<div class="js__parallax-window1 main-banner" style="background: url('../../Images/1920x1080/contacts.jpg') 50% 0 no-repeat fixed;">
+    <div class="parallax-content container" style="padding-top:80px !important;padding-bottom:55px !important;">
+        <div class="col-sm-6 col-md-6 carousel-fx">
+            <h1 class="carousel-title wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms" style="text-shadow: 1px 2px 5px #000;">
+            @DSL.Resources.Resource.ContactBannerTitle</h1>
+            <hr style="border-color:#e74336;" />
+            <p class="color-white wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1500ms" style="text-shadow: 1px 2px 5px #000;padding-left:5px;font-size:18px;color:#fff!important;">
+            @DSL.Resources.Resource.ContactBannerText1<br /> @DSL.Resources.Resource.ContactBannerText2</p>
+            <a href="@Url.Action("Services", "Home")">
+                <div class="btn-theme btn-theme-sm btn-red-brd text-uppercase wow fadeInDown animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="2000ms">
+                @DSL.Resources.Resource.SliderServicesButton</div>
+            </a>
+        </div>
+    </div>
+</div>
+<!--========== PARALLAX ==========-->
+<!--========== PAGE LAYOUT ==========-->
+<!-- Contact List -->
+
+<div class="container" style="padding-top:20px;">
+    <div class="text-center">
+        <h3 class="color-red" style="margin-bottom:0;">@DSL.Resources.Resource.ContactMainTitle</h3>
+        <hr style="border-color:#b0b0b0;margin-top:0;" />
+        </div> 
+    <div class="col-md-10 col-sm-8 col-sm-offset-2 col-md-offset-1 wow fadeInUp" data-wow-duration=".3" data-wow-delay=".6s">
+        <div class="row">
+            @using (Html.BeginForm("SendMessage", "Home", null, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="row" style="padding-top:0;">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <span class="input input--yoshiko">
+
+                                @Html.TextBoxFor(m => m.FromCname, new { @class = "input__field input__field--yoshiko ver-center-aligned" })
+                                <label class="input__label input__label--yoshiko" for="input-10">
+                                    <span class="input__label-content input__label-content--yoshiko" data-content="@DSL.Resources.Resource.ContactFormCName">@DSL.Resources.Resource.ContactFormCName</span>
+                                </label>
+                                @Html.ValidationMessageFor(m => m.FromCname)
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <span class="input input--yoshiko">
+
+                                @Html.TextBoxFor(m => m.FromPhone, new { @class = "input__field input__field--yoshiko ver-center-aligned" })
+                                <label class="input__label input__label--yoshiko" for="input-11">
+                                    <span class="input__label-content input__label-content--yoshiko" data-content="@DSL.Resources.Resource.ContactFormPhone">@DSL.Resources.Resource.ContactFormPhone</span>
+                                </label>
+                                @Html.ValidationMessageFor(m => m.FromPhone)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="padding-top:0;">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <span class="input input--yoshiko">
+
+                                @Html.TextBoxFor(m => m.FromName, new { @class = "input__field input__field--yoshiko ver-center-aligned" })
+                                <label class="input__label input__label--yoshiko" for="input-10">
+                                    <span class="input__label-content input__label-content--yoshiko" data-content="@DSL.Resources.Resource.ContactFormName">@DSL.Resources.Resource.ContactFormName</span>
+                                </label>
+                                @Html.ValidationMessageFor(m => m.FromName)
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <span class="input input--yoshiko">
+
+                                @Html.TextBoxFor(m => m.FromEmail, new { @class = "input__field input__field--yoshiko ver-center-aligned" })
+                                <label class="input__label input__label--yoshiko" for="input-11">
+                                    <span class="input__label-content input__label-content--yoshiko" data-content="@DSL.Resources.Resource.ContactFormEmail">@DSL.Resources.Resource.ContactFormEmail</span>
+                                </label>
+                                @Html.ValidationMessageFor(m => m.FromEmail)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                            <div class="row" style="margin-top:0;">
+                                <div class="col-md-12">
+                                    <div class="form-group userMessage">
+                                        <span class="input input--yoshiko">
+
+                                            @Html.TextBoxFor(m => m.Message, new { @class = "input__field input__field--yoshiko userMessage" })
+                                            <label class="input__label input__label--yoshiko" for="input-12">
+                                                <span class="input__label-content input__label-content--yoshiko" data-content="@DSL.Resources.Resource.ContactFormMessage">@DSL.Resources.Resource.ContactFormMessage</span>
+                                            </label>
+                                            @Html.ValidationMessageFor(m => m.Message)
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 0;">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-default" value="@DSL.Resources.Resource.ContactFormButton" />
+                                    </div>
+                                </div>
+                            </div>
+            }
+
+            <!--// end row -->
+
+        </div>
+    </div>
+
+</div>
+<section id="contact-info" style="padding-bottom:0;padding-top:30px;">
+    <div class="gmap-area">
+        <div class="container">
+                    <div class="row" style="padding-top:20px;">
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xs-12 text-center">
+                            <div class="gmap wow fadeInDown" data-wow-duration=".3" data-wow-delay=".2s">
+                                <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1357.8354214959309!2d51.927147058333055!3d47.10552309478869!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41a3ea192bcc5e37%3A0x26edd39d06f7facd!2sBakhyt+Business+Center!5e0!3m2!1sru!2sru!4v1505910744936"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xs-12 map-content" style="margin-top:20px;padding-bottom:120px;">
+                            <ul class="row wow fadeInRight" data-wow-duration=".3" data-wow-delay=".6s">
+                                <li class="col-sm-12" style="padding:0;">
+                                        <h3 class="color-red margin-b-20">@DSL.Resources.Resource.ContactCity1</h3>
+                                        <ul class="list-unstyled contact-list">
+                                            <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-building"></i> &nbsp; @DSL.Resources.Resource.FooterAtyrauAddress1</p></li>
+                                            <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;padding-left:18px;"> &nbsp;  @DSL.Resources.Resource.FooterAtyrauAddress2</p></li>
+                                            <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="tel:+77122763747" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-phone"></i> &nbsp;  +7-7122-76-37-47</a></li>
+                                            <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="mailto:Akmaral.juldybayeva@dslcaspian.com" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-envelope"></i>&nbsp;akmaral.juldybayeva@dslcaspian.com</a></li>
+                                            <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-share-square"></i> &nbsp;  @DSL.Resources.Resource.FooterAtyrauCredentials</li>
+                                        </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3 col-xs-12 text-center">
+                            <div class="gmap wow fadeInDown" id="Aktau" data-wow-duration=".3" data-wow-delay=".2s">
+                                <script>
+      function initMap() {
+          var uluru = { lat: 43.6433, lng: 51.1970 };
+        var map = new google.maps.Map(document.getElementById('Aktau'), {
+          zoom: 16,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+            </script>
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsKPd7iagpOL1fWAY4RjF5T6vJ01gcnss&callback=initMap">
+            </script>
+        </div>
+    </div>
+
+    <div class="col-sm-6 col-md-6 col-lg-3 col-xs-12 map-content" style="margin-top:20px;">
+        <ul class="row wow fadeInRight" data-wow-duration=".3" data-wow-delay=".6s">
+            <li class="col-sm-12" style="padding:0;">
+                    <h3 class="color-red margin-b-20">@DSL.Resources.Resource.ContactCity2</h3>
+                    <ul class="list-unstyled contact-list">
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-building"></i> &nbsp;  @DSL.Resources.Resource.FooterAktauAddress1</p></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;color: #ffffff!important;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;padding-left:18px;"> &nbsp;  @DSL.Resources.Resource.FooterAktauAddress2</p></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="tel:+77292201143" class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-phone"></i> &nbsp;  +7-7292-20-11-43</a></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><a href="mailto:Nazym.kanabayeva@dslcaspian.com " class="footer-list-link fweight-300" style="font-size:14px;"><i class="fa fa-envelope"></i>&nbsp;nazym.kanabayeva@dslcaspian.com </a></li>
+                        <li class="footer-list-item" style="font-size:12px;margin-bottom:4px;"><p style="font-weight:300;font-size:14px;color: #585858!important;margin-bottom:4px!important;"><i class="fa fa-share-square"></i> &nbsp;  @DSL.Resources.Resource.FooterAktauCredentials</li>
+                    </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+            </div>
+        </div>
+    </section>
+        
+
+    
+
+
+    <!-- End Contact List -->
+    <!-- Google Map -->

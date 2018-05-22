@@ -1,0 +1,883 @@
+﻿@{
+    ViewBag.Title = DSL.Resources.Resource.ProjectsBannerTitle;
+}
+
+<div class="js__parallax-window1 main-banner1" style="background: url('../../Images/1920x1080/OV.jpg') 50% 0 no-repeat fixed;">
+    <div class="parallax-content container" style="padding-top:120px !important;padding-bottom:100px !important;">
+        <div class="col-md-6 carousel-fx">
+            <h1 class="carousel-title wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms" style="text-shadow: 1px 3px 5px #000;margin-bottom:0;">
+            @DSL.Resources.Resource.ProjectsBannerTitle</h1>
+            <hr style="border-color:#e74336;" />
+            <p class="color-white wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1500ms" style="text-shadow: 1px 2px 5px #000;text-indent:0;padding-left:5px;font-size:18px;color:#fff!important;">
+               @DSL.Resources.Resource.ProjectsBannerText
+            </p>
+            <a href="@Url.Action("contacts", "Home")">
+                <div class="btn-theme btn-theme-sm btn-white-brd text-uppercase wow fadeInDown animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="2000ms">@DSL.Resources.Resource.SliderContactButton</div>
+            </a>
+            <a href="@Url.Action("Services", "Home")">
+                <div class="btn-theme btn-theme-sm btn-red-brd text-uppercase wow fadeIn animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="2000ms">@DSL.Resources.Resource.SliderServicesButton</div>
+            </a>
+        </div>
+    </div>
+</div>
+<!--========== PARALLAX ==========-->
+<!--========== PAGE LAYOUT ==========-->
+<div class="bg-color-sky-light overflow-h">
+    <div class="content-lg container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="color-red text-center">
+                @DSL.Resources.Resource.ProjectsMainTitle</h3>
+                <hr style="border-top:1px solid #b0b0b0;margin-bottom:20px;"/>
+            </div>
+        </div>
+        <!--// end row -->
+        <!-- Masonry Grid -->
+        <div class="portfolio-filter row" id="portfolio-filter2">
+            <ul>
+                <li class="wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="0ms"><a href="#" class="selected" data-filter="*">@DSL.Resources.Resource.ProjectsPortfolioFilters</a></li>
+                <li class="wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="400ms"><a href="#" data-filter=".Sf">@DSL.Resources.Resource.ProjectsPortfolioFilters1</a></li>
+                <li class="wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="800ms"><a href="#" data-filter=".Rp">@DSL.Resources.Resource.ProjectsPortfolioFilters2</a></li>
+                <li class="wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="1200ms"><a href="#" data-filter=".Is">@DSL.Resources.Resource.ProjectsPortfolioFilters3</a></li>
+                <li class="wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="1600ms"><a href="#" data-filter=".Fp">@DSL.Resources.Resource.ProjectsPortfolioFilters4</a></li>
+                <li class="wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="2000ms"><a href="#" data-filter=".Pc">@DSL.Resources.Resource.ProjectsPortfolioFilters5</a></li>
+                </ul>
+        </div>
+            <div class="row margin-b-50">
+                <div id="portfolio" class="portfolio-3">
+                    <div class="portfolio-item Sf Fp Is hvac col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj1">
+                                        <img src="~/Images/970x647/KPO-1.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj1">
+                                    <h4 class="color-red margin-b-0">@DSL.Resources.Resource.HomeProjectTitle1 <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">@DSL.Resources.Resource.HomeProjectSubtitle1 </span></h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style=" ">@DSL.Resources.Resource.HomeProjectText1</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item Sf Fp Rp Is col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj2">
+                                        <img src="~/Images/970x647/NCOC.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj2">
+                                    <h4 class="color-red margin-b-0">@DSL.Resources.Resource.HomeProjectTitle2<span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">@DSL.Resources.Resource.HomeProjectSubtitle2</span></h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style=" ">@DSL.Resources.Resource.HomeProjectText2</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item Sf Fp Is col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj3">
+                                        <img src="~/Images/970x647/NCPOC.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj3">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle3<span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle3
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style=" ">@DSL.Resources.Resource.HomeProjectText3</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                     
+                    <!--second row-->
+                    <div class="portfolio-item Sf Fp Is col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj4">
+                                        <img src="~/Images/970x647/Tengiz-TCO.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj4">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle4
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle4
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText4
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item Sf Is col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj5">
+                                        <img src="~/Images/970x647/sicim-demo.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj5">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle5
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle5
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText5
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj6">
+                                        <img src="~/Images/970x647/ErSai1.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj6">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle6
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle6
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText6
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+<!--third row-->
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj7">
+                                        <img src="~/Images/970x647/ErSai2.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj7">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle7
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle7
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText7
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item Sf Fp Is Pc Rp col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj8">
+                                        <img src="~/Images/970x647/ErSai3.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj8">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle8
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle8
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText8
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj9">
+                                        <img src="~/Images/970x647/ErSai4.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj9">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle9
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle9
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText9
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--forth row-->
+                    <div class="portfolio-item Sf Fp Is Pc Rp col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj10">
+                                        <img src="~/Images/970x647/PSNK.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj10">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle10
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle10
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText10
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj11">
+                                        <img src="~/Images/970x647/KCOI.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj11">
+                                    <h4 class="color-red margin-b-0">
+                                        @DSL.Resources.Resource.HomeProjectTitle11
+                                        <span class="text-uppercase margin-l-20 color-blue" style="font-size:13px;">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle11
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText11
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="portfolio-item Sf Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj12">
+                                        <img src="~/Images/970x647/ISKER.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj12">
+                                    <h4 class="color-red">
+                                        @DSL.Resources.Resource.HomeProjectTitle16
+                                        <span class="text-uppercase span-fx margin-l-10 color-blue">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle16
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText16
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj14">
+                                        <img src="~/Images/970x647/FLEX.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj14">
+                                    <h4 class="color-red">
+                                        @DSL.Resources.Resource.HomeProjectTitle15<span class="text-uppercase span-fx color-blue">
+                                            @DSL.Resources.Resource.ProjectsPortfolioFLEX
+                                    </span>
+                                </h4>
+                                <hr style="margin-top:0;" />
+                                <p style="text-indent:0;">
+                                    @DSL.Resources.Resource.HomeProjectText15
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj13">
+                                        <img src="~/Images/970x647/MAERSK.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj13">
+                                    <h4 class="color-red">@DSL.Resources.Resource.ProjectsPortfolioMaersk1 
+                                    <span class="text-uppercase span-fx margin-l-10 color-blue">@DSL.Resources.Resource.ProjectsPortfolioMaersk2</span></h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">@DSL.Resources.Resource.ProjectsPortfolioMaersk3</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj15">
+                                        <img src="~/Images/970x647/UNEX.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj15">
+                                    <h4 class="color-red">
+                                        @DSL.Resources.Resource.HomeProjectTitle14 <span class="text-uppercase span-fx margin-l-10 color-blue">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle14
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText14
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj16">
+                                        <img src="~/Images/970x647/KCOI2.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj16">
+                                    <h4 class="color-red">
+                                        @DSL.Resources.Resource.HomeProjectTitle13
+                                        <span class="text-uppercase span-fx margin-l-10 color-blue">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle13
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText13
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item Sf Fp Is Pc col-md-4 col-sm-6">
+                        <div class="portfolio-border">
+                            <div class="portfolio-thumb">
+                                <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <a href="*" data-toggle="modal" data-target="#proj17">
+                                        <img src="~/Images/Sicim_teng.jpg" class="img-responsive" alt="..." />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="portfolio-details">
+                                <a href="*" data-toggle="modal" data-target="#proj17">
+                                    <h4 class="color-red">
+                                        @DSL.Resources.Resource.HomeProjectTitle12
+                                        <span class="text-uppercase span-fx margin-l-10 color-blue">
+                                            @DSL.Resources.Resource.HomeProjectSubtitle12
+                                        </span>
+                                    </h4>
+                                    <hr style="margin-top:0;" />
+                                    <p style="text-indent:0;">
+                                        @DSL.Resources.Resource.HomeProjectText12
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Our Exceptional Solutions -->
+                </div>
+            <!--// end row -->
+        </div>
+        <div>
+
+        </div>
+        </div>
+    </div>
+<!--modals-->
+<!--1-->
+<div class="modal fade" id="projj1" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">KPO  : Aksai</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/KPO-1.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end 1-->
+<!--2-->
+<div class="modal fade" id="projj2" role="dialog">
+    <div class="modal-dialog3">
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">NCOC  : Karabatan</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/NCOC.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end2-->
+<!--3-->
+<div class="modal fade" id="projj3" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">NCOC  : Offshore island "D"</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/NCPOC.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end3-->
+<!--4-->
+<div class="modal fade" id="projj4" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">TCO  : Tengiz</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/Tengiz-TCO.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end 4-->
+<!--5-->
+<div class="modal fade" id="projj5" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">SICIM  : Tengiz</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/sicim-demo.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end5-->
+<!--6-->
+<div class="modal fade" id="projj6" role="dialog">
+    <div class="modal-dialog3">
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">ErSai  : Kyruk</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/ErSai1.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end6-->
+<!--7-->
+<div class="modal fade" id="projj7" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">ErSai  : Kyruk</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/ErSai2.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end 7-->
+<!--8-->
+<div class="modal fade" id="projj8" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">ErSai  : Karabatan</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/ErSai3.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end8-->
+<!--9-->
+<div class="modal fade" id="projj9" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">ErSai  : Offshore island "D"</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/ErSai4.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end9-->
+<!--11-->
+<div class="modal fade" id="projj10" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">PSNK  : Karabatan</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/PSNK.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end 11-->
+<!--11-->
+<div class="modal fade" id="projj11" role="dialog">
+    <div class="modal-dialog3">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+
+
+            <div class="modal-body" style="padding-bottom:0;padding-top:0;">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" style="font-size:34px;">&times;</button>
+                    <h3 class="modal-title text-center">NCOC  : Karabatan</h3>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p class="list-group-item-text" style="margin-top:10px;padding:20px;">
+                            Actavo is justifiably proud of its achievements in Health and Safety through  the  development  of  our  Integrated  SHEQ  management system.   The   system   is   designed   to   enable   line   management   to fulfil   their   roles   in   SHEQ   (Safety,   Health,   Environmental,   Quality and   Training)   by   making   each   and   every   person   in   our   team accountable for their own and others Health and Safety. This creates an  improved  culture  throughout  the  business  from  the  behavioural changes in the attitude of our team towards SHEQ.
+                            We hold safety as a value, not a priority, because priorities change, values  don’t.  The  ultimate  responsibility  for  SHEQ  lies  with  the  CEO who ensures it is given equal priority with other major business issues. The   implementation   of   the   policy   and   the   safety   management system   is   a   line   management   responsibility   and   will   involve   the participation of all employees within the company.
+                            We   continually   review   our   SHEQ   strategies   and   constantly   look for   new   innovative   ideas   to   improve   our   management   system. Objectives   and   Targets   reestablished   annually   and   reviewed monthly  to  establish  their  status.  Information  is  fed  back  into  the company so all employees are aware, thus creating an environment built  upon  trust  and  respect,  and  whereby  everyone  is  an  equal partner in the company.
+                            Actavo is certified to OHSAS 18001:2007, the internationally recognised  certification for occupational health and safety management systems. This certification demonstrates DSL’s commitment to health and safety and  the well-being in the workplace.
+
+                        </p>
+                    </div>
+                    <div class="col-sm-7" style="margin-top:15px;">
+                        <img src="~/Images/970x647/KCOI.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!--end11-->
+
+<!-- End Our Exceptional Solutions -->
+<!--========== END PAGE LAYOUT ==========-->
+
+
+
