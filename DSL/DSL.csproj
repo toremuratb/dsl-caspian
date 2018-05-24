@@ -357,6 +357,7 @@
     <Content Include="Images\clients\11.png" />
     <Content Include="Images\decaux.png" />
     <Content Include="Images\dir.jpg" />
+    <Content Include="Images\dsl-event.jpg" />
     <Content Include="Images\DSLLogo.png" />
     <Content Include="Images\ersai.png" />
     <Content Include="Images\Favicon\android-icon-144x144.png" />
@@ -465,6 +466,7 @@
     <Content Include="Images\macbook.png" />
     <Content Include="Images\map.jpg" />
     <Content Include="Images\map.png" />
+    <Content Include="Images\marathon2.jpg" />
     <Content Include="Images\over.jpg" />
     <Content Include="Images\Parallax\cores.jpg" />
     <Content Include="Images\Parallax\FP.jpg" />
@@ -574,7 +576,9 @@
     <Content Include="PDF\wpmp.pdf" />
     <Content Include="PDF\lic.pdf" />
     <None Include="Properties\PublishProfiles\dslcaspiankz - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\dslcaspiankz - FTP1.pubxml" />
     <None Include="Properties\PublishProfiles\dslcaspiankz - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\dslcaspiankz - Web Deploy1.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />

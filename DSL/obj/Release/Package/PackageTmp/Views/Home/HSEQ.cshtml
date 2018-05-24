@@ -1,24 +1,22 @@
 ﻿@{
     ViewBag.Title = "SHEQ";
 }
-
 <!--========== SLIDER ==========-->
 <div class="js__parallax-window1 main-banner" style="background: url('../../Images/1920x1080/HSEQ.jpg') 50% 0 no-repeat fixed;">
     <div class="parallax-content container" style="padding-top:105px !important;padding-bottom:90px !important;">
         <div class="col-md-6 carousel-fx">
             <h1 class="carousel-title wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms" style="text-shadow: 1px 3px 5px #000;margin-bottom:0;">
-            @DSL.Resources.Resource.SHEQBannerTitle</h1>
+                @DSL.Resources.Resource.SHEQBannerTitle
+            </h1>
             <hr style="border-color:#e74336;" />
             <p class="color-white wow fadeInUp animated" data-animation="FadeIn" data-wow-duration="1000ms" data-wow-delay="1500ms" style="text-shadow: 1px 2px 5px #000;padding-left:5px;font-size:18px;color:#fff!important;">
-            @DSL.Resources.Resource.SHEQBannerText</p>
+                @DSL.Resources.Resource.SHEQBannerText
+            </p>
         </div>
     </div>
 </div>
 <!--========== SLIDER ==========-->
-
 <!--========== PAGE LAYOUT ==========-->
-
-
 <!-- Latest Products -->
 <div class="content-lg container">
     <div class="row margin-b-40">
@@ -103,7 +101,7 @@
             <h3 class="text-center color-red">@DSL.Resources.Resource.SHEQSection2Title</h3>
             <hr style="margin-bottom:30px;" />
         </div>
-        <div class="col-sm-2 col-sm-offset-2">
+        <div class="col-sm-3">
             <div class="promo-section-img wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="0ms">
                 <a href="https://kazathletics.kz/fans/atyrau-marathon/">
                     <img class="img-responsive" src="/Images/Spons.jpg" alt="Content Image" style="margin-top:30px;">
@@ -117,7 +115,13 @@
                 <br />@DSL.Resources.Resource.SHEQSection2Text3<a href="https://www.qazrun.kz/e/q/atyrau-marathon-2018/" target="_blank" class="footer-list-link" style="text-decoration:none!important;color:#007bbc!important"> @DSL.Resources.Resource.SHEQSection2Text4</a>
             </p>
         </div>
-
+        <div class="col-sm-3">
+            <div class="promo-section-img wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="0ms">
+                <a href="https://www.qazrun.kz/e/q/atyrau-marathon-2018/">
+                    <img class="img-responsive" src="/Images/marathon2.jpg" alt="Content Image" style="margin-top:30px;">
+                </a>
+            </div>
+        </div>
         <div class="col-md-12" style="margin-top:50px">
             <h3 class="text-center color-red">@DSL.Resources.Resource.SliderStaticTextH2</h3>
             <hr style="margin:0 0 30px;">
@@ -157,94 +161,143 @@
         <div class="col-sm-12" style="padding-top:0px">
             <p style="text-align:center">@DSL.Resources.Resource.TeamEventText</p>
 
-            <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
-                <div class="promo-section-img wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="800ms">
-                    <img class="img-responsive" src="~/Images/sitek-event-1.jpg" alt="Content Image" style="margin-top:30px;">
-                </div>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
-                <div class="promo-section-img wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="400ms">
-                    <img class="img-responsive" src="~/Images/sitek-event-2.jpg" alt="Content Image" style="margin-top:30px;">
-                </div>
-            </div>
-            <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
-                <div class="promo-section-img wow fadeInLeft animated" data-wow-duration="1000ms" data-wow-delay="0ms">
-                    <img class="img-responsive" src="~/Images/sitek-event-3.jpg" alt="Content Image" style="margin-top:30px;">
-                </div>
-            </div>
-        </div>
 
+            <div class="container gal-container">
 
-        <!-- modal window  -->
-        <div class="modal fade" id="IOSH" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <object data="~/PDF/dslnews1.pdf#view=Fit" type="application/pdf" class="lic">
-                                    <!-- можно сделать ресурсной ссылкой для открытия на разных языках как сделать не знаю -->
-                                    <p>
-                                        @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/dslnews1.pdf">@DSL.Resources.Resource.ModalMobileText2 </a>
-                                    </p>
-                                </object>
+                <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                    <div class="box">
+                        <a href="#" data-toggle="modal" data-target="#4">
+                            <img src="~/Images/dsl-event.jpg">
+                        </a>
+                        <div class="modal fade" id="4" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-body">
+                                        <img src="~/Images/dsl-event.jpg">
+                                    </div>
+                                    <div class="col-md-12 description">
+                                        <h4>@DSL.Resources.Resource.TeamEventText</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!--2-->
-        <div class="modal fade" id="IOSH2" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <object data="~/PDF/dslnews2.pdf#view=Fit" type="application/pdf" class="lic">
-                                    <!-- можно сделать ресурсной ссылкой для открытия на разных языках как сделать не знаю -->
-                                    <p>
-                                        @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/dslnews2.pdf">@DSL.Resources.Resource.ModalMobileText2 </a>
-                                    </p>
-                                </object>
+                <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                    <div class="box">
+                        <a href="#" data-toggle="modal" data-target="#2">
+                            <img src="~/Images/sitek-event-1.jpg">
+                        </a>
+                        <div class="modal fade" id="2" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-body">
+                                        <img src="~/Images/sitek-event-1.jpg">
+                                    </div>
+                                    <div class="col-md-12 description">
+                                        <h4>@DSL.Resources.Resource.TeamEventText</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!--3-->
-        <div class="modal fade" id="IOSH3" role="dialog">
-            <div class="modal-dialog">
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <object data="~/PDF/dslnews3.pdf#view=Fit" type="application/pdf" class="lic">
-                                    <!-- можно сделать ресурсной ссылкой для открытия на разных языках как сделать не знаю -->
-                                    <p>
-                                        @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/dslnews3.pdf">@DSL.Resources.Resource.ModalMobileText2 </a>
-                                    </p>
-                                </object>
+                <div class="col-md-4 col-sm-6 co-xs-12 gal-item">
+                    <div class="box">
+                        <a href="#" data-toggle="modal" data-target="#3">
+                            <img src="~/Images/sitek-event-2.jpg">
+                        </a>
+                        <div class="modal fade" id="3" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                                    <div class="modal-body">
+                                        <img src="~/Images/sitek-event-2.jpg">
+                                    </div>
+                                    <div class="col-md-12 description">
+                                        <h4>@DSL.Resources.Resource.TeamEventText</h4>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+            <!-- modal window  -->
+            <div class="modal fade" id="IOSH" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <object data="~/PDF/dslnews1.pdf#view=Fit" type="application/pdf" class="lic">
+                                        <!-- можно сделать ресурсной ссылкой для открытия на разных языках как сделать не знаю -->
+                                        <p>
+                                            @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/dslnews1.pdf">@DSL.Resources.Resource.ModalMobileText2 </a>
+                                        </p>
+                                    </object>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--2-->
+            <div class="modal fade" id="IOSH2" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <object data="~/PDF/dslnews2.pdf#view=Fit" type="application/pdf" class="lic">
+                                        <!-- можно сделать ресурсной ссылкой для открытия на разных языках как сделать не знаю -->
+                                        <p>
+                                            @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/dslnews2.pdf">@DSL.Resources.Resource.ModalMobileText2 </a>
+                                        </p>
+                                    </object>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--3-->
+            <div class="modal fade" id="IOSH3" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <object data="~/PDF/dslnews3.pdf#view=Fit" type="application/pdf" class="lic">
+                                        <!-- можно сделать ресурсной ссылкой для открытия на разных языках как сделать не знаю -->
+                                        <p>
+                                            @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/dslnews3.pdf">@DSL.Resources.Resource.ModalMobileText2 </a>
+                                        </p>
+                                    </object>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
 
 
 
@@ -550,7 +603,7 @@
     </div>
 
 </div>
-    
+
 <div class="modal fade" id="lic" role="dialog">
     <div class="modal-dialog">
 
@@ -648,7 +701,7 @@
 
                         <object data="~/PDF/Chartek.pdf#view=Fit" type="application/pdf" class="lic">
                             <p>
-                               @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Chartek.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Chartek.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
                             </p>
                         </object>
                     </div>
@@ -746,34 +799,34 @@
     </div>
 </div>
 
-                <!-- Modal -->
-                <div class="modal fade" id="HSEQ1" role="dialog">
-                    <div class="modal-dialog">
+<!-- Modal -->
+<div class="modal fade" id="HSEQ1" role="dialog">
+    <div class="modal-dialog">
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+        <!-- Modal content-->
+        <div class="modal-content">
 
 
-                            <div class="modal-body">
+            <div class="modal-body">
 
-                                <div class="row">
-                                    <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
 
-                                        <object data="~/PDF/SHEQ/Certificate№OHS2600(ru).pdf#view=Fit" type="application/pdf" class="lic">
-                                            <p>
-                                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate№OHS2600(ru).pdf">@DSL.Resources.Resource.ModalMobileText2</a>
-                                            </p>
-                                        </object>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
-                            </div>
-                        </div>
-
+                        <object data="~/PDF/SHEQ/Certificate№OHS2600(ru).pdf#view=Fit" type="application/pdf" class="lic">
+                            <p>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate№OHS2600(ru).pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                            </p>
+                        </object>
                     </div>
                 </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+            </div>
+        </div>
+
+    </div>
+</div>
 <div class="modal fade" id="qin" role="dialog">
     <div class="modal-dialog">
 
@@ -788,7 +841,7 @@
 
                         <object data="~/PDF/SHEQ/Scan.pdf#view=Fit" type="application/pdf" class="lic">
                             <p>
-                               @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Scan.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Scan.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
                             </p>
                         </object>
                     </div>
@@ -802,168 +855,169 @@
     </div>
 </div>
 
-                <!-- Modal -->
-                <div class="modal fade" id="HSEQ2" role="dialog">
-                    <div class="modal-dialog">
+<!-- Modal -->
+<div class="modal fade" id="HSEQ2" role="dialog">
+    <div class="modal-dialog">
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+        <!-- Modal content-->
+        <div class="modal-content">
 
 
-                            <div class="modal-body">
+            <div class="modal-body">
 
-                                <div class="row">
-                                    <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
 
-                                        <object data="~/PDF/SHEQ/HSEQ2.pdf#view=Fit" type="application/pdf" class="lic">
-                                            <p>
-                                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/HSEQ2.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
-                                            </p>
-                                        </object>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
-                            </div>
-                        </div>
-
+                        <object data="~/PDF/SHEQ/HSEQ2.pdf#view=Fit" type="application/pdf" class="lic">
+                            <p>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/HSEQ2.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                            </p>
+                        </object>
                     </div>
                 </div>
-                <!-- Modal -->
-                <div class="modal fade" id="HSEQ3" role="dialog">
-                    <div class="modal-dialog">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+            </div>
+        </div>
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="HSEQ3" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
 
 
-                            <div class="modal-body">
+            <div class="modal-body">
 
-                                <div class="row">
-                                    <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
 
-                                        <object data="~/PDF/SHEQ/DSL_Environmental Policy EN (Jan 17).pdf#view=Fit" type="application/pdf" class="lic">
-                                            <p>
-                                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/DSL_Environmental Policy EN (Jan 17).pdf">@DSL.Resources.Resource.ModalMobileText2</a>
-                                            </p>
-                                        </object>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
-                            </div>
-                        </div>
-
+                        <object data="~/PDF/SHEQ/DSL_Environmental Policy EN (Jan 17).pdf#view=Fit" type="application/pdf" class="lic">
+                            <p>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/DSL_Environmental Policy EN (Jan 17).pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                            </p>
+                        </object>
                     </div>
                 </div>
-                <div class="modal fade" id="aff" role="dialog">
-                    <div class="modal-dialog">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+            </div>
+        </div>
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+    </div>
+</div>
+<div class="modal fade" id="aff" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
 
 
-                            <div class="modal-body">
+            <div class="modal-body">
 
-                                <div class="row">
-                                    <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
 
-                                        <object data="~/PDF/SHEQ/Certificate_Affiliate.pdf#view=Fit" type="application/pdf" class="lic">
-                                            <p>
-                                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate_Affiliate.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
-                                            </p>
-                                        </object>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
-                            </div>
-                        </div>
-
+                        <object data="~/PDF/SHEQ/Certificate_Affiliate.pdf#view=Fit" type="application/pdf" class="lic">
+                            <p>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate_Affiliate.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                            </p>
+                        </object>
                     </div>
                 </div>
-                <div class="modal fade" id="Jota" role="dialog">
-                    <div class="modal-dialog">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+            </div>
+        </div>
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+    </div>
+</div>
+<div class="modal fade" id="Jota" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
 
 
-                            <div class="modal-body">
+            <div class="modal-body">
 
-                                <div class="row">
-                                    <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
 
-                                        <object data="~/PDF/SHEQ/Certificate№015.pdf#view=Fit" type="application/pdf" class="lic">
-                                            <p>
-                                               @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate№015.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
-                                            </p>
-                                        </object>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
-                            </div>
-                        </div>
-
+                        <object data="~/PDF/SHEQ/Certificate№015.pdf#view=Fit" type="application/pdf" class="lic">
+                            <p>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate№015.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                            </p>
+                        </object>
                     </div>
                 </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+            </div>
+        </div>
 
-                <div class="modal fade" id="ppg" role="dialog">
-                    <div class="modal-dialog" style="width:1180px;">
+    </div>
+</div>
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+<div class="modal fade" id="ppg" role="dialog">
+    <div class="modal-dialog" style="width:1180px;">
 
-                            <div class="modal-body">
+        <!-- Modal content-->
+        <div class="modal-content">
 
-                                <div class="row">
-                                    <div class="col-sm-12">
+            <div class="modal-body">
 
-                                        <object data="~/PDF/SHEQ/Certificate№_Kazak_DSL_CA_12_15_007.pdf#view=Fit" type="application/pdf" class="lic">
-                                            <p>
-                                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate№_Kazak_DSL_CA_12_15_007.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
-                                            </p>
-                                        </object>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-sm-12">
 
+                        <object data="~/PDF/SHEQ/Certificate№_Kazak_DSL_CA_12_15_007.pdf#view=Fit" type="application/pdf" class="lic">
+                            <p>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate№_Kazak_DSL_CA_12_15_007.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                            </p>
+                        </object>
                     </div>
                 </div>
-                <div class="modal fade" id="promat" role="dialog">
-                    <div class="modal-dialog">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+            </div>
+        </div>
 
-                        <!-- Modal content-->
-                        <div class="modal-content">
+    </div>
+</div>
+<div class="modal fade" id="promat" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
 
 
-                            <div class="modal-body">
+            <div class="modal-body">
 
-                                <div class="row">
-                                    <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
 
 
-                                        <object data="~/PDF/SHEQ/Certificate_Promat.pdf#view=Fit" type="application/pdf" class="lic">
-                                            <p>
-                                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate_Promat.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
-                                            </p>
-                                        </object>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
-                            </div>
-                        </div>
-
+                        <object data="~/PDF/SHEQ/Certificate_Promat.pdf#view=Fit" type="application/pdf" class="lic">
+                            <p>
+                                @DSL.Resources.Resource.ModalMobileText1 <a href="~/PDF/Certificate_Promat.pdf">@DSL.Resources.Resource.ModalMobileText2</a>
+                            </p>
+                        </object>
                     </div>
                 </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">@DSL.Resources.Resource.ModalButtonClose</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
